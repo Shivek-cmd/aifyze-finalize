@@ -45,6 +45,8 @@ This guide covers everything needed to write and publish a new blog post: conten
 | 3 | `/Blog3/` | 5 Signs Your Business Needs AI Automation Right Now | Business Growth | March 10, 2026 | 5 min | `/blog/signs-your-business-needs-ai-automation` |
 | 4 | `/Blog4/` | AI for Coaches and Consultants: Scale Your Practice Without Burning Out | Industry Insights | Feb 15, 2026 | 6 min | `/blog/ai-for-coaches-consultants-scale-practice` |
 | 5 | `/Blog5/` | The 90-Day AI Roadmap (FEATURED) | AI Strategy | April 10, 2026 | 8 min | `/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul` |
+| 6 | `/Blog6/` | Do You Really Need an AI CEO? Here's the Truth About Scaling with Fractional AI Leadership | AI Strategy | April 13, 2026 | 9 min | `/blog/do-you-really-need-an-ai-ceo-fractional-ai-leadership` |
+| 7 | `/Blog7/` | How to Automate Your Business Workflows With AI (No Tech Team Required) | AI Automation | April 16, 2026 | 8 min | `/blog/ai-workflow-automation-guide-small-business` |
 
 ---
 
