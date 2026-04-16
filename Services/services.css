@@ -1,0 +1,348 @@
+/* ============================================================
+   AIFYZE — Services Listing Page Styles
+   ============================================================ */
+
+.services-hero {
+    position: relative;
+    padding: 10rem 0 5rem;
+    overflow: hidden;
+}
+
+.services-hero__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.services-hero__bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 10%;
+}
+
+.services-hero__bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(26,22,37,.8), rgba(26,22,37,.6), rgba(26,22,37,.3));
+}
+
+.services-hero__bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(26,22,37,.5), transparent);
+    z-index: 1;
+}
+
+.services-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.services-hero .breadcrumbs {
+    margin-bottom: var(--sp-6);
+}
+
+.services-hero h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--bg-secondary);
+    max-width: 40rem;
+}
+
+.services-hero p {
+    margin-top: var(--sp-6);
+    font-size: 1.0625rem;
+    color: rgba(252,251,255,.7);
+    max-width: 36rem;
+    line-height: 1.7;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-8);
+}
+
+/* Alternating Service Rows */
+.service-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-16);
+    align-items: center;
+    padding: var(--sp-16) 0;
+}
+
+.service-row + .service-row {
+    border-top: 1px solid var(--border, #e5e2ee);
+}
+
+.service-row--reverse {
+    direction: rtl;
+}
+
+.service-row--reverse > * {
+    direction: ltr;
+}
+
+.service-row__badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: rgba(26,22,37,.05);
+    font-size: 0.75rem;
+    font-family: var(--ff-body);
+    font-weight: 600;
+    color: var(--muted);
+    margin-bottom: var(--sp-6);
+}
+
+.service-row__title {
+    font-family: var(--ff-heading);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: var(--foreground);
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.service-row__desc {
+    margin-top: var(--sp-6);
+    font-size: 0.9375rem;
+    color: var(--body);
+    line-height: 1.7;
+}
+
+.service-row__details {
+    list-style: none;
+    padding: 0;
+    margin: var(--sp-8) 0 0;
+}
+
+.service-row__details li {
+    position: relative;
+    padding-left: 1.25rem;
+    font-size: 0.875rem;
+    color: var(--body);
+    line-height: 1.8;
+    margin-bottom: var(--sp-2);
+}
+
+.service-row__details li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 0.375rem;
+    height: 0.375rem;
+    border-radius: 50%;
+    background: var(--foreground);
+}
+
+.service-row__actions {
+    display: flex;
+    gap: var(--sp-4);
+    margin-top: var(--sp-10);
+    flex-wrap: wrap;
+}
+
+.service-row__img {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+}
+
+.service-row__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+    border-radius: var(--radius-xl);
+}
+
+.services-cta {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.services-cta__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.services-cta__bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 0%
+}
+
+.services-cta__bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(26,22,37,.75);
+}
+
+.services-cta .container {
+    position: relative;
+    z-index: 2;
+}
+
+.services-cta h2 {
+    color: var(--bg-secondary);
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.services-cta p {
+    color: rgba(252,251,255,.7);
+    max-width: 32rem;
+    margin: var(--sp-6) auto 0;
+}
+
+.services-cta .btn {
+    margin-top: var(--sp-10);
+}
+
+/* Why Choose Aifyze */
+.services-why__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-8);
+    margin-top: var(--sp-16);
+}
+
+.services-why__card {
+    background: var(--bg-secondary);
+    padding: var(--sp-10);
+    border-radius: var(--radius-xl);
+}
+
+.services-why__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: rgba(26,22,37,.05);
+    font-size: 0.75rem;
+    font-family: var(--ff-body);
+    font-weight: 600;
+    color: var(--muted);
+}
+
+.services-why__card h3 {
+    margin-top: var(--sp-6);
+    font-family: var(--ff-heading);
+    font-size: 1.25rem;
+    color: var(--foreground);
+}
+
+.services-why__card p {
+    margin-top: var(--sp-4);
+    font-size: 0.875rem;
+    color: var(--body);
+    line-height: 1.7;
+}
+
+/* Our Process */
+.services-process__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--sp-8);
+    margin-top: var(--sp-16);
+}
+
+.services-process__step {
+    background: var(--bg-secondary);
+    padding: var(--sp-8);
+}
+
+.services-process__num {
+    font-family: var(--ff-heading);
+    font-size: 1.875rem;
+    color: var(--border);
+}
+
+.services-process__step h3 {
+    margin-top: var(--sp-4);
+    font-family: var(--ff-heading);
+    font-size: 1.25rem;
+    color: var(--foreground);
+}
+
+.services-process__step p {
+    margin-top: var(--sp-4);
+    font-size: 0.875rem;
+    color: var(--body);
+    line-height: 1.7;
+}
+
+/* Service card detail list */
+.service-card__details {
+    list-style: none;
+    padding: 0;
+    margin: var(--sp-6) 0 0;
+}
+
+.service-card__details li {
+    position: relative;
+    padding-left: 1rem;
+    font-size: 0.875rem;
+    color: var(--body);
+    line-height: 1.7;
+    margin-bottom: var(--sp-2);
+}
+
+.service-card__details li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 0.375rem;
+    height: 0.375rem;
+    border-radius: 50%;
+    background: var(--foreground);
+}
+
+@media (max-width: 1024px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        max-width: 28rem;
+        margin: 0 auto;
+    }
+
+    .services-why__grid {
+        grid-template-columns: 1fr;
+        max-width: 28rem;
+        margin: var(--sp-16) auto 0;
+    }
+
+    .services-process__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service-row {
+        grid-template-columns: 1fr;
+        gap: var(--sp-8);
+    }
+
+    .service-row--reverse {
+        direction: ltr;
+    }
+
+    .service-row__img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .services-process__grid {
+        grid-template-columns: 1fr;
+    }
+}

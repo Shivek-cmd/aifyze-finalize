@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"/d/Watts Company/aifyze/Blog\"* -name \"index.html\")",
+      "Bash(head -60 \"/d/Watts Company/aifyze/Contactus\"/*.html)",
+      "Bash(head -30 \"/d/Watts Company/aifyze/Service2-Hire-your-ai-ceo/\"*.html)",
+      "Bash(head -30 \"/d/Watts Company/aifyze/Service3-AI-Strategy-Consulting/\"*.html)"
+    ]
+  }
+}

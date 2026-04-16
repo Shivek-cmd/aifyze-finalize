@@ -1,0 +1,275 @@
+/* ============================================================
+   AIFYZE — About Page Styles
+   ============================================================ */
+
+/* ── Hero ── */
+.about-hero {
+    position: relative;
+    padding: 10rem 0 5rem;
+    overflow: hidden;
+}
+
+.about-hero__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.about-hero__bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 55%;
+}
+
+.about-hero__bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(26,22,37,.8), rgba(26,22,37,.6), rgba(26,22,37,.3));
+}
+
+.about-hero__bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(26,22,37,.5), transparent);
+    z-index: 1;
+}
+
+.about-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.about-hero .breadcrumbs {
+    margin-bottom: var(--sp-6);
+}
+
+.about-hero h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--bg-secondary);
+    max-width: 40rem;
+}
+
+.about-hero p {
+    margin-top: var(--sp-6);
+    font-size: 1.0625rem;
+    color: rgba(252,251,255,.7);
+    max-width: 36rem;
+    line-height: 1.7;
+}
+
+/* ── Brand Story ── */
+.about-story__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-16);
+    align-items: center;
+}
+
+.about-story__text h2 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.about-story__text p {
+    margin-top: var(--sp-4);
+    font-size: 0.9375rem;
+    color: var(--body);
+    line-height: 1.7;
+}
+
+/* ── Mission / Values ── */
+.about-mission {
+    background: var(--bg-depth);
+}
+
+.about-values__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-8);
+    margin-top: var(--sp-12);
+}
+
+.about-value-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-2xl);
+    padding: var(--sp-10) var(--sp-8);
+    text-align: center;
+    transition: box-shadow var(--duration-md), transform var(--duration-md);
+}
+
+.about-value-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+}
+
+.about-value-card__icon {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto var(--sp-6);
+    color: var(--accent);
+}
+
+.about-value-card h3 {
+    font-size: 1.125rem;
+    margin-bottom: var(--sp-3);
+}
+
+.about-value-card p {
+    font-size: 0.875rem;
+    color: var(--body);
+    line-height: 1.6;
+}
+
+/* ── Approach ── */
+.about-approach__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-8);
+    margin-top: var(--sp-12);
+}
+
+.about-approach-step {
+    text-align: center;
+    padding: var(--sp-8);
+}
+
+.about-approach-step__num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: var(--radius-full);
+    background: var(--foreground);
+    color: var(--bg-secondary);
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: var(--sp-6);
+}
+
+.about-approach-step h3 {
+    font-size: 1.125rem;
+    margin-bottom: var(--sp-3);
+}
+
+.about-approach-step p {
+    font-size: 0.875rem;
+    color: var(--body);
+    line-height: 1.6;
+}
+
+/* ── Internal Links ── */
+.about-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-8);
+}
+
+.about-links p {
+    font-size: 0.875rem;
+    color: var(--body);
+    margin: 0;
+}
+
+.about-links a {
+    color: var(--foreground);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color var(--duration-md);
+}
+
+.about-links a:hover {
+    color: var(--muted);
+}
+
+/* ── CTA ── */
+.about-cta {
+    background: var(--bg);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-cta h2 {
+    color: var(--foreground);
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.about-cta p {
+    color: var(--body);
+    max-width: 32rem;
+    margin: var(--sp-6) auto 0;
+}
+
+.about-cta .btn {
+    margin-top: var(--sp-10);
+}
+
+.about-cta__bg {
+    position: absolute;
+    inset: 0;
+}
+
+.about-cta__bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 0%;
+ /* 👈 same as home */
+}
+
+.about-cta__bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(26,22,37,.75);
+}
+
+.about-cta .container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.about-cta h2 {
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    color: var(--bg-secondary);
+}
+
+.about-cta p {
+    margin-top: var(--sp-6);
+    color: rgba(240,236,248,.7);
+    max-width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+
+.about-cta .btn {
+    margin-top: var(--sp-10);
+}
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+    .about-story__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-values__grid {
+        grid-template-columns: 1fr;
+        max-width: 28rem;
+        margin: var(--sp-12) auto 0;
+    }
+
+    .about-approach__grid {
+        grid-template-columns: 1fr;
+        max-width: 28rem;
+        margin: var(--sp-12) auto 0;
+    }
+}
