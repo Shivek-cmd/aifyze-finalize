@@ -47,6 +47,7 @@ This guide covers everything needed to write and publish a new blog post: conten
 | 5 | `/Blog5/` | The 90-Day AI Roadmap (FEATURED) | AI Strategy | April 10, 2026 | 8 min | `/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul` |
 | 6 | `/Blog6/` | Do You Really Need an AI CEO? Here's the Truth About Scaling with Fractional AI Leadership | AI Strategy | April 13, 2026 | 9 min | `/blog/do-you-really-need-an-ai-ceo-fractional-ai-leadership` |
 | 7 | `/Blog7/` | How to Automate Your Business Workflows With AI (No Tech Team Required) | AI Automation | April 16, 2026 | 8 min | `/blog/ai-workflow-automation-guide-small-business` |
+| 8 | `/Blog8/` | AI for Real Estate Agents: How to Turn Cold Leads Into Closed Deals Without Extra Headcount | Industry Insights | April 17, 2026 | 7 min | `/blog/ai-for-real-estate-agents-close-more-deals` |
 
 ---
 

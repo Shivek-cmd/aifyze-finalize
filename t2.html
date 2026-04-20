@@ -473,7 +473,6 @@ if (document.readyState === 'loading') {
 
 // Fallback: Also run on window load
 window.addEventListener('load', initializeAifyzeScript);
-
 // Additional fallback for GoHighLevel timing issues
 setTimeout(initializeAifyzeScript, 500);
 </script>
@@ -601,7 +600,7 @@ setTimeout(initializeAifyzeScript, 500);
   display: none;
   position: fixed;
   inset: 0;
-  z-index: 10000;
+   z-index: 999999;
   background: rgba(10, 8, 20, 0.75);
   align-items: center;
   justify-content: center;
@@ -670,7 +669,7 @@ setTimeout(initializeAifyzeScript, 500);
   <div id="aifyze-float-overlay__panel">
     <script src="https://beta.leadconnectorhq.com/loader.js"
             data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js"
-            data-widget-id="69e6029006d5d5365c7f90e0"></script>
+            data-widget-id="69e6029006d5d5365c7f90e0" data-mode="inline"></script>></script>
   </div>
 </div>
 

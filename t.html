@@ -1,148 +1,822 @@
-  <!-- Hero -->
-    <section class="blog-hero">
-      <div class="blog-hero__bg">
-        <img src="{{custom_values.aifyze_service_business_processes_image_2}}" alt="AI insights and resources" loading="eager">
-      </div>
-      <div class="container">
-        <div class="reveal">
-          <nav class="breadcrumbs" aria-label="Breadcrumb">
-            <a href="/">Home</a><span class="separator">/</span><span class="current">Blog</span>
-          </nav>
-          <h1>AI Insights &amp; Resources</h1>
-          <p>Expert insights on AI automation, strategy, and business transformation. Practical guides and actionable tips from the Aifyze team.</p>
-        </div>
-      </div>
-    </section>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP7QF9D9"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
 
-    <!-- Featured Post -->
-    <section class="section--lg" style="padding-bottom:var(--sp-16);">
-      <div class="container">
-        <div class="reveal">
-          <p class="label" style="margin-bottom:var(--sp-8);">Featured Article</p>
-        </div>
-        <a href="/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul" class="blog-featured reveal" style="text-decoration:none;">
-          <div class="blog-featured__img">
-            <img src="{{custom_values.aifyze_blog5_hero}}" alt="The 90-Day AI Roadmap: Integrate AI Without Ripping Out Your Tech Stack" loading="lazy">
-            <span class="blog-featured__img-category">AI Strategy</span>
-          </div>
-          <div class="blog-featured__body">
-            <div class="blog-featured__meta">
-              <span>April 10, 2026</span>
-              <span class="blog-featured__meta-divider"></span>
-              <span>8 min read</span>
-            </div>
-            <h2 style="pointer-events:none;">The 90-Day AI Roadmap: How to Integrate Custom AI Solutions Without Ripping Out Your Tech Stack</h2>
-            <p class="blog-featured__excerpt">Most enterprises think AI integration means a costly tech overhaul. It doesn't. Discover our proven 90-day framework to layer intelligent automation over your existing stack — delivering measurable ROI in weeks, not years.</p>
-            <div class="blog-featured__tags">
-              <span class="blog-featured__tag">AI Strategy</span>
-              <span class="blog-featured__tag">Integration</span>
-              <span class="blog-featured__tag">Automation</span>
-            </div>
-            <div class="blog-featured__author">By Aifyze Team</div>
-            <div class="blog-featured__bottom">
-              <span class="blog-featured__link">Read Article &rarr;</span>
-            </div>
-          </div>
-        </a>
-      </div>
-    </section>
+// Run script multiple ways to ensure it executes
+function initializeAifyzeScript() {
+  // If this runs before DOMContentLoaded (common in some GoHighLevel placements),
+  // bail out so the later DOMContentLoaded/load triggers can initialize correctly.
+  if (document.readyState === 'loading') return;
 
-    <!-- Filters Bar -->
-    <section class="blog-filters">
-      <div class="container">
-        <div class="blog-filters__top">
-          <div class="blog-filters__search">
-            <svg class="blog-filters__search-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            <input type="text" id="blog-search" placeholder="Search articles...">
-          </div>
-          <div class="blog-filters__sort">
-            <span class="blog-filters__sort-label">Sort:</span>
-            <button class="blog-filters__sort-btn active" data-sort="latest">Latest</button>
-            <button class="blog-filters__sort-btn" data-sort="oldest">Oldest</button>
-          </div>
-        </div>
-        <div class="blog-filters__categories">
-          <button class="blog-filters__cat-btn active" data-category="all">All Categories</button>
-          <button class="blog-filters__cat-btn" data-category="AI Automation">AI Automation</button>
-          <button class="blog-filters__cat-btn" data-category="AI Strategy">AI Strategy</button>
-          <button class="blog-filters__cat-btn" data-category="Business Growth">Business Growth</button>
-          <button class="blog-filters__cat-btn" data-category="Industry Insights">Industry Insights</button>
-        </div>
-        <div class="blog-filters__tags">
-          <button class="blog-filters__tag-btn" data-tag="Integration">Integration</button>
-          <button class="blog-filters__tag-btn" data-tag="Customer Support">Customer Support</button>
-          <button class="blog-filters__tag-btn" data-tag="AI Agents">AI Agents</button>
-          <button class="blog-filters__tag-btn" data-tag="Automation">Automation</button>
-          <button class="blog-filters__tag-btn" data-tag="Strategy">Strategy</button>
-          <button class="blog-filters__tag-btn" data-tag="SEO">SEO</button>
-          <button class="blog-filters__tag-btn" data-tag="CRM">CRM</button>
-          <button class="blog-filters__tag-btn" data-tag="Analytics">Analytics</button>
-          <button class="blog-filters__tag-btn" data-tag="Supply Chain">Supply Chain</button>
-          <button class="blog-filters__tag-btn" data-tag="ROI">ROI</button>
-        </div>
-        <div class="blog-filters__status" id="blog-filter-status" style="display:none;">
-          <span id="blog-filter-count">0 articles found</span>
-          <button class="blog-filters__clear" id="blog-clear-filters">Clear all filters</button>
-        </div>
-      </div>
-    </section>
+  if (window.aifyzeScriptInitialized) return;
+  window.aifyzeScriptInitialized = true;
 
-    <!-- All Posts Grid -->
-    <section class="section--lg">
-      <div class="container">
+  /* ── 1. Header: scroll class, mobile drawer, services toggle ── */
+  const header = document.getElementById('site-header');
+  const burger = document.querySelector('.header__burger');
+  const drawer = document.querySelector('.header__drawer');
+  const backdrop = document.querySelector('.header__backdrop');
+  const drawerClose = document.querySelector('.header__drawer-close');
+  const servicesToggle = document.querySelector('.header__drawer-services-toggle');
+  const servicesPanel = document.querySelector('.header__drawer-services');
 
-        <div class="blog-grid reveal-stagger">
+  if (header) {
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+  }
 
-          <a href="/blog/how-ai-agents-are-transforming-customer-support-2026" class="blog-card reveal" data-category="AI Automation" data-tags="Customer Support,AI Agents,Automation" data-date="March 20, 2026">
-            <div class="blog-card__img"><span class="blog-card__img-category">AI Automation</span><img src="{{custom_values.aifyze_blog_ai_agents_customer_support}}" alt="How AI Agents Are Transforming Customer Support in 2026" loading="lazy"></div>
-            <div class="blog-card__body">
-              <div class="blog-card__meta"><span>March 20, 2026</span><span class="blog-featured__meta-divider"></span><span>7 min read</span></div>
-              <h3 class="blog-card__title">How AI Agents Are Transforming Customer Support in 2026</h3>
-              <p class="blog-card__excerpt">AI-powered customer support agents are handling complex inquiries with human-like understanding. Discover how businesses are cutting response times by 80%.</p>
-              <div class="blog-card__tags"><span class="blog-card__tag">Customer Support</span><span class="blog-card__tag">AI Agents</span></div>
-              <div class="blog-card__bottom"><span class="blog-card__author">By Aifyze Team</span></div>
-            </div>
-          </a>
+  function openDrawer() {
+    if (!drawer) return;
+    burger?.classList.add('active');
+    drawer.classList.add('open');
+    drawer.setAttribute('aria-hidden', 'false');
+    backdrop?.classList.add('open');
+    burger?.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
 
-          <a href="/blog/ai-strategy-roadmap-small-business-guide" class="blog-card reveal" data-category="AI Strategy" data-tags="Strategy,Small Business" data-date="March 15, 2026">
-            <div class="blog-card__img"><span class="blog-card__img-category">AI Strategy</span><img src="{{custom_values.aifyze_blog_ai_strategy_roadmap}}" alt="Building Your AI Strategy Roadmap" loading="lazy"></div>
-            <div class="blog-card__body">
-              <div class="blog-card__meta"><span>March 15, 2026</span><span class="blog-featured__meta-divider"></span><span>8 min read</span></div>
-              <h3 class="blog-card__title">Building Your AI Strategy Roadmap: A Small Business Guide</h3>
-              <p class="blog-card__excerpt">Most small businesses know AI can help but don't know where to start. This practical guide walks you through creating an actionable AI strategy.</p>
-              <div class="blog-card__tags"><span class="blog-card__tag">Strategy</span><span class="blog-card__tag">Small Business</span></div>
-              <div class="blog-card__bottom"><span class="blog-card__author">By Aifyze Team</span></div>
-            </div>
-          </a>
+  function closeDrawer() {
+    if (!drawer) return;
+    burger?.classList.remove('active');
+    drawer.classList.remove('open');
+    drawer.setAttribute('aria-hidden', 'true');
+    backdrop?.classList.remove('open');
+    burger?.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
 
-          <a href="/blog/signs-your-business-needs-ai-automation" class="blog-card reveal" data-category="Business Growth" data-tags="Automation,Business Growth" data-date="March 10, 2026">
-            <div class="blog-card__img"><span class="blog-card__img-category">Business Growth</span><img src="{{custom_values.aifyze_blog_5_signs_your_business_needs_ai_automation_right_now}}" alt="5 Signs Your Business Needs AI Automation" loading="lazy"></div>
-            <div class="blog-card__body">
-              <div class="blog-card__meta"><span>March 10, 2026</span><span class="blog-featured__meta-divider"></span><span>5 min read</span></div>
-              <h3 class="blog-card__title">5 Signs Your Business Needs AI Automation Right Now</h3>
-              <p class="blog-card__excerpt">From bottlenecked operations to missed leads, these five indicators tell you it's time to integrate AI into your workflows.</p>
-              <div class="blog-card__tags"><span class="blog-card__tag">Automation</span><span class="blog-card__tag">Business Growth</span></div>
-              <div class="blog-card__bottom"><span class="blog-card__author">By Aifyze Team</span></div>
-            </div>
-          </a>
+  if (burger) burger.addEventListener('click', openDrawer);
+  if (drawerClose) drawerClose.addEventListener('click', closeDrawer);
+  if (backdrop) backdrop.addEventListener('click', closeDrawer);
 
-          <a href="/blog/ai-for-coaches-consultants-scale-practice" class="blog-card reveal" data-category="Industry Insights" data-tags="Consulting,Scale" data-date="Feb 15, 2026">
-            <div class="blog-card__img"><span class="blog-card__img-category">Industry Insights</span><img src="{{custom_values.aifyze_blog_ai_for_coaches_and_consultants}}" alt="AI for Coaches and Consultants" loading="lazy"></div>
-            <div class="blog-card__body">
-              <div class="blog-card__meta"><span>Feb 15, 2026</span><span class="blog-featured__meta-divider"></span><span>6 min read</span></div>
-              <h3 class="blog-card__title">AI for Coaches and Consultants: Scale Your Practice Without Burning Out</h3>
-              <p class="blog-card__excerpt">Coaches and consultants are leveraging AI to automate scheduling, client communication, and content creation.</p>
-              <div class="blog-card__tags"><span class="blog-card__tag">SEO</span><span class="blog-card__tag">Marketing</span></div>
-              <div class="blog-card__bottom"><span class="blog-card__author">By Aifyze Team</span></div>
-            </div>
-          </a>
+  if (drawer) {
+    drawer.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', closeDrawer);
+    });
+  }
 
+  if (servicesToggle && servicesPanel) {
+    servicesToggle.addEventListener('click', () => {
+      const isOpen = servicesPanel.classList.toggle('open');
+      servicesToggle.classList.toggle('active', isOpen);
+      servicesToggle.setAttribute('aria-expanded', isOpen);
+      servicesPanel.setAttribute('aria-hidden', !isOpen);
+    });
+  }
 
-        </div>
-        <div class="blog-no-results" id="blog-no-results" style="display:none;">
-          <h3>No articles found</h3>
-          <p>Try adjusting your search or filters to find what you are looking for.</p>
-          <button class="btn" onclick="clearBlogFilters()">Clear Filters</button>
-        </div>
-      </div>
-    </section>
+  /* ── 2. IntersectionObserver — Reveal on Scroll ── */
+  const revealEls = document.querySelectorAll('.reveal');
+  if (revealEls.length) {
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    revealEls.forEach(el => revealObserver.observe(el));
+  }
+
+  /* ── 3. Counter Sweep ── */
+  const counters = document.querySelectorAll('.counter[data-target]');
+
+  const runCounter = (el) => {
+    if (el.dataset.counted) return;
+    el.dataset.counted = "true";
+
+    const target = el.getAttribute('data-target');
+    const suffix = el.getAttribute('data-suffix') || '';
+
+    // 🔥 Skip animation for 24/7
+    if (suffix === '/7') {
+      el.textContent = target + suffix;
+      return;
+    }
+
+    const numeric = parseInt(target, 10);
+
+    let current = 0;
+    const step = Math.max(1, Math.ceil(numeric / 60));
+
+    const timer = setInterval(() => {
+      current += step;
+      if (current >= numeric) {
+        current = numeric;
+        clearInterval(timer);
+      }
+      el.textContent = current + suffix;
+    }, 25);
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        runCounter(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  counters.forEach(el => {
+    observer.observe(el);
+    if (el.getBoundingClientRect().top < window.innerHeight) {
+      runCounter(el);
+    }
+  });
+
+  /* ── 4. FAQ Accordion ── */
+  const setFaqButtonDefaults = () => {
+    document.querySelectorAll('.faq-btn, .faq-item__q').forEach((btn) => {
+      if (!btn.hasAttribute('aria-expanded')) btn.setAttribute('aria-expanded', 'false');
+      if (btn.tagName === 'BUTTON') btn.type = 'button';
+    });
+  };
+
+  const toggleFaqItem = (btn) => {
+    const item = btn.closest('.faq-item');
+    if (!item) return;
+    const wasOpen = item.classList.contains('open');
+    const parent = item.closest('.faq-list, .contact-faq__list');
+    parent?.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!wasOpen) item.classList.add('open');
+    btn.setAttribute('aria-expanded', String(!wasOpen));
+  };
+
+  // Use a single delegated handler to avoid double-toggling (button + container listeners).
+  setFaqButtonDefaults();
+  document.addEventListener('click', (event) => {
+    const target = event.target instanceof Element ? event.target : null;
+    const btn = target?.closest('.faq-btn, .faq-item__q');
+    if (!btn) return;
+
+    const item = btn.closest('.faq-item');
+    if (!item) return;
+
+    if (!btn.hasAttribute('aria-expanded')) btn.setAttribute('aria-expanded', 'false');
+    if (btn.tagName === 'BUTTON') btn.type = 'button';
+
+    event.preventDefault();
+    toggleFaqItem(btn);
+  });
+
+  /* ── 5. Testimonial Slider ── */
+  const testimonialWrapper = document.querySelector('.testimonial-wrapper');
+  if (testimonialWrapper) {
+    const slides = testimonialWrapper.querySelectorAll('.testimonial-slide');
+    const dots = testimonialWrapper.querySelectorAll('.testimonial-dot');
+    let current = 0;
+    let autoTimer;
+
+    function showSlide(index) {
+      slides.forEach((s, i) => s.classList.toggle('active', i === index));
+      dots.forEach((d, i) => d.classList.toggle('active', i === index));
+      current = index;
+    }
+
+    function nextSlide() {
+      showSlide((current + 1) % slides.length);
+    }
+
+    function startAuto() {
+      autoTimer = setInterval(nextSlide, 6000);
+    }
+
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', () => {
+        clearInterval(autoTimer);
+        showSlide(i);
+        startAuto();
+      });
+    });
+
+    showSlide(0);
+    startAuto();
+  }
+
+  /* ── 6. Hero Carousel ── */
+  const heroCarousel = document.querySelector('.hero-carousel');
+  if (heroCarousel) {
+    const heroSlides = heroCarousel.querySelectorAll('.hero-slide');
+    const heroDots = heroCarousel.querySelectorAll('.hero-dot');
+    let heroIndex = 0;
+    let heroTimer;
+
+    function showHeroSlide(index) {
+      heroSlides.forEach((s, i) => s.classList.toggle('active', i === index));
+      heroDots.forEach((d, i) => d.classList.toggle('active', i === index));
+      heroIndex = index;
+    }
+
+    function nextHeroSlide() {
+      showHeroSlide((heroIndex + 1) % heroSlides.length);
+    }
+
+    heroDots.forEach((dot, i) => {
+      dot.addEventListener('click', () => {
+        clearInterval(heroTimer);
+        showHeroSlide(i);
+        heroTimer = setInterval(nextHeroSlide, 3000);
+      });
+    });
+
+    showHeroSlide(0);
+    heroTimer = setInterval(nextHeroSlide, 3000);
+  }
+
+  /* ── 7. Blog Listing: Search, Category, Tag Filters, Sort ── */
+  const blogSearchInput = document.getElementById('blog-search');
+  const blogSortButtons = document.querySelectorAll('.blog-filters__sort-btn');
+  const blogCategoryButtons = document.querySelectorAll('.blog-filters__cat-btn');
+  const blogTagButtons = document.querySelectorAll('.blog-filters__tag-btn');
+  const blogClearFiltersBtn = document.getElementById('blog-clear-filters');
+  const blogFilterStatus = document.getElementById('blog-filter-status');
+  const blogFilterCount = document.getElementById('blog-filter-count');
+  const blogCards = Array.from(document.querySelectorAll('.blog-card'));
+  const blogGrid = document.querySelector('.blog-grid');
+
+  const normalizeText = (value) => (value || '').toString().trim().toLowerCase();
+  const parseTags = (value) => normalizeText(value).split(',').map(tag => tag.trim()).filter(Boolean);
+  const parseCategory = (value) => normalizeText(value);
+  const parseDate = (card) => {
+    const dateValue = card.dataset.date;
+    const parsed = new Date(dateValue);
+    return Number.isNaN(parsed.getTime()) ? 0 : parsed.getTime();
+  };
+
+  const filterState = {
+    search: '',
+    category: 'all',
+    tags: new Set(),
+    sort: 'latest'
+  };
+
+  const updateFilterDisplay = () => {
+    const total = blogCards.length;
+    const visible = blogCards.filter(card => card.style.display !== 'none').length;
+    const hasActiveFilters = filterState.search || filterState.category !== 'all' || filterState.tags.size > 0;
+
+    if (!blogFilterStatus || !blogFilterCount) return;
+    if (visible === total && !hasActiveFilters) {
+      blogFilterStatus.style.display = 'none';
+      return;
+    }
+
+    blogFilterStatus.style.display = 'flex';
+    blogFilterCount.textContent = visible === 1 ? '1 article found' : `${visible} articles found`;
+  };
+
+  const sortCards = () => {
+    if (!blogGrid) return;
+    const sorted = [...blogCards].sort((a, b) => {
+      const aDate = parseDate(a);
+      const bDate = parseDate(b);
+      return filterState.sort === 'oldest' ? aDate - bDate : bDate - aDate;
+    });
+    sorted.forEach(card => blogGrid.appendChild(card));
+  };
+
+  const applyBlogFilters = () => {
+    const query = normalizeText(filterState.search);
+    const category = filterState.category;
+    const selectedTags = Array.from(filterState.tags);
+
+    blogCards.forEach(card => {
+      const title = normalizeText(card.querySelector('.blog-card__title')?.textContent);
+      const excerpt = normalizeText(card.querySelector('.blog-card__excerpt')?.textContent);
+      const tags = parseTags(card.dataset.tags);
+      const cardCategory = parseCategory(card.dataset.category);
+      const textContent = `${title} ${excerpt} ${tags.join(' ')}`;
+
+      const matchesSearch = !query || textContent.includes(query);
+      const matchesCategory = category === 'all' || cardCategory === category;
+      const matchesTags = selectedTags.length === 0 || selectedTags.every(tag => tags.includes(tag));
+
+      const shouldShow = matchesSearch && matchesCategory && matchesTags;
+      card.style.display = shouldShow ? '' : 'none';
+    });
+
+    sortCards();
+    updateFilterDisplay();
+  };
+
+  const setActiveSortButton = (button) => {
+    blogSortButtons.forEach(btn => btn.classList.toggle('active', btn === button));
+  };
+
+  const setActiveCategoryButton = (button) => {
+    blogCategoryButtons.forEach(btn => btn.classList.toggle('active', btn === button));
+  };
+
+  if (blogSearchInput) {
+    blogSearchInput.addEventListener('input', (event) => {
+      filterState.search = event.target.value;
+      applyBlogFilters();
+    });
+  }
+
+  blogSortButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      filterState.sort = button.dataset.sort || 'latest';
+      setActiveSortButton(button);
+      applyBlogFilters();
+    });
+  });
+
+  blogCategoryButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      filterState.category = button.dataset.category ? normalizeText(button.dataset.category) : 'all';
+      setActiveCategoryButton(button);
+      applyBlogFilters();
+    });
+  });
+
+  blogTagButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const tagValue = button.dataset.tag ? normalizeText(button.dataset.tag) : '';
+      if (!tagValue) return;
+      if (filterState.tags.has(tagValue)) {
+        filterState.tags.delete(tagValue);
+        button.classList.remove('active');
+      } else {
+        filterState.tags.add(tagValue);
+        button.classList.add('active');
+      }
+      applyBlogFilters();
+    });
+  });
+
+  if (blogClearFiltersBtn) {
+    blogClearFiltersBtn.addEventListener('click', () => {
+      filterState.search = '';
+      filterState.category = 'all';
+      filterState.tags.clear();
+      filterState.sort = 'latest';
+
+      if (blogSearchInput) blogSearchInput.value = '';
+      setActiveSortButton(document.querySelector('.blog-filters__sort-btn[data-sort="latest"]'));
+      setActiveCategoryButton(document.querySelector('.blog-filters__cat-btn[data-category="all"]'));
+      blogTagButtons.forEach(btn => btn.classList.remove('active'));
+      applyBlogFilters();
+    });
+  }
+
+  if (blogCards.length && blogGrid) {
+    setActiveSortButton(document.querySelector('.blog-filters__sort-btn[data-sort="latest"]'));
+    setActiveCategoryButton(document.querySelector('.blog-filters__cat-btn[data-category="all"]'));
+    applyBlogFilters();
+  }
+
+  /* ── 8. Table of Contents (Blog) ── */
+  const tocElement = document.querySelector('.toc__list') || document.querySelector('#toc-nav');
+  const articleContent = document.querySelector('.article-content') || document.querySelector('#article-content');
+  if (tocElement && articleContent) {
+    const tocContainer = tocElement.tagName === 'NAV'
+      ? (() => {
+          const list = document.createElement('ul');
+          list.className = 'toc__list';
+          tocElement.appendChild(list);
+          return list;
+        })()
+      : tocElement;
+
+    const headings = articleContent.querySelectorAll('h2, h3');
+    headings.forEach((heading, i) => {
+      if (!heading.id) heading.id = 'section-' + i;
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = '#' + heading.id;
+      a.className = 'toc__link' + (heading.tagName === 'H3' ? ' toc__link--sub' : '');
+      a.textContent = heading.textContent;
+      li.appendChild(a);
+      tocContainer.appendChild(li);
+    });
+
+    const tocLinks = tocContainer.querySelectorAll('.toc__link');
+    const tocObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          tocLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+          });
+        }
+      });
+    }, { threshold: 0.2, rootMargin: '-80px 0px -60% 0px' });
+
+    headings.forEach(h => tocObserver.observe(h));
+  }
+
+  /* ── 8. Smooth scroll for anchor links ── */
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', (e) => {
+      const href = anchor.getAttribute('href');
+      if (!href || href === '#') return;
+      const target = document.querySelector(href);
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  /* ── 9. Contact Form Handler ── */
+  const contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const formData = new FormData(contactForm);
+      const data = Object.fromEntries(formData.entries());
+      
+      const successMsg = contactForm.querySelector('.form-success');
+      const submitBtn = contactForm.querySelector('button[type="submit"]');
+      
+      if (submitBtn) {
+        submitBtn.textContent = 'Sending...';
+        submitBtn.disabled = true;
+      }
+
+      setTimeout(() => {
+        if (successMsg) {
+          successMsg.style.display = 'block';
+          successMsg.textContent = 'Thank you! We\'ll be in touch within 48 hours to schedule your free AI audit.';
+        }
+        if (submitBtn) {
+          submitBtn.textContent = 'Sent!';
+        }
+        contactForm.reset();
+        setTimeout(() => {
+          if (submitBtn) {
+            submitBtn.textContent = 'Book Your Free AI Audit';
+            submitBtn.disabled = false;
+          }
+          if (successMsg) successMsg.style.display = 'none';
+        }, 5000);
+      }, 1000);
+    });
+  }
+}
+
+// Multiple triggers to ensure script runs
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeAifyzeScript);
+} else {
+  // DOM is already loaded
+  initializeAifyzeScript();
+}
+
+// Fallback: Also run on window load
+window.addEventListener('load', initializeAifyzeScript);
+
+// Additional fallback for GoHighLevel timing issues
+setTimeout(initializeAifyzeScript, 500);
+</script>
+
+<!-- ═══════════════════════════════════════════════════
+     AIFYZE — Global Floating AI Chat Bar
+     Same design as .hero-chatbar in home.html.
+     Fixed center-bottom, stays visible on scroll (like WhatsApp icon).
+     ═══════════════════════════════════════════════════ -->
+<style>
+#aifyze-float-chatbar {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9990;
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 0.9rem 0.9rem 0.9rem 1.5rem;
+  width: calc(100% - 3rem);
+  max-width: 640px;
+  background: rgba(255, 255, 255, 0.13);
+  border: 1.5px solid rgba(255, 255, 255, 0.38);
+  border-radius: 3rem;
+  cursor: text;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.12);
+  animation: gf-glow 3s ease-in-out infinite;
+  transition: background .25s, border-color .25s, box-shadow .25s, transform .25s;
+}
+@keyframes gf-glow {
+  0%, 100% {
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.12), 0 0 0 0 rgba(139,92,246,0);
+  }
+  50% {
+    box-shadow: 0 8px 36px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.12), 0 0 36px 6px rgba(139,92,246,0.28);
+  }
+}
+#aifyze-float-chatbar:hover,
+#aifyze-float-chatbar:focus-within {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.55);
+  transform: translateX(-50%) translateY(-2px);
+  box-shadow: 0 8px 36px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.12), 0 0 36px 6px rgba(139,92,246,0.28);
+  outline: none;
+}
+#aifyze-float-chatbar .gf-icon {
+  color: rgba(252, 251, 255, 0.85);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+#aifyze-float-chatbar .gf-wrap {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#aifyze-float-chatbar .gf-input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  font-family: inherit;
+  font-weight: 400;
+  padding: 0;
+  caret-color: #fff;
+}
+#aifyze-float-chatbar .gf-input::placeholder {
+  color: transparent;
+}
+#aifyze-float-chatbar .gf-ph {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(252, 251, 255, 0.55);
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  font-family: inherit;
+  font-weight: 400;
+  pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+}
+#aifyze-float-chatbar .gf-cta {
+  flex-shrink: 0;
+  padding: 0.6rem 1.375rem;
+  border-radius: 2rem;
+  background: linear-gradient(135deg, #7C3AED 0%, #A78BFA 50%, #F97066 100%);
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: inherit;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(139,92,246,0.45);
+  transition: opacity .2s, box-shadow .2s, transform .15s;
+}
+#aifyze-float-chatbar .gf-cta:hover {
+  opacity: 0.92;
+  box-shadow: 0 4px 20px rgba(139,92,246,0.6);
+  transform: translateY(-1px);
+}
+@media (max-width: 480px) {
+  #aifyze-float-chatbar {
+    padding: 0.75rem 0.75rem 0.75rem 1.125rem;
+    bottom: 1rem;
+  }
+  #aifyze-float-chatbar .gf-cta {
+    padding: 0.5rem 1rem;
+    font-size: 0.8125rem;
+  }
+}
+
+/* Chat overlay */
+#aifyze-float-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: rgba(10, 8, 20, 0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+#aifyze-float-overlay.active {
+  display: flex;
+  animation: gf-overlay-in .25s ease forwards;
+}
+@keyframes gf-overlay-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+#aifyze-float-overlay__panel {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+  transform: translateZ(0);
+  animation: gf-panel-in .28s ease forwards;
+}
+@keyframes gf-panel-in {
+  from { transform: translateY(28px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+#aifyze-float-overlay__close {
+  position: absolute;
+  top: -2.75rem;
+  right: 0;
+  z-index: 10;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.25);
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .2s;
+}
+#aifyze-float-overlay__close:hover {
+  background: rgba(0,0,0,0.45);
+}
+</style>
+
+<script>
+(function () {
+  if (document.getElementById('aifyze-float-chatbar')) return;
+
+  /* ── Inject chatbar HTML ── */
+  var bar = document.createElement('form');
+  bar.id = 'aifyze-float-chatbar';
+  bar.setAttribute('autocomplete', 'off');
+  bar.setAttribute('novalidate', '');
+  bar.setAttribute('aria-label', 'Ask Aifyze AI');
+  bar.innerHTML =
+    '<span class="gf-icon" aria-hidden="true">' +
+      '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' +
+        '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>' +
+      '</svg>' +
+    '</span>' +
+    '<div class="gf-wrap">' +
+      '<span class="gf-ph" id="aifyze-float-ph" aria-hidden="true"></span>' +
+      '<input class="gf-input" id="aifyze-float-input" type="text" placeholder="" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="Type your question for Aifyze AI">' +
+    '</div>' +
+    '<button type="submit" class="gf-cta">Chat Now &rarr;</button>';
+  document.body.appendChild(bar);
+
+  /* ── Inject overlay HTML ── */
+  var overlayEl = document.createElement('div');
+  overlayEl.id = 'aifyze-float-overlay';
+  overlayEl.setAttribute('role', 'dialog');
+  overlayEl.setAttribute('aria-modal', 'true');
+  overlayEl.setAttribute('aria-label', 'AI Chat Assistant');
+  overlayEl.innerHTML =
+    '<button id="aifyze-float-overlay__close" aria-label="Close chat">&times;</button>' +
+    '<div id="aifyze-float-overlay__panel"></div>';
+  document.body.appendChild(overlayEl);
+
+  /* ── Overlay controls ── */
+  var panel = document.getElementById('aifyze-float-overlay__panel');
+  var widgetLoaded = false;
+
+  function openOverlay() {
+    overlayEl.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    if (!widgetLoaded) {
+      widgetLoaded = true;
+      var s = document.createElement('script');
+      s.src = 'https://beta.leadconnectorhq.com/loader.js';
+      s.setAttribute('data-resources-url', 'https://beta.leadconnectorhq.com/chat-widget/loader.js');
+      s.setAttribute('data-widget-id', '69e1fab1dd7cf05617112a89');
+      panel.appendChild(s);
+    }
+  }
+
+  function closeOverlay() {
+    overlayEl.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('aifyze-float-overlay__close').addEventListener('click', closeOverlay);
+  overlayEl.addEventListener('click', function (e) { if (e.target === overlayEl) closeOverlay(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeOverlay(); });
+
+  /* ── Shadow DOM deep-find (same technique as home.html) ── */
+  function deepFind(root, sel) {
+    var el = root.querySelector(sel);
+    if (el) return el;
+    var nodes = root.querySelectorAll('*');
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes[i].shadowRoot) {
+        el = deepFind(nodes[i].shadowRoot, sel);
+        if (el) return el;
+      }
+    }
+    return null;
+  }
+
+  function injectMessage(msg) {
+    var attempts = 0;
+    var poll = setInterval(function () {
+      var w  = panel.querySelector('chat-widget');
+      var ta = w ? deepFind(w.shadowRoot || w, 'textarea') : null;
+      if (ta || ++attempts > 25) {
+        clearInterval(poll);
+        if (!ta) return;
+        var setter = Object.getOwnPropertyDescriptor(window.HTMLTextAreaElement.prototype, 'value').set;
+        setter.call(ta, msg.trim());
+        ta.dispatchEvent(new Event('input',  { bubbles: true, composed: true }));
+        ta.dispatchEvent(new Event('change', { bubbles: true, composed: true }));
+        ta.focus();
+        setTimeout(function () {
+          var btn = deepFind(w.shadowRoot || w, '.live-chat-send-button') ||
+                    deepFind(w.shadowRoot || w, 'button[type="submit"]');
+          if (btn) { btn.removeAttribute('disabled'); btn.click(); }
+        }, 300);
+      }
+    }, 200);
+  }
+
+  /* ── Form submit ── */
+  bar.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var msg = document.getElementById('aifyze-float-input').value;
+    openOverlay();
+    if (msg && msg.trim()) injectMessage(msg);
+  });
+
+  /* ── Typewriter animated placeholder (same messages as home.html) ── */
+  (function () {
+    var ph    = document.getElementById('aifyze-float-ph');
+    var input = document.getElementById('aifyze-float-input');
+    if (!ph || !input) return;
+
+    var messages = [
+      'What AI tools could automate my business?',
+      'How can I reduce manual work with AI?',
+      'What is the ROI of AI for my industry?',
+      'Which repetitive tasks can AI handle for me?',
+      'How do I get started with AI automation?',
+      'Can AI help me scale without hiring more staff?',
+      'What is my business missing in the AI era?',
+      'How can AI improve my customer experience?',
+      'Which AI strategy fits my business size?',
+      'What would an AI audit reveal about my operations?'
+    ];
+
+    var msgIndex = 0, charIndex = 0, typing = true, paused = false, timer = null;
+
+    function tick() {
+      if (paused) return;
+      var cur = messages[msgIndex];
+      if (typing) {
+        charIndex++;
+        ph.textContent = cur.slice(0, charIndex);
+        timer = charIndex < cur.length
+          ? setTimeout(tick, 42)
+          : setTimeout(function () { typing = false; tick(); }, 1800);
+      } else {
+        charIndex--;
+        ph.textContent = cur.slice(0, charIndex);
+        if (charIndex > 0) {
+          timer = setTimeout(tick, 22);
+        } else {
+          msgIndex = (msgIndex + 1) % messages.length;
+          typing = true;
+          timer = setTimeout(tick, 400);
+        }
+      }
+    }
+
+    input.addEventListener('focus', function () {
+      paused = true; clearTimeout(timer); ph.style.display = 'none';
+    });
+    input.addEventListener('blur', function () {
+      setTimeout(function () {
+        if (input.value) return;
+        paused = false; ph.style.display = ''; tick();
+      }, 150);
+    });
+    input.addEventListener('input', function () {
+      ph.style.display = input.value ? 'none' : '';
+    });
+
+    tick();
+  })();
+})();
+</script>
+
