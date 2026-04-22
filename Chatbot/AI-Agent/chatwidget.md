@@ -31,13 +31,13 @@
 ## Messages
 
 **Welcome Message**
-`Hi there! Ready to discover how AI can grow your business? Chat with us here.`
+`Hey! I'm the Aifyze AI Assistant. Whether you're exploring what AI can do, trying to figure out where to start, or just have a question — I'm here. What's on your mind?`
 
 **Return Visitor Custom Greetings**
-`Welcome back! {{name}} How can we help you with AI today?`
+`Welcome back! How can I help with AI today?`
 
 **Intro Message**
-`Get your free AI Readiness Score in under 3 minutes. No tech knowledge needed.`
+`AI is changing how businesses operate — from automating the repetitive stuff to scaling without extra headcount. Whether you're just exploring or ready to act, ask me anything and let's figure out what it could do for yours.`
 
 **Show Live Chat Welcome Message**
 `Yes`
