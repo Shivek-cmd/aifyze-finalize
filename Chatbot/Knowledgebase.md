@@ -224,7 +224,7 @@ Lead follow-up, appointment booking, repetitive admin, reporting, customer commu
 ### Data to Store Per Lead
 
 For every completed or partial conversation, store:
-- First name (if provided)
+- Full name (if provided)
 - Business type and industry
 - Team size
 - Main pain point

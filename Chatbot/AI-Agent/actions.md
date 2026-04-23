@@ -41,6 +41,83 @@ The workflow should:
 
 ---
 
+### Email Template — AI Readiness Report (sent to lead)
+
+**Subject:** Your AI Readiness Report is here, {{contact.name}} 🎯
+
+**Body:**
+
+Hi {{contact.name}},
+
+Thanks for taking the time to complete the AI Readiness Assessment — here's your personalised report.
+
+---
+
+**Your AI Readiness & Opportunity Score: {{contact.ai_readiness_score}}**
+
+Based on what you shared, here's a snapshot of where your business stands:
+
+- **Business:** {{contact.aifyze_business_type}}
+- **Team Size:** {{contact.aifyze_team_size}}
+- **Biggest Bottleneck:** {{contact.aifyze_main_pain_point}}
+
+Your score reflects how much AI opportunity exists in your current operations — and where the fastest wins are. Our team has reviewed your profile and identified a few practical starting points tailored to your situation.
+
+---
+
+**What this means for your business:**
+
+Your score of {{contact.ai_readiness_score}} tells us there is real AI opportunity in your operations — particularly around {{contact.aifyze_main_pain_point}}.
+
+The fastest wins for businesses like yours are typically in automating the repetitive, time-consuming work that takes your team away from higher-value tasks. Aifyze builds these solutions on top of what you already use — no tech overhaul needed.
+
+---
+
+**Your recommended next step:**
+
+Book a free 30-minute AI Audit with one of our experts. We'll walk through your score together, identify your top 1–2 AI opportunities, and give you a clear action plan — no commitment required.
+
+👉 [Book Your Free AI Audit](https://aifyze.com/contact)
+
+---
+
+If you have questions before then, just reply to this email — we read every one.
+
+Warm regards,
+The Aifyze Team
+hello@aifyze.com | +1 (579) 569 9999
+aifyze.com
+
+---
+
+### Internal Notification Template — Lead Report Delivered (sent to Aifyze team)
+
+**Subject:** New Lead Report Sent — {{contact.name}} (Score: {{contact.ai_readiness_score}})
+
+**Body:**
+
+A new AI Readiness Report has been delivered. Here is the lead summary:
+
+**Contact Details**
+- Name: {{contact.name}}
+- Email: {{contact.email}}
+- Phone: {{contact.phone}}
+
+**Assessment Results**
+- AI Readiness Score: {{contact.ai_readiness_score}}
+- Business Type: {{contact.aifyze_business_type}}
+- Team Size: {{contact.aifyze_team_size}}
+- Main Pain Point: {{contact.aifyze_main_pain_point}}
+
+**CRM Actions Taken**
+- Contact added to pipeline at correct stage
+- Service fit, urgency, and pain tags applied
+
+**Suggested Follow-Up**
+Review the score band and assign the appropriate next step. If the score is 60+, prioritise outreach within 24 hours.
+
+---
+
 ## Action 3 — Trigger Workflow: High Intent Alert
 
 **Action Type:** Trigger a Workflow
@@ -63,18 +140,65 @@ The workflow should:
 
 ---
 
+### Internal Alert Template — High Intent Lead (sent to Aifyze sales team)
+
+**Subject:** 🔥 High Intent Lead — {{contact.name}} | Action Required
+
+**Body:**
+
+A high-intent lead has just been flagged by the AI chatbot. This contact has indicated they are ready to move forward or has requested direct contact. Reach out within the hour.
+
+**Contact Details**
+- Name: {{contact.name}}
+- Email: {{contact.email}}
+- Phone: {{contact.phone}}
+
+**Assessment Results**
+- AI Readiness Score: {{contact.ai_readiness_score}}
+- Business Type: {{contact.aifyze_business_type}}
+- Team Size: {{contact.aifyze_team_size}}
+- Main Pain Point: {{contact.aifyze_main_pain_point}}
+
+**Trigger Reason** *(one of the following will apply)*
+- Contact said they are ready to start or want to hire Aifyze
+- Contact asked for pricing or a proposal
+- Score is 65+ with a stated timeline within 90 days
+- Contact asked to be called or to speak with someone
+
+**CRM Actions Taken**
+- Contact tagged as `ready-now` or `wants-callback`
+- Contact moved to Hot Leads stage in the pipeline
+
+**Recommended Action**
+Call or email {{contact.name}} within 60 minutes. Reference their pain point ({{contact.aifyze_main_pain_point}}) and score ({{contact.ai_readiness_score}}) in your opening message to show you've done your homework.
+
+---
+
+> **Note — Full Name & Email (Standard Fields)**
+> `{{contact.name}}` and `{{contact.email}}` are GHL standard fields and **do not appear** in the "Add Contact Info" field dropdown. Do NOT create Add Contact Info actions for these. Instead:
+> - In the **AI Agent Prompt / Additional Instructions**, instruct the bot to ask for name and email in plain language before delivering the report.
+> - GHL captures these automatically when the contact replies with their name or email during the conversation, as long as the bot asks for them clearly and in sequence.
+> - Ensure the bot asks for full name first, then email — one per message.
+
+---
+
 ## Action 4 — Add Contact Info: Business Industry
 
 **Action Type:** Add Contact Info
 
 **Action Name:** `Capture Business Industry`
 
-**Contact field to update:** Industry (or custom field: `Business Type`)
+**Contact field to update:** `{{contact.aifyze_business_type}}`
 
 **What to update in the field:**
 The type of business the contact runs and the industry they operate in. For example: marketing agency, real estate brokerage, healthcare clinic, e-commerce store, coaching practice.
 
-*(Add to Additional Instructions in prompt: "During the conversation, ask the user what type of business they run and what industry they are in. Store this as their Business Type.")*
+**Output Example:**
+- `B2B marketing agency — tech industry`
+- `Real estate brokerage — residential property`
+- `E-commerce store — health and wellness products`
+
+*(Add to Additional Instructions in prompt: "During the conversation, ask the user what type of business they run and what industry they are in. Store this in {{contact.aifyze_business_type}}.")*
 
 ---
 
@@ -84,12 +208,17 @@ The type of business the contact runs and the industry they operate in. For exam
 
 **Action Name:** `Capture Team Size`
 
-**Contact field to update:** Custom field: `Team Size`
+**Contact field to update:** `{{contact.aifyze_team_size}}`
 
 **What to update in the field:**
 The number of people on the contact's team or in their business. This may be stated as a number, a range, or a description such as "just me", "small team", "about 20 people".
 
-*(Add to Additional Instructions in prompt: "Ask the user how many people are on their team. Store the answer in the Team Size field.")*
+**Output Example:**
+- `3 people`
+- `Just me — solo operator`
+- `Around 25 — growing team`
+
+*(Add to Additional Instructions in prompt: "Ask the user how many people are on their team. Store the answer in {{contact.aifyze_team_size}}.")*
 
 ---
 
@@ -99,12 +228,17 @@ The number of people on the contact's team or in their business. This may be sta
 
 **Action Name:** `Capture Main Pain Point`
 
-**Contact field to update:** Custom field: `Main Pain Point`
+**Contact field to update:** `{{contact.aifyze_main_pain_point}}`
 
 **What to update in the field:**
 The single biggest bottleneck, frustration, or time drain the contact describes during the conversation. This should be captured in the user's own words where possible. Examples: "spending too much time on admin", "leads falling through the cracks", "customer support is overwhelmed", "no visibility into what's working".
 
-*(Add to Additional Instructions in prompt: "Listen for the user's main pain point or bottleneck. When they describe it, store it in the Main Pain Point field in their own words.")*
+**Output Example:**
+- `Weekly client reporting is done manually and takes 4–5 hours every week`
+- `Lead follow-up falls through the cracks — no system to track them after first contact`
+- `Customer support is overwhelmed — same questions answered repeatedly by the team`
+
+*(Add to Additional Instructions in prompt: "Listen for the user's main pain point or bottleneck. When they describe it, store it in {{contact.aifyze_main_pain_point}} in their own words.")*
 
 ---
 
@@ -114,12 +248,17 @@ The single biggest bottleneck, frustration, or time drain the contact describes 
 
 **Action Name:** `Capture AI Readiness Score`
 
-**Contact field to update:** Custom field: `AI Readiness Score`
+**Contact field to update:** `{{contact.ai_readiness_score}}`
 
 **What to update in the field:**
 The numeric score from 0 to 100 calculated at the end of the AI Readiness Assessment, along with the score band label. For example: `72 — AI-Ready` or `38 — Emerging`.
 
-*(Add to Additional Instructions in prompt: "After calculating the AI Readiness Score, store the numeric score and band label in the AI Readiness Score field.")*
+**Output Example:**
+- `74 — Strong Readiness`
+- `42 — Emerging`
+- `88 — High-Leverage Ready`
+
+*(Add to Additional Instructions in prompt: "After calculating the AI Readiness Score, store the numeric score and band label in {{contact.ai_readiness_score}}.")*
 
 ---
 

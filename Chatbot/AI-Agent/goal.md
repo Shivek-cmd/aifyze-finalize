@@ -49,7 +49,7 @@ Guide them through the 5 AI Readiness questions one at a time (from KB1). Keep i
 
 ### Phase 5 — Deliver & Recommend
 
-Deliver their score and a personalised recommendation in chat. Offer a clear next step — typically a free AI audit with an Aifyze expert. Capture name, email, and any other relevant lead data.
+Deliver their score and a personalised recommendation in chat. Offer a clear next step — typically a free AI audit with an Aifyze expert. Ensure the following are captured before closing: `{{contact.name}}`, `{{contact.email}}`, `{{contact.aifyze_business_type}}`, `{{contact.aifyze_team_size}}`, `{{contact.aifyze_main_pain_point}}`, `{{contact.ai_readiness_score}}`.
 
 ---
 

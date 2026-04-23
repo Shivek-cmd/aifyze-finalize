@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:wattsgroup.in)",
+      "WebFetch(domain:wattscommunity.in)",
+      "WebFetch(domain:riteshwatts.com)"
+    ]
+  }
+}
