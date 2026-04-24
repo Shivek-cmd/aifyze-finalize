@@ -31,7 +31,7 @@ When the user asks to book a call, requests to speak with the team, or expresses
 **Workflow(s) to select:** Aifyze — AI Readiness Report Delivery
 
 **When to trigger the workflow:**
-Trigger AFTER the full score summary has been delivered in chat — not when the email is first given. The correct sequence is: (1) user gives email, (2) bot calculates and displays the score summary in chat, (3) THEN this workflow fires. The trigger point is when the bot says "I'm also sending the full report to your email" — which only happens after the in-chat score is already visible.
+Trigger only AFTER all four Add Contact Info actions have been called for the current conversation — Actions 4, 5, 6, and 7 ({{contact.aifyze_business_type}}, {{contact.aifyze_team_size}}, {{contact.aifyze_main_pain_point}}, {{contact.readiness_score}}). This ensures returning contacts always have their fields overwritten with fresh values before the email fires. Do NOT trigger before those four actions have completed.
 
 The workflow should:
 - Email the full AI Readiness Report to the captured address
@@ -251,7 +251,7 @@ The single biggest bottleneck, frustration, or time drain the contact describes 
 **Contact field to update:** {{contact.readiness_score}}
 
 **When to trigger:**
-Immediately after the bot finishes calculating the score from the 5 assessment questions — BEFORE delivering the score in chat and BEFORE triggering the report workflow. This must be the first thing that happens after the score is calculated.
+Immediately after all 5 assessment questions have been answered and the score has been calculated. Fire this action BEFORE triggering the Send AI Readiness Report workflow. Always overwrite any previously stored value — use the number calculated from the current conversation, never a value from a previous session.
 
 **What to update in the field:**
 The calculated numeric score as a plain integer. The field is Number type — store digits only, no text, no /100, no band label.
