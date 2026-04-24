@@ -197,14 +197,15 @@ Add all five category scores. The total is out of 100. Store the result as: `[nu
 
 ## In-Chat Score Summary Format
 
-**MANDATORY ORDER:**
-1. Calculate the numeric score using the model above
-2. Deliver the score summary in chat (format below)
-3. ONLY THEN trigger the workflow to send the email report
+**MANDATORY ORDER — follow this exactly, every time:**
+1. Calculate the numeric score using the point tables above
+2. **Immediately update `{{contact.ai_readiness_score}}` with the result** — do this BEFORE saying anything else
+3. Deliver the score summary in chat (format below)
+4. ONLY THEN trigger the workflow to send the email report
 
-Do NOT trigger the workflow before showing the score in chat. Do NOT store the user's answer text in `{{contact.ai_readiness_score}}` — it must be the calculated number and band label only (e.g. `67 — Ready to Pilot`).
+**Do NOT skip step 2.** The contact field must be stored before the score is spoken or the workflow is triggered. Do NOT store the user's answer text — `{{contact.ai_readiness_score}}` must only ever contain the calculated number and band label (e.g. `67 — Ready to Pilot`).
 
-After delivering the score, store the result in `{{contact.ai_readiness_score}}` and always follow with this format in chat:
+Store the result in `{{contact.ai_readiness_score}}`, then follow with this format in chat:
 
 ```
 AI Readiness & Opportunity Score: [X] / 100

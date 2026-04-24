@@ -1791,3 +1791,77 @@
 - **Internal links in article:** [AI-fy Your Business Processes](/services/ai-fy-your-business-processes), [Hire Your AI CEO](/services/hire-your-ai-ceo), [AI Strategy Consulting](/services/ai-strategy-consulting), [AI Workflow Automation blog](/blog/ai-workflow-automation-guide-small-business), [Contact](/contact)
 - **TOC anchors:** `#end-of-the-org-chart`, `#five-roles-ai-employees`, `#roi-of-digital-labor`, `#integrating-without-friction`, `#speed-is-your-advantage`, `#getting-started`
 
+---
+
+## 30. Blog — How to Use AI Lead Generation Automation to Grow Your Coaching Practice
+
+**URL:** `https://aifyze.com/blog/ai-lead-generation-automation-coaching-practice`
+
+| Key | Value |
+|-----|-------|
+| title | AI Lead Generation for Coaches \| Aifyze Blog |
+| description | Manual lead gen costs coaches 15+ hours a week. Learn how AI automation fixes the follow-up gap and boosts conversions by 25–40% without the spam. |
+| keywords | AI lead generation, coaching practice automation, AI for coaches, lead nurturing AI, conversational AI, coaching business growth, Aifyze |
+| canonical | https://aifyze.com/blog/ai-lead-generation-automation-coaching-practice |
+| og:title | AI Lead Generation for Coaches \| Aifyze Blog |
+| og:description | Manual lead gen costs coaches 15+ hours a week. Learn how AI automation fixes the follow-up gap and boosts conversions by 25–40% without the spam. |
+| og:url | https://aifyze.com/blog/ai-lead-generation-automation-coaching-practice |
+| og:type | article |
+| og:site_name | Aifyze |
+| og:image | https://aifyze.com/assets/og/og-image.png |
+| og:image:width | 1200 |
+| og:image:height | 630 |
+| twitter:card | summary_large_image |
+| twitter:title | AI Lead Generation for Coaches |
+| twitter:description | Manual lead gen costs coaches 15+ hours a week. Learn how AI automation fixes the follow-up gap and boosts conversions by 25–40% without the spam. |
+| twitter:image | https://aifyze.com/assets/og/og-image.png |
+
+### Schema Markup (JSON-LD)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "How to Use AI Lead Generation Automation to Grow Your Coaching Practice (Without the Spam)",
+      "description": "Manual lead gen costs coaches 15+ hours a week. Learn how AI automation fixes the follow-up gap and boosts conversions by 25–40% without the spam.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://aifyze.com/assets/og/og-image.png",
+        "width": 1200,
+        "height": 630
+      },
+      "datePublished": "2026-04-24",
+      "dateModified": "2026-04-24",
+      "author": { "@type": "Organization", "name": "Aifyze", "url": "https://aifyze.com" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aifyze",
+        "url": "https://aifyze.com",
+        "logo": { "@type": "ImageObject", "url": "https://aifyze.com/assets/images/logo-circle.png", "width": 140, "height": 140 }
+      },
+      "mainEntityOfPage": "https://aifyze.com/blog/ai-lead-generation-automation-coaching-practice",
+      "isPartOf": { "@id": "https://aifyze.com/blog/#blog" },
+      "keywords": ["AI lead generation", "coaching automation", "AI for coaches", "lead nurturing", "conversational AI", "coaching business growth"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aifyze.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aifyze.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "How to Use AI Lead Generation Automation to Grow Your Coaching Practice (Without the Spam)", "item": "https://aifyze.com/blog/ai-lead-generation-automation-coaching-practice" }
+      ]
+    }
+  ]
+}
+```
+
+### Notes
+
+- **Date published:** April 24, 2026
+- **Category:** Industry Insights
+- **Read time:** 8 min read
+- **Hero image:** Unsplash placeholder — replace with GHL custom value once image is uploaded: `{{custom_values.aifyze_blog_ai_lead_generation_coaching}}`
+- **Internal links in article:** [AI-fy Your Business Processes](/services/ai-fy-your-business-processes), [AI Strategy Consulting](/services/ai-strategy-consulting), [AI for Coaches blog](/blog/ai-for-coaches-consultants-scale-practice), [90-Day Roadmap blog](/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul), [Contact](/contact)
+- **TOC anchors:** `#manual-lead-gen-cost`, `#what-is-ai-lead-gen`, `#precision-targeting`, `#conversational-ai`, `#nurturing-without-noise`, `#blast-marketing-dead`, `#ninety-day-roadmap`, `#getting-started`

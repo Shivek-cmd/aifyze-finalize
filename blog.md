@@ -49,6 +49,7 @@ This guide covers everything needed to write and publish a new blog post: conten
 | 7 | `/Blog7/` | How to Automate Your Business Workflows With AI (No Tech Team Required) | AI Automation | April 16, 2026 | 8 min | `/blog/ai-workflow-automation-guide-small-business` |
 | 8 | `/Blog8/` | AI for Real Estate Agents: How to Turn Cold Leads Into Closed Deals Without Extra Headcount | Industry Insights | April 17, 2026 | 7 min | `/blog/ai-for-real-estate-agents-close-more-deals` |
 | 9 | `/Blog9/` | Why Hiring "AI Employees" Will Change the Way You Think About Your Org Chart | Business Growth | April 22, 2026 | 8 min | `/blog/ai-employees-org-chart-digital-labor` |
+| 10 | `/Blog10/` | How to Use AI Lead Generation Automation to Grow Your Coaching Practice (Without the Spam) | Industry Insights | April 24, 2026 | 8 min | `/blog/ai-lead-generation-automation-coaching-practice` |
 
 ---
 

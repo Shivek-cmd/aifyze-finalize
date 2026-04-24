@@ -250,15 +250,18 @@ The single biggest bottleneck, frustration, or time drain the contact describes 
 
 **Contact field to update:** `{{contact.ai_readiness_score}}`
 
+**When to trigger:**
+Immediately after the bot finishes calculating the score from the 5 assessment questions — BEFORE delivering the score in chat and BEFORE triggering the report workflow. This must be the first thing that happens after the score is calculated.
+
 **What to update in the field:**
-The numeric score from 0 to 100 calculated at the end of the AI Readiness Assessment, along with the score band label. For example: `72 — AI-Ready` or `38 — Emerging`.
+The calculated numeric score (0–100) plus the band label. Must be a number — never a word or phrase from the conversation.
 
 **Output Example:**
 - `74 — Strong Readiness`
 - `42 — Emerging`
 - `88 — High-Leverage Ready`
 
-*(Add to Additional Instructions in prompt: "After calculating the AI Readiness Score, store the numeric score and band label in {{contact.ai_readiness_score}}.")*
+*(Add to Additional Instructions in prompt: "As soon as the AI Readiness Score is calculated, immediately store the result in {{contact.ai_readiness_score}} before saying anything else. Format: [number] — [Band Label]. Example: 67 — Ready to Pilot.")*
 
 ---
 
