@@ -53,7 +53,7 @@ Thanks for taking the time to complete the AI Readiness Assessment — here's yo
 
 ---
 
-**Your AI Readiness & Opportunity Score: {{contact.ai_readiness_score}}**
+**Your AI Readiness & Opportunity Score: {{contact.ai_readiness_score}} out of 100**
 
 Based on what you shared, here's a snapshot of where your business stands:
 
@@ -254,14 +254,14 @@ The single biggest bottleneck, frustration, or time drain the contact describes 
 Immediately after the bot finishes calculating the score from the 5 assessment questions — BEFORE delivering the score in chat and BEFORE triggering the report workflow. This must be the first thing that happens after the score is calculated.
 
 **What to update in the field:**
-The calculated numeric score (0–100) plus the band label. Must be a number — never a word or phrase from the conversation.
+The calculated numeric score as a plain integer. The field is Number type — store digits only, no text, no /100, no band label.
 
 **Output Example:**
-- `74 — Strong Readiness`
-- `42 — Emerging`
-- `88 — High-Leverage Ready`
+- `74`
+- `42`
+- `88`
 
-*(Add to Additional Instructions in prompt: "As soon as the AI Readiness Score is calculated, immediately store the result in {{contact.ai_readiness_score}} before saying anything else. Format: [number] — [Band Label]. Example: 67 — Ready to Pilot.")*
+*(Add to Additional Instructions in prompt: "As soon as the AI Readiness Score is calculated, immediately store the plain number in {{contact.ai_readiness_score}} before saying anything else. The field is Number type — digits only. Example: 67")*
 
 ---
 

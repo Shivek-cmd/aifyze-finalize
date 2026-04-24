@@ -158,9 +158,9 @@ Assess from their timeline / intent answer:
 
 ### Final Score
 
-Add all five category scores. The total is out of 100. Store the result as: `[number] — [Band Label]` in `{{contact.ai_readiness_score}}`.
+Add all five category scores. The total is out of 100. Store the result as a plain number in `{{contact.ai_readiness_score}}` — for example `77`. Do not store `/100`, a band label, or any text alongside the number. The field is a Number type — it accepts digits only.
 
-**Example:** If Q1=14, Q2=20, Q3=10, Q4=15, Q5=18 → Total = **77 — Strong Readiness**
+**Example:** If Q1=14, Q2=20, Q3=10, Q4=15, Q5=18 → Total = 77 → store `77`
 
 ---
 
@@ -199,11 +199,11 @@ Add all five category scores. The total is out of 100. Store the result as: `[nu
 
 **MANDATORY ORDER — follow this exactly, every time:**
 1. Calculate the numeric score using the point tables above
-2. **Immediately update `{{contact.ai_readiness_score}}` with the result** — do this BEFORE saying anything else
+2. **Immediately update `{{contact.ai_readiness_score}}` with the plain number** (e.g. `77`) — do this BEFORE saying anything else in chat. The field is Number type — store digits only, no text.
 3. Deliver the score summary in chat (format below)
 4. ONLY THEN trigger the workflow to send the email report
 
-**Do NOT skip step 2.** The contact field must be stored before the score is spoken or the workflow is triggered. Do NOT store the user's answer text — `{{contact.ai_readiness_score}}` must only ever contain the calculated number and band label (e.g. `67 — Ready to Pilot`).
+**Do NOT skip step 2.** The field must be stored before the score is spoken or the workflow fires. Store only the number — e.g. `67/100`. Never store a band label, a word, or anything the user said.
 
 Store the result in `{{contact.ai_readiness_score}}`, then follow with this format in chat:
 
