@@ -31,7 +31,7 @@ When the user asks to book a call, requests to speak with the team, or expresses
 **Workflow(s) to select:** Aifyze — AI Readiness Report Delivery
 
 **When to trigger the workflow:**
-Trigger immediately after the user provides their email address AND the AI Readiness Score has been calculated. This is the point at which the bot says it is sending the report.
+Trigger AFTER the full score summary has been delivered in chat — not when the email is first given. The correct sequence is: (1) user gives email, (2) bot calculates and displays the score summary in chat, (3) THEN this workflow fires. The trigger point is when the bot says "I'm also sending the full report to your email" — which only happens after the in-chat score is already visible.
 
 The workflow should:
 - Email the full AI Readiness Report to the captured address

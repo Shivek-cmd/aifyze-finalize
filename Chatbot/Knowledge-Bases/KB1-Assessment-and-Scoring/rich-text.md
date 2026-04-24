@@ -162,6 +162,8 @@ Add all five category scores. The total is out of 100. Store the result as a pla
 
 **Example:** If Q1=14, Q2=20, Q3=10, Q4=15, Q5=18 → Total = 77 → store `77`
 
+**CRITICAL: The score is ALWAYS between 0 and 100. It is calculated by adding points from the five tables above — nothing else. The team size, employee count, revenue, or any other number the user mentions is NOT the score. If your result is above 100, you have made a calculation error — check each table and recalculate.**
+
 ---
 
 ## Score Bands & Recommended Next Steps
