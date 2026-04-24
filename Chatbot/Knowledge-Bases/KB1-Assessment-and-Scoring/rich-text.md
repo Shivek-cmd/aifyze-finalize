@@ -25,14 +25,14 @@ The score measures:
 **After all questions:**
 > "Thanks — I've got everything I need to calculate your personalised score."
 
-**Email ask (before delivering report — store answer in {{contact.email}}):**
-> "What's the best email to send your full readiness report and next-step recommendations to? We send it there so you have everything in one place."
-
-**Name ask (before email — store answer in {{contact.name}}):**
+**Step 1 — Name ask (ask this FIRST, before email — store answer in {{contact.name}}):**
 > "And just so I can personalise your report — what's your full name?"
 
+**Step 2 — Email ask (ask this SECOND, after name — store answer in {{contact.email}}):**
+> "What's the best email to send your full readiness report and next-step recommendations to? We send it there so you have everything in one place."
+
 **After email given:**
-> "Perfect — I'll send the full report there. Here's your score snapshot:"
+> "Perfect — I'll send the full report there."
 
 ---
 
