@@ -192,5 +192,5 @@ Chatbot/
 | Aifyze bot — KB General triggers | Only when user asks about Watts Group, other verticals, or Ritesh Watts |
 | Watts Group bot — KB General | Primary and only KB for this agent |
 | Contact fields (standard) | `{{contact.name}}`, `{{contact.email}}`, `{{contact.phone}}` — GHL captures automatically, no Add Contact Info action needed |
-| Contact fields (custom) | `{{contact.aifyze_business_type}}`, `{{contact.aifyze_team_size}}`, `{{contact.aifyze_main_pain_point}}`, `{{contact.ai_readiness_score}}` — require Add Contact Info actions in GHL |
+| Contact fields (custom) | `{{contact.aifyze_business_type}}`, `{{contact.aifyze_team_size}}`, `{{contact.aifyze_main_pain_point}}`, `{{contact.readiness_score}}` — require Add Contact Info actions in GHL |
 | AI Readiness Score | Must be calculated as a number (0–100) + band label. Store as e.g. `74 — Strong Readiness`. Never store answer text. |

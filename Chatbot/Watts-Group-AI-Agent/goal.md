@@ -54,9 +54,9 @@ When routing, give a 1–2 sentence explanation of why this vertical is the righ
 
 Before closing, ensure the following are captured where relevant:
 
-- `{{contact.name}}` — full name
-- `{{contact.email}}` — email address (mandatory if they want follow-up)
-- `{{contact.phone}}` — phone number (only if they request a call)
+- {{contact.name}} — full name
+- {{contact.email}} — email address (mandatory if they want follow-up)
+- {{contact.phone}} — phone number (only if they request a call)
 
 Offer to have the right person follow up directly if the conversation warrants it.
 

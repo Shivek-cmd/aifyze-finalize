@@ -53,7 +53,7 @@ Thanks for taking the time to complete the AI Readiness Assessment — here's yo
 
 ---
 
-**Your AI Readiness & Opportunity Score: {{contact.ai_readiness_score}} out of 100**
+**Your AI Readiness & Opportunity Score: {{contact.readiness_score}} out of 100**
 
 Based on what you shared, here's a snapshot of where your business stands:
 
@@ -67,7 +67,7 @@ Your score reflects how much AI opportunity exists in your current operations �
 
 **What this means for your business:**
 
-Your score of {{contact.ai_readiness_score}} tells us there is real AI opportunity in your operations — particularly around {{contact.aifyze_main_pain_point}}.
+Your score of {{contact.readiness_score}} tells us there is real AI opportunity in your operations — particularly around {{contact.aifyze_main_pain_point}}.
 
 The fastest wins for businesses like yours are typically in automating the repetitive, time-consuming work that takes your team away from higher-value tasks. Aifyze builds these solutions on top of what you already use — no tech overhaul needed.
 
@@ -92,7 +92,7 @@ aifyze.com
 
 ### Internal Notification Template — Lead Report Delivered (sent to Aifyze team)
 
-**Subject:** New Lead Report Sent — {{contact.name}} (Score: {{contact.ai_readiness_score}})
+**Subject:** New Lead Report Sent — {{contact.name}} (Score: {{contact.readiness_score}})
 
 **Body:**
 
@@ -104,7 +104,7 @@ A new AI Readiness Report has been delivered. Here is the lead summary:
 - Phone: {{contact.phone}}
 
 **Assessment Results**
-- AI Readiness Score: {{contact.ai_readiness_score}}
+- AI Readiness Score: {{contact.readiness_score}}
 - Business Type: {{contact.aifyze_business_type}}
 - Team Size: {{contact.aifyze_team_size}}
 - Main Pain Point: {{contact.aifyze_main_pain_point}}
@@ -154,7 +154,7 @@ A high-intent lead has just been flagged by the AI chatbot. This contact has ind
 - Phone: {{contact.phone}}
 
 **Assessment Results**
-- AI Readiness Score: {{contact.ai_readiness_score}}
+- AI Readiness Score: {{contact.readiness_score}}
 - Business Type: {{contact.aifyze_business_type}}
 - Team Size: {{contact.aifyze_team_size}}
 - Main Pain Point: {{contact.aifyze_main_pain_point}}
@@ -170,12 +170,12 @@ A high-intent lead has just been flagged by the AI chatbot. This contact has ind
 - Contact moved to Hot Leads stage in the pipeline
 
 **Recommended Action**
-Call or email {{contact.name}} within 60 minutes. Reference their pain point ({{contact.aifyze_main_pain_point}}) and score ({{contact.ai_readiness_score}}) in your opening message to show you've done your homework.
+Call or email {{contact.name}} within 60 minutes. Reference their pain point ({{contact.aifyze_main_pain_point}}) and score ({{contact.readiness_score}}) in your opening message to show you've done your homework.
 
 ---
 
 > **Note — Full Name & Email (Standard Fields)**
-> `{{contact.name}}` and `{{contact.email}}` are GHL standard fields and **do not appear** in the "Add Contact Info" field dropdown. Do NOT create Add Contact Info actions for these. Instead:
+> {{contact.name}} and {{contact.email}} are GHL standard fields and **do not appear** in the "Add Contact Info" field dropdown. Do NOT create Add Contact Info actions for these. Instead:
 > - In the **AI Agent Prompt / Additional Instructions**, instruct the bot to ask for name and email in plain language before delivering the report.
 > - GHL captures these automatically when the contact replies with their name or email during the conversation, as long as the bot asks for them clearly and in sequence.
 > - Ensure the bot asks for full name first, then email — one per message.
@@ -188,7 +188,7 @@ Call or email {{contact.name}} within 60 minutes. Reference their pain point ({{
 
 **Action Name:** `Capture Business Industry`
 
-**Contact field to update:** `{{contact.aifyze_business_type}}`
+**Contact field to update:** {{contact.aifyze_business_type}}
 
 **What to update in the field:**
 The type of business the contact runs and the industry they operate in. For example: marketing agency, real estate brokerage, healthcare clinic, e-commerce store, coaching practice.
@@ -208,7 +208,7 @@ The type of business the contact runs and the industry they operate in. For exam
 
 **Action Name:** `Capture Team Size`
 
-**Contact field to update:** `{{contact.aifyze_team_size}}`
+**Contact field to update:** {{contact.aifyze_team_size}}
 
 **What to update in the field:**
 The number of people on the contact's team or in their business. This may be stated as a number, a range, or a description such as "just me", "small team", "about 20 people".
@@ -228,7 +228,7 @@ The number of people on the contact's team or in their business. This may be sta
 
 **Action Name:** `Capture Main Pain Point`
 
-**Contact field to update:** `{{contact.aifyze_main_pain_point}}`
+**Contact field to update:** {{contact.aifyze_main_pain_point}}
 
 **What to update in the field:**
 The single biggest bottleneck, frustration, or time drain the contact describes during the conversation. This should be captured in the user's own words where possible. Examples: "spending too much time on admin", "leads falling through the cracks", "customer support is overwhelmed", "no visibility into what's working".
@@ -248,7 +248,7 @@ The single biggest bottleneck, frustration, or time drain the contact describes 
 
 **Action Name:** `Capture AI Readiness Score`
 
-**Contact field to update:** `{{contact.ai_readiness_score}}`
+**Contact field to update:** {{contact.readiness_score}}
 
 **When to trigger:**
 Immediately after the bot finishes calculating the score from the 5 assessment questions — BEFORE delivering the score in chat and BEFORE triggering the report workflow. This must be the first thing that happens after the score is calculated.
@@ -261,7 +261,7 @@ The calculated numeric score as a plain integer. The field is Number type — st
 - `42`
 - `88`
 
-*(Add to Additional Instructions in prompt: "As soon as the AI Readiness Score is calculated, immediately store the plain number in {{contact.ai_readiness_score}} before saying anything else. The field is Number type — digits only. Example: 67")*
+*(Add to Additional Instructions in prompt: "As soon as the AI Readiness Score is calculated, immediately store the plain number in {{contact.readiness_score}} before saying anything else. The field is Number type — digits only. Example: 67")*
 
 ---
 
