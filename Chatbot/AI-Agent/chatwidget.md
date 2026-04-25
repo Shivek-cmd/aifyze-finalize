@@ -30,6 +30,10 @@
 
 ## Messages
 
+**Auto-Assignment / Bot Connecting Message**
+*(This is the GHL system message shown while the bot initialises — change it in GHL under AI Agent settings or Settings → Conversations → Auto Messages)*
+`Our AI assistant is connecting now — no waiting, available 24/7.`
+
 **Welcome Message**
 `Hey! I'm the Aifyze AI Assistant. Whether you're exploring what AI can do, trying to figure out where to start, or just have a question — I'm here. What's on your mind?`
 

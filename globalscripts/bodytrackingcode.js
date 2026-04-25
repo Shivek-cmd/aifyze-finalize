@@ -483,6 +483,7 @@ setTimeout(initializeAifyzeScript, 500);
      Same design as .hero-chatbar in home.html.
      Fixed center-bottom, stays visible on scroll (like WhatsApp icon).
      ═══════════════════════════════════════════════════ -->
+
 <style>
 #aifyze-float-chatbar {
   position: fixed;
