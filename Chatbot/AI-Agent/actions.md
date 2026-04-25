@@ -22,7 +22,20 @@ When the user asks to book a call, requests to speak with the team, or expresses
 
 ---
 
-## Action 2 — Trigger Workflow: Lead Report Delivery
+## Action 2 — Trigger Workflow: Score Field Updater
+
+**Action Type:** Trigger a Workflow
+
+**Action Name:** `Update Score Fields`
+
+**Workflow(s) to select:** Aifyze — Score Field Updater
+
+**When to trigger the workflow:**
+Trigger after the bot sends the message containing "Your AI Readiness Score:" in chat. This workflow extracts the score from the conversation text and writes it to {{contact.readiness_score}}, {{contact.aifyze_score_band}}, and {{contact.aifyze_suggested_service}} — bypassing the unreliable Add Contact Info action for the Number field.
+
+---
+
+## Action 3 — Trigger Workflow: Lead Report Delivery
 
 **Action Type:** Trigger a Workflow
 
@@ -31,7 +44,7 @@ When the user asks to book a call, requests to speak with the team, or expresses
 **Workflow(s) to select:** Aifyze — AI Readiness Report Delivery
 
 **When to trigger the workflow:**
-Trigger only AFTER all four Add Contact Info actions have been called for the current conversation — Actions 4, 5, 6, and 7 ({{contact.aifyze_business_type}}, {{contact.aifyze_team_size}}, {{contact.aifyze_main_pain_point}}, {{contact.readiness_score}}). This ensures returning contacts always have their fields overwritten with fresh values before the email fires. Do NOT trigger before those four actions have completed.
+Trigger only AFTER all Add Contact Info actions have been called for the current conversation — Actions 5, 6, 7, and 8 ({{contact.aifyze_business_type}}, {{contact.aifyze_team_size}}, {{contact.aifyze_main_pain_point}}, {{contact.readiness_score}}). This ensures returning contacts always have their fields overwritten with fresh values before the email fires. Do NOT trigger before those actions have completed.
 
 The workflow should:
 - Email the full AI Readiness Report to the captured address
