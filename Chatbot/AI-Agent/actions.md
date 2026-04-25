@@ -375,13 +375,10 @@ The score band label. Use exactly one of these: Very Early (0–29) / Emerging (
 **GHL field to create:** Key: `aifyze_suggested_service` | Type: Single Line Text
 
 **When to trigger:**
-Fire after the score is calculated. Derive from score band and the user's answers.
+Fire immediately after the bot sends the message containing "recommended Aifyze service for you is:" in chat — at the same time as Action 8 (Capture AI Readiness Score).
 
 **What to update in the field:**
-The best-fit Aifyze service. Use exactly one of these labels:
-- AI Strategy Consulting — score 0–49, needs roadmap and clarity first
-- AI-fy Your Business Processes — score 50–84, clear workflow pain, tools in place
-- Hire Your AI CEO — score 85–100, ready for deep implementation and ongoing leadership
+The service name stated in the bot's chat message. After the bot says "recommended Aifyze service for you is: [Service Name]", extract that service name and store it here. Must be exactly one of: AI Strategy Consulting | AI-fy Your Business Processes | Hire Your AI CEO. Store the label only — no extra text.
 
 **Output Example:**
 - `AI-fy Your Business Processes`
