@@ -378,7 +378,7 @@ The score band label. Use exactly one of these: Very Early (0–29) / Emerging (
 Fire immediately after the bot sends the message containing "recommended Aifyze service for you is:" in chat — at the same time as Action 8 (Capture AI Readiness Score).
 
 **What to update in the field:**
-The service name stated in the bot's chat message. After the bot says "recommended Aifyze service for you is: [Service Name]", extract that service name and store it here. Must be exactly one of: AI Strategy Consulting | AI-fy Your Business Processes | Hire Your AI CEO. Store the label only — no extra text.
+Store ONLY one of these exact labels: AI Strategy Consulting | AI-fy Your Business Processes | Hire Your AI CEO. Find the phrase "recommended Aifyze service for you is:" in the bot's chat message and store what follows. NEVER store business type, industry, or team size. If not found, derive from score: 0–49=AI Strategy Consulting | 50–84=AI-fy Your Business Processes | 85–100=Hire Your AI CEO.
 
 **Output Example:**
 - `AI-fy Your Business Processes`
