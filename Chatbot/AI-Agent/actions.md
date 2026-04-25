@@ -251,10 +251,10 @@ The single biggest bottleneck, frustration, or time drain the contact describes 
 **Contact field to update:** {{contact.readiness_score}}
 
 **When to trigger:**
-Immediately after all 5 assessment questions have been answered and the score has been calculated. Fire this action BEFORE triggering the Send AI Readiness Report workflow. Always overwrite any previously stored value — use the number calculated from the current conversation, never a value from a previous session.
+Fire immediately after the bot sends the message containing "Your AI Readiness Score:" in the chat. Always overwrite any previously stored value — use the score from the current conversation only, never a value from a previous session.
 
 **What to update in the field:**
-Calculated total of five scoring table values, always 0–100. NEVER store numbers the user mentions — team sizes, days, and timeframes are NOT the score. Calculate: Q1 business scale (10–20) + Q2 workflow pain (8–25) + Q3 tools (6–20) + Q4 AI usage reverse-scored (2–15) + Q5 readiness (5–20) = total. Example: 20+25+10+15+18=88 → store 88
+The AI Readiness Score integer stated in the bot's chat message. After the bot says "Your AI Readiness Score: [X] / 100", extract that integer and store it here. Example: bot says "Your AI Readiness Score: 85 / 100 — Strong Readiness" → store 85. Digits only — no /100, no band label, no text.
 
 **Output Example:**
 - `88`
