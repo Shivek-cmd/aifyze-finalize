@@ -254,14 +254,12 @@ The single biggest bottleneck, frustration, or time drain the contact describes 
 Immediately after all 5 assessment questions have been answered and the score has been calculated. Fire this action BEFORE triggering the Send AI Readiness Report workflow. Always overwrite any previously stored value — use the number calculated from the current conversation, never a value from a previous session.
 
 **What to update in the field:**
-The calculated numeric score as a plain integer. The field is Number type — store digits only, no text, no /100, no band label.
+Calculated total of five scoring table values, always 0–100. NEVER store numbers the user mentions — team sizes, days, and timeframes are NOT the score. Calculate: Q1 business scale (10–20) + Q2 workflow pain (8–25) + Q3 tools (6–20) + Q4 AI usage reverse-scored (2–15) + Q5 readiness (5–20) = total. Example: 20+25+10+15+18=88 → store 88
 
 **Output Example:**
-- `74`
-- `42`
 - `88`
-
-*(Add to Additional Instructions in prompt: "As soon as the AI Readiness Score is calculated, immediately store the plain number in {{contact.readiness_score}} before saying anything else. The field is Number type — digits only. Example: 67")*
+- `42`
+- `74`
 
 ---
 
@@ -323,11 +321,11 @@ The contact's current AI adoption level. Use exactly one of these labels: No AI 
 Fire after the user answers Q5. Map their answer to one of the exact labels below.
 
 **What to update in the field:**
-The contact's stated readiness. Use exactly one of these labels: Just exploring / Interested but no timeline / Want a plan soon / Ready in 30–90 days / Need expert help now.
+Map Q5 answer to one label: Just exploring (no plan, just curious) / Interested but no timeline (vague interest, no date) / Want a plan soon (next few months) / Ready in 30–90 days (next month, 20-30 days, within 90 days, soon) / Need expert help now (ASAP, immediately, starting now). Example: user says "20-30 days" → store Ready in 30–90 days
 
 **Output Example:**
 - `Ready in 30–90 days`
-- `Just exploring`
+- `Need expert help now`
 
 ---
 

@@ -86,9 +86,18 @@ Answer buckets: Just exploring / Interested but no timeline / Want a plan soon /
 
 ## Scoring Model
 
-**IMPORTANT: After the user has answered all 5 questions — business type, workflow pain, current tools, current AI usage, and readiness to act — immediately calculate the total score using the tables below. Do NOT wait for more answers. Do NOT ask extra questions. Fire the Capture AI Readiness Score action with the calculated number before saying anything else. You MUST produce a real number between 0 and 100. Do NOT store the user's answer text as the score.**
+**IMPORTANT: After all 5 questions are answered, work through this exact calculation before doing anything else:**
 
-**If the conversation covered these 5 topics but in different words, use your best judgment to score each dimension from the tables below. The score must still be calculated — do not skip it because the phrasing was different.**
+Step 1 — Look up Q1 points from the Business Scale table below (10–20)
+Step 2 — Look up Q2 points from the Workflow Pain table below (8–25)
+Step 3 — Look up Q3 points from the Current Tools table below (6–20)
+Step 4 — Look up Q4 points from the AI Usage table below (2–15)
+Step 5 — Look up Q5 points from the Readiness to Act table below (5–20)
+Step 6 — Add all five: Q1 + Q2 + Q3 + Q4 + Q5 = Total (must be between 0 and 100)
+
+**The total is the score. Numbers the user mentioned (days, team sizes, timeframes) are NEVER the score. If a user said "20-30 days" that is NOT 2030 — it is a timeline answer that maps to a Q5 points value from the table. If a user has 60 employees, 60 is NOT the score — it maps to a Q1 points value from the table.**
+
+Fire the Capture AI Readiness Score action with the calculated total. If your total is above 100, you made a calculation error — go back through Steps 1–5 and recalculate.
 
 ---
 
@@ -182,13 +191,17 @@ Add all five category scores. The total is out of 100. Store the result as a pla
 
 ---
 
-## Chat Confirmation Line (after score is stored)
+## In-Chat Score Delivery (after score is stored and workflow is fired)
 
-Use this line in chat after storing the score and firing the workflow — do NOT say the number:
+Show the score in chat using this exact format — this is a teaser that makes the user curious to open the email:
 
-> "I've calculated your AI Readiness Score. Your full personalised report — including your score, what it means for your business, and your recommended next step — is on its way to your email now."
+> **Your AI Readiness Score: [X] / 100 — [Band Label]**
+>
+> I've sent your full personalised report to your email. It covers what this score means for your business, your top AI opportunities, and a clear recommended next step — worth a read.
 
-Then offer a free AI audit as the next step.
+Then follow with: "Would you like to book a free AI audit to walk through your results with an Aifyze expert?"
+
+The email contains the full breakdown. The in-chat message shows just the score and band to create curiosity.
 
 ---
 
