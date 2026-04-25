@@ -265,7 +265,142 @@ The calculated numeric score as a plain integer. The field is Number type — st
 
 ---
 
-## Action 8 — Stop Bot
+## Action 8 — Add Contact Info: Current Tools
+
+**Action Type:** Add Contact Info
+
+**Action Name:** `Capture Current Tools`
+
+**Contact field to update:** {{contact.aifyze_current_tools}}
+
+**GHL field to create:** Key: `aifyze_current_tools` | Type: Single Line Text
+
+**When to trigger:**
+Fire after the user answers Q3. Always overwrite with the current conversation's answer.
+
+**What to update in the field:**
+The tools, software, or systems the contact currently uses to run their business. Store as a short comma-separated list or phrase in the user's own words. If no tools are used, store "No digital tools — everything manual".
+
+**Output Example:**
+- `QuickBooks, spreadsheets, WhatsApp`
+- `No digital tools — everything manual`
+
+---
+
+## Action 9 — Add Contact Info: Current AI Usage Level
+
+**Action Type:** Add Contact Info
+
+**Action Name:** `Capture Current AI Usage Level`
+
+**Contact field to update:** {{contact.aifyze_ai_usage_level}}
+
+**GHL field to create:** Key: `aifyze_ai_usage_level` | Type: Single Line Text
+
+**When to trigger:**
+Fire after the user answers Q4. Map their answer to one of the exact labels below — do not store raw answer text.
+
+**What to update in the field:**
+The contact's current AI adoption level. Use exactly one of these labels: No AI use / Personal experimentation only / Some team-level use / AI in a few workflows / AI embedded across operations.
+
+**Output Example:**
+- `No AI use`
+- `Personal experimentation only`
+
+---
+
+## Action 10 — Add Contact Info: Readiness to Act
+
+**Action Type:** Add Contact Info
+
+**Action Name:** `Capture Readiness to Act`
+
+**Contact field to update:** {{contact.aifyze_readiness_to_act}}
+
+**GHL field to create:** Key: `aifyze_readiness_to_act` | Type: Single Line Text
+
+**When to trigger:**
+Fire after the user answers Q5. Map their answer to one of the exact labels below.
+
+**What to update in the field:**
+The contact's stated readiness. Use exactly one of these labels: Just exploring / Interested but no timeline / Want a plan soon / Ready in 30–90 days / Need expert help now.
+
+**Output Example:**
+- `Ready in 30–90 days`
+- `Just exploring`
+
+---
+
+## Action 11 — Add Contact Info: Score Band
+
+**Action Type:** Add Contact Info
+
+**Action Name:** `Capture Score Band`
+
+**Contact field to update:** {{contact.aifyze_score_band}}
+
+**GHL field to create:** Key: `aifyze_score_band` | Type: Single Line Text
+
+**When to trigger:**
+Fire immediately after calculating the readiness score, at the same time as Action 7. Derive the band from the score.
+
+**What to update in the field:**
+The score band label. Use exactly one of these: Very Early (0–29) / Emerging (30–49) / Ready to Pilot (50–69) / Strong Readiness (70–84) / High-Leverage Ready (85–100). Store the label only, not the range.
+
+**Output Example:**
+- `Strong Readiness`
+- `Emerging`
+
+---
+
+## Action 12 — Add Contact Info: Suggested Service Path
+
+**Action Type:** Add Contact Info
+
+**Action Name:** `Capture Suggested Service Path`
+
+**Contact field to update:** {{contact.aifyze_suggested_service}}
+
+**GHL field to create:** Key: `aifyze_suggested_service` | Type: Single Line Text
+
+**When to trigger:**
+Fire after the score is calculated. Derive from score band and the user's answers.
+
+**What to update in the field:**
+The best-fit Aifyze service. Use exactly one of these labels:
+- AI Strategy Consulting — score 0–49, needs roadmap and clarity first
+- AI-fy Your Business Processes — score 50–84, clear workflow pain, tools in place
+- Hire Your AI CEO — score 85–100, ready for deep implementation and ongoing leadership
+
+**Output Example:**
+- `AI-fy Your Business Processes`
+- `AI Strategy Consulting`
+
+---
+
+## Action 13 — Add Contact Info: Urgency Level
+
+**Action Type:** Add Contact Info
+
+**Action Name:** `Capture Urgency Level`
+
+**Contact field to update:** {{contact.aifyze_urgency_level}}
+
+**GHL field to create:** Key: `aifyze_urgency_level` | Type: Single Line Text
+
+**When to trigger:**
+Fire after Q5. Derive from the user's readiness answer and overall conversation tone.
+
+**What to update in the field:**
+The contact's urgency. Use exactly one of these labels: exploring / 90-day-interest / ready-now / wants-callback / high-intent.
+
+**Output Example:**
+- `ready-now`
+- `90-day-interest`
+
+---
+
+## Action 14 — Stop Bot
 
 **Action Type:** Stop Bot
 
@@ -287,7 +422,7 @@ The user has clearly indicated they are done with the conversation, the chat has
 
 ---
 
-## Action 9 — Bot Transfer: Human Request
+## Action 15 — Bot Transfer: Human Request
 
 **Action Type:** Bot Transfer
 
