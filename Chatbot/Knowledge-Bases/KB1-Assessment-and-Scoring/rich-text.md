@@ -26,7 +26,7 @@ The score measures:
 > "Thanks — I've got everything I need to calculate your personalised score."
 
 **Step 1 — Name ask (ask this FIRST, before email — store answer in {{contact.name}}):**
-> "And just so I can personalise your report — what's your full name?"
+> "Almost done — what's your name so I can put your score together?"
 
 **Step 2 — Email ask (ask this SECOND, after name — store answer in {{contact.email}}):**
 > "What's the best email to send your full readiness report and next-step recommendations to? We send it there so you have everything in one place."
