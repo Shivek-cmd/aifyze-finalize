@@ -10,6 +10,30 @@
 
 ---
 
+## Action 1 — Add Tag
+
+**Action Type:** Add Tag
+
+**Tag to apply:** `aifyze-chatbot-audit-booked`
+
+---
+
+## Action 2 — Move Opportunity to Audit Booked
+
+**Action Type:** Create and Update Opportunity
+
+**Opportunity Name:** {{contact.name}} — AI Readiness
+
+**Pipeline:** Aifyze — Chatbot Leads
+
+**Find opportunity by:** Contact
+
+**Update Stage to:** Audit Booked
+
+> Moves this contact's opportunity from New Lead → Audit Booked as soon as the appointment is confirmed.
+
+---
+
 ## Email 1 — Confirmation to User
 
 **To:** {{contact.email}}

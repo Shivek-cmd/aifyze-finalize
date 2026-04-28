@@ -35,7 +35,7 @@ Trigger after the bot sends the message containing "Your AI Readiness Score:" in
 
 ---
 
-## Action 3 — Trigger Workflow: Lead Report Delivery
+## Action 3 — Trigger Workflow: Lead CRM Update
 
 **Action Type:** Trigger a Workflow
 
@@ -43,58 +43,36 @@ Trigger after the bot sends the message containing "Your AI Readiness Score:" in
 
 **Workflow(s) to select:** Aifyze — AI Readiness Report Delivery
 
+**Note:** The AI Readiness Report is delivered IN CHAT by the bot — not by email. The email captured from the user is for future AI recommendations only. This workflow handles CRM actions only — it does NOT send an email report to the user.
+
 **When to trigger the workflow:**
-Trigger only AFTER all Add Contact Info actions have been called for the current conversation — Actions 5, 6, 7, and 8 ({{contact.aifyze_business_type}}, {{contact.aifyze_team_size}}, {{contact.aifyze_main_pain_point}}, {{contact.readiness_score}}). This ensures returning contacts always have their fields overwritten with fresh values before the email fires. Do NOT trigger before those actions have completed.
+Trigger after all Add Contact Info actions have been called for the current conversation — Actions 5, 6, 7, and 8 ({{contact.aifyze_business_type}}, {{contact.aifyze_team_size}}, {{contact.aifyze_main_pain_point}}, {{contact.readiness_score}}). This ensures returning contacts always have their fields overwritten with fresh values. Trigger at the same time the bot delivers the in-chat report.
 
 The workflow should:
-- Email the full AI Readiness Report to the captured address
 - Add the contact to the GHL CRM pipeline at the correct stage
 - Apply the relevant service fit, urgency, and pain tags from the conversation
 - Send an internal notification to the Aifyze team with the lead summary
+- Do NOT email the full report to the user — the bot delivers it in chat
 
 ---
 
-### Email Template — AI Readiness Report (sent to lead)
+### Email Template — Follow-Up to Lead (sent to lead after chat)
 
-**Subject:** Your AI Readiness Report is here, {{contact.name}} 🎯
+**Note:** The full AI Readiness Report was already delivered in the chatbot. This email is a light follow-up / recommendations email — not a repeat of the report.
+
+**Subject:** Great chatting, {{contact.name}} — a few things worth knowing
 
 **Body:**
 
 Hi {{contact.name}},
 
-Thanks for taking the time to complete the AI Readiness Assessment — here's your personalised report.
+It was great helping you today. Your AI Readiness Score of {{contact.readiness_score}} / 100 puts you in the {{contact.aifyze_score_band}} category — and based on your setup, there's a clear path forward.
 
----
-
-**Your AI Readiness & Opportunity Score: {{contact.readiness_score}} out of 100**
-
-Based on what you shared, here's a snapshot of where your business stands:
-
-- **Business:** {{contact.aifyze_business_type}}
-- **Team Size:** {{contact.aifyze_team_size}}
-- **Biggest Bottleneck:** {{contact.aifyze_main_pain_point}}
-
-Your score reflects how much AI opportunity exists in your current operations — and where the fastest wins are. Our team has reviewed your profile and identified a few practical starting points tailored to your situation.
-
----
-
-**What this means for your business:**
-
-Your score of {{contact.readiness_score}} tells us there is real AI opportunity in your operations — particularly around {{contact.aifyze_main_pain_point}}.
-
-The fastest wins for businesses like yours are typically in automating the repetitive, time-consuming work that takes your team away from higher-value tasks. Aifyze builds these solutions on top of what you already use — no tech overhaul needed.
-
----
-
-**Your recommended next step:**
-
-Book a free 30-minute AI Audit with one of our experts. We'll walk through your score together, identify your top 1–2 AI opportunities, and give you a clear action plan — no commitment required.
+If you haven't already booked your free AI Audit, that's your clearest next step. In 30 minutes, an Aifyze expert will walk through your results, confirm your top AI opportunities, and give you a concrete first action — no commitment needed.
 
 👉 [Book Your Free AI Audit](https://aifyze.com/contact)
 
----
-
-If you have questions before then, just reply to this email — we read every one.
+If you have any questions in the meantime, just reply to this email. We read every one.
 
 Warm regards,
 The Aifyze Team
