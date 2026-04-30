@@ -97,6 +97,17 @@ Knowledge Bases:
 └── KB General           → KB-General/
 ```
 
+### Watts Group Agent — Deployment Context
+
+The Watts Group AI Agent is connected to **all Watts Group social media channels** (Instagram, Facebook, WhatsApp Business). Every DM that comes in from any of these platforms is handled by this agent.
+
+Because Watts Group is the parent company and Aifyze is one of its verticals, users arriving from social media may ask about Aifyze specifically — including the **AI Readiness Score** and the **AI Readiness Assessment**. The agent cannot run that assessment itself. It routes the user to aifyze.com where the Aifyze chatbot handles the full assessment.
+
+**Routing rule for AI Readiness Score / Assessment:**
+> "Head over to aifyze.com and chat with the Aifyze AI assistant — it'll walk you through a free AI Readiness Assessment and deliver your personalised score right in the chat."
+
+This prevents the Watts Group agent from attempting to replicate the 5-question scoring system (which it does not have access to) and ensures users get the full personalised experience on the Aifyze site.
+
 ---
 
 ## Full File Map

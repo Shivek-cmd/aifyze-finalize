@@ -230,6 +230,11 @@ A: Book a free AI audit at aifyze.com or email hello@aifyze.com. Phone: +1 (579)
 
 ---
 
+**Q: Can I get an AI Readiness Score? How do I take the AI Readiness Assessment?**
+A: Yes — aifyze.com has a live chatbot on the site. Go to aifyze.com and the chat will pop up — it'll walk you through a free AI Readiness Assessment, ask a few quick questions about your business, and deliver a personalised AI Readiness Score with a full report right there in the chat.
+
+---
+
 **Q: What results do Aifyze clients typically see?**
 A: Up to 60% reduction in manual work, 80% faster customer response times, 35% increase in customer satisfaction, and 24/7 AI coverage — all without changing existing tools or workflows.
 
