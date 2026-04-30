@@ -25,6 +25,7 @@
 23. [Terms of Service](#23-terms-of-service)
 24. [404 Page](#24-404-page)
 25. [Blog —  5. The 90-Day AI Roadmap: Integrate AI Without Ripping Out Your Tech Stack](#25-blog--the-90-day-ai-roadmap-integrate-ai-without-ripping-out-your-tech-stack)
+26. [Blog — 11. 10 Reasons Your AI Workflow Automation Isn't Showing ROI (And How to Fix It)](#26-blog--10-reasons-your-ai-workflow-automation-isnt-showing-roi)
 
 ---
 
@@ -1865,3 +1866,99 @@
 - **Hero image:** Unsplash placeholder — replace with GHL custom value once image is uploaded: `{{custom_values.aifyze_blog_ai_lead_generation_coaching}}`
 - **Internal links in article:** [AI-fy Your Business Processes](/services/ai-fy-your-business-processes), [AI Strategy Consulting](/services/ai-strategy-consulting), [AI for Coaches blog](/blog/ai-for-coaches-consultants-scale-practice), [90-Day Roadmap blog](/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul), [Contact](/contact)
 - **TOC anchors:** `#manual-lead-gen-cost`, `#what-is-ai-lead-gen`, `#precision-targeting`, `#conversational-ai`, `#nurturing-without-noise`, `#blast-marketing-dead`, `#ninety-day-roadmap`, `#getting-started`
+
+
+---
+
+## 26. Blog — 10 Reasons Your AI Workflow Automation Isn't Showing ROI
+
+**`title`**
+```
+10 Reasons AI Workflow Automation Fails to Show ROI | Aifyze Blog
+```
+*(63 characters)*
+
+**`description`**
+```
+Only 28% of AI projects hit ROI targets. If yours isn't delivering, one of these 10 strategy mistakes is the reason — and each one is fixable.
+```
+*(143 characters)*
+
+**`og:title`** — same as title
+
+**`og:description`** — same as description
+
+**`twitter:title`**
+```
+10 Reasons AI Workflow Automation Fails to Show ROI
+```
+
+**`twitter:description`** — same as description
+
+**`keywords`**
+```
+AI workflow automation ROI, AI implementation mistakes, AI strategy consulting, business AI automation, AI process automation, workflow automation guide, Aifyze
+```
+
+**`canonical`**
+```
+https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi
+```
+
+**`og:url`** — same as canonical
+**`og:type`** — `article`
+**`og:site_name`** — `Aifyze`
+**`og:image`** — `https://aifyze.com/assets/og/og-image.png`
+**`og:image:width`** — `1200`
+**`og:image:height`** — `630`
+**`twitter:card`** — `summary_large_image`
+**`twitter:image`** — `https://aifyze.com/assets/og/og-image.png`
+
+**JSON-LD Schema:**
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "10 Reasons Your AI Workflow Automation Isn't Showing ROI (And How to Fix It)",
+      "description": "Only 28% of AI projects hit ROI targets. If yours isn't delivering, one of these 10 strategy mistakes is the reason — and each one is fixable.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://aifyze.com/assets/og/og-image.png",
+        "width": 1200,
+        "height": 630
+      },
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "author": { "@type": "Organization", "name": "Aifyze", "url": "https://aifyze.com" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aifyze",
+        "url": "https://aifyze.com",
+        "logo": { "@type": "ImageObject", "url": "https://aifyze.com/assets/images/logo-circle.png", "width": 140, "height": 140 }
+      },
+      "mainEntityOfPage": "https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi",
+      "isPartOf": { "@id": "https://aifyze.com/blog/#blog" },
+      "keywords": ["AI workflow automation", "AI ROI", "AI implementation", "business automation", "AI strategy", "workflow automation guide"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aifyze.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aifyze.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "10 Reasons Your AI Workflow Automation Isn't Showing ROI (And How to Fix It)", "item": "https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi" }
+      ]
+    }
+  ]
+}
+```
+
+### Notes
+
+- **Date published:** April 28, 2026
+- **Category:** Business Growth
+- **Read time:** 10 min read
+- **Hero image:** Replace with GHL custom value once uploaded: `{{custom_values.aifyze_blog11_hero}}`
+- **Internal service links:** [AI Strategy Consulting](/services/ai-strategy-consulting), [AI-fy Your Business Processes](/services/ai-fy-your-business-processes), [Hire Your AI CEO](/services/hire-your-ai-ceo), [90-Day AI Roadmap blog](/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul), [Contact](/contact)
+- **TOC anchors:** `#automating-a-broken-process`, `#measuring-wrong-metrics`, `#shadow-ai-fragmentation`, `#change-management-friction`, `#poor-data-hygiene`, `#tool-first-thinking`, `#hidden-maintenance-costs`, `#stuck-in-pilot-purgatory`, `#no-ai-leadership`, `#speed-to-response-gap`, `#recapture-your-roi`

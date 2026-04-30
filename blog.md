@@ -50,6 +50,7 @@ This guide covers everything needed to write and publish a new blog post: conten
 | 8 | `/Blog8/` | AI for Real Estate Agents: How to Turn Cold Leads Into Closed Deals Without Extra Headcount | Industry Insights | April 17, 2026 | 7 min | `/blog/ai-for-real-estate-agents-close-more-deals` |
 | 9 | `/Blog9/` | Why Hiring "AI Employees" Will Change the Way You Think About Your Org Chart | Business Growth | April 22, 2026 | 8 min | `/blog/ai-employees-org-chart-digital-labor` |
 | 10 | `/Blog10/` | How to Use AI Lead Generation Automation to Grow Your Coaching Practice (Without the Spam) | Industry Insights | April 24, 2026 | 8 min | `/blog/ai-lead-generation-automation-coaching-practice` |
+| 11 | `/Blog11/` | 10 Reasons Your AI Workflow Automation Isn't Showing ROI (And How to Fix It) | Business Growth | April 28, 2026 | 10 min | `/blog/why-ai-workflow-automation-isnt-showing-roi` |
 
 ---
 
@@ -102,6 +103,22 @@ This guide covers everything needed to write and publish a new blog post: conten
 ### 5. Cross-links
 - [ ] Add social share URLs with the correct blog URL slug in `index.html`
 - [ ] Update related articles in 2–3 other relevant existing blog posts to link to the new post
+- [ ] Add internal service links at relevant points in the article body (see Service Link Rules below)
+
+### 6. Service Link Rules
+
+Every blog post must link to at least one Aifyze service page at a natural, relevant moment in the article body — inside "The Fix" or a recommendation section, never as an interruption.
+
+**Service pages:**
+- `<a href="/services/ai-fy-your-business-processes">AI-fy Your Business Processes</a>` — use when discussing: workflow automation, AI agents, tool integration, 24/7 response, operational efficiency
+- `<a href="/services/hire-your-ai-ceo">Hire Your AI CEO</a>` — use when discussing: AI leadership, fractional AI, strategic oversight, who owns AI in a company
+- `<a href="/services/ai-strategy-consulting">AI Strategy Consulting</a>` — use when discussing: AI readiness, roadmaps, process audits, broken processes, strategy-before-tools
+
+**Rules:**
+- Link to the service where it genuinely solves the problem being described — never force it
+- Follow each service link with 1–2 sentences explaining how that service specifically addresses the reader&rsquo;s pain point — not generic copy
+- Maximum 3 service links per article (one per service is ideal)
+- Always include `/contact` in the CTA closing section
 
 ---
 

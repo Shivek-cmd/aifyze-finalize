@@ -4,6 +4,9 @@
       "WebFetch(domain:wattsgroup.in)",
       "WebFetch(domain:wattscommunity.in)",
       "WebFetch(domain:riteshwatts.com)"
+    ],
+    "additionalDirectories": [
+      "d:\\Watts Company\\aifyze"
     ]
   }
 }
