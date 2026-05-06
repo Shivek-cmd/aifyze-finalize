@@ -4,4 +4,4 @@
 
 ---
 
-Use for services and pricing: what each service includes, costs, which service fits the user, expected outcomes, and service recommendations after scoring.
+Use this KB when the user asks about Aifyze services and pricing (including service details, costs, recommendations, expected outcomes, or which service fits them), or when the user asks about Watts Group as a company, its verticals (immigration, real estate, community, study abroad), or Ritesh Watts.

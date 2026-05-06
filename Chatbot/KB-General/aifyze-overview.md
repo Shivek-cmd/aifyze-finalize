@@ -23,16 +23,65 @@ Aifyze is the AI consulting and automation vertical of Watts Group Ltd., launche
 
 Aifyze delivers practical, ROI-focused AI adoption. No tech stack overhauls, no disruption — just measurable results layered on top of what businesses already use.
 
-### Three Core Services
+## The Three Core Services
 
-**1. AI-fy Your Business Processes**
-Automate repetitive workflows using AI — lead follow-up, admin, reporting, customer support, document processing, and more. Outcomes: up to 60% reduction in manual work, 24/7 AI coverage, faster decision-making.
+### Service 1 — AI-fy Your Business Processes
+**Tagline:** Smarter Operations, Zero Disruption
+**Best for:** Businesses with clear repetitive workflows and existing tools ready for automation
 
-**2. Hire Your AI CEO**
-Fractional AI executive leadership at a fraction of the traditional cost. Covers vendor selection, team assembly, end-to-end project execution, and ongoing AI operations oversight.
+**What's included:**
+- Workflow automation tailored to existing operations
+- Voice and chat AI agents for 24/7 customer engagement
+- Intelligent document processing (invoices, contracts, forms)
+- Predictive operations and anomaly detection
+- Custom automation tools and data pipelines
 
-**3. AI Strategy Consulting**
-Readiness assessments, custom AI roadmaps with ROI projections, team training, and change management for organisations ready to adopt AI strategically.
+**Key outcomes:**
+- Up to 60% reduction in manual work
+- 24/7 coverage without adding headcount
+- Faster decision-making with automated reporting
+- 80% faster customer response times
+
+**Pricing:** Starts from $500 (scoped to your exact workflows)
+
+---
+
+### Service 2 — Hire Your AI CEO
+**Tagline:** Expert AI Leadership, Without the Overhead
+**Best for:** Businesses that need ongoing AI strategy, leadership, and implementation oversight without a full-time executive hire
+
+**What's included:**
+- Fractional AI executive oversight (dedicated AI leadership at 60–70% less than a full-time hire)
+- Expert team assembly and management
+- End-to-end project execution from vision to deployment
+- Vendor selection and technology evaluation
+- Ongoing operations management and performance monitoring
+
+**Key outcomes:**
+- Executive-grade AI strategy without $500K+ overhead
+- Faster implementation with expert coordination
+- Accountability across the full AI roadmap
+
+**Pricing:** Starts from $1,500 (scoped to leadership scope and engagement level)
+
+---
+
+### Service 3 — AI Strategy Consulting
+**Tagline:** Your Roadmap to AI-Powered Growth
+**Best for:** Businesses that know they need AI but don't know where to start, or those that need a structured plan before investing in implementation
+
+**What's included:**
+- AI readiness assessments and gap analysis
+- Custom roadmaps with milestones and ROI projections
+- Team training and AI literacy programs
+- Change management support for organisation-wide adoption
+
+**Key outcomes:**
+- A clear, prioritised AI roadmap tied to business goals
+- Team confidence and readiness for AI adoption
+- Reduced risk of wasted investment in the wrong tools
+
+**Pricing:** Starts from $7,500 (scoped to organisation size and assessment depth)
 
 ---
 
