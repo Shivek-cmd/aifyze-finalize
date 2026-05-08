@@ -8,14 +8,14 @@
 
 /* ── Design Tokens ── */
 :root {
-  --brand:          #F7F6FA;
-  --brand-dark:     #F7F6FA;
+  --brand:          #7C3AED;
+  --brand-dark:     #6D28D9;
   --brand-light:    #EDE9FE;
   --coral:          #F97066;
   --coral-dark:     #EF5A4F;
   --sidebar-bg:     #F7F6FA;
   --sidebar-hover:  rgba(124, 58, 237, 0.1);
-  --sidebar-active: #F7F6FA;
+  --sidebar-active: #7C3AED;
   --sidebar-border: #E6E1F0;
   --sidebar-muted:  #7A748C;
   --sidebar-subtle: rgba(124, 58, 237, 0.06);
@@ -246,7 +246,7 @@ header.navbar {
 
 .card .card-header a,
 .card-header a {
-  color: #F7F6FA !important;
+  color: #7C3AED !important;
   text-decoration: none !important;
   font-weight: 500 !important;
   transition: color 0.15s ease !important;
@@ -254,7 +254,7 @@ header.navbar {
 
 .card .card-header a:hover,
 .card-header a:hover {
-  color: #F7F6FA !important;
+  color: #6D28D9 !important;
   text-decoration: underline !important;
 }
 
@@ -315,7 +315,7 @@ header.navbar {
    FORM INPUTS
    ================================================ */
 
-/* .form-control,
+.form-control,
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -334,10 +334,10 @@ select.form-control {
 .form-control:focus,
 input:focus,
 textarea:focus {
-  border-color: #f7f7fa !important;
+  border-color: #7C3AED !important;
   box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.12) !important;
   outline: none !important;
-} */
+}
 
 /* ================================================
    PRIMARY BUTTONS
@@ -372,7 +372,7 @@ textarea:focus {
 
 .badge-primary {
   background-color: #EDE9FE !important;
-  color: #f7f6fa !important;
+  color: #5B21B6 !important;
 }
 
 .badge-success {
@@ -467,7 +467,6 @@ textarea:focus {
    ================================================ */
 
 .hl-loader-container {
-  background-color: rgba(247, 246, 250, 0.92) !important;
   backdrop-filter: blur(4px) !important;
 }
 
@@ -480,4 +479,30 @@ textarea:focus {
   font-family: 'Inter', system-ui, sans-serif !important;
   font-size: 0.875rem !important;
   font-weight: 500 !important;
+}
+
+/* ================================================
+   NAV SECTION LABELS — MY BUSINESS, BUSINESS SERVICES, OTHER SETTINGS
+   These are the labelled dividers inside the settings sidebar nav
+   ================================================ */
+
+/* Label text */
+.hl_nav-header-without-footer .nav-section-label,
+.hl_nav-header-without-footer [class*="section-title"],
+.hl_nav-header-without-footer [class*="nav-group"],
+.hl_nav-header .nav-section-label,
+.hl_nav-header [class*="section-title"] {
+  color: #7A748C !important;
+  font-size: 0.68rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+}
+
+/* Divider line next to the label */
+.hl_nav-header-without-footer .nav-section-label ~ hr,
+.hl_nav-header-without-footer [class*="section-title"] ~ *,
+.hl_nav-header-without-footer hr {
+  border-color: #E6E1F0 !important;
+  opacity: 1 !important;
 }
