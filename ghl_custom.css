@@ -1,0 +1,483 @@
+/* ================================================
+   GHL Dashboard — Aifyze Custom Styling
+   Brand: Aifyze | aifyze.com
+   Primary: #7C3AED  |  Accent: #F97066
+   ================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ── Design Tokens ── */
+:root {
+  --brand:          #F7F6FA;
+  --brand-dark:     #F7F6FA;
+  --brand-light:    #EDE9FE;
+  --coral:          #F97066;
+  --coral-dark:     #EF5A4F;
+  --sidebar-bg:     #F7F6FA;
+  --sidebar-hover:  rgba(124, 58, 237, 0.1);
+  --sidebar-active: #F7F6FA;
+  --sidebar-border: #E6E1F0;
+  --sidebar-muted:  #7A748C;
+  --sidebar-subtle: rgba(124, 58, 237, 0.06);
+  --content-bg:     #F7F6FA;
+  --card-bg:        #FCFBFF;
+  --border:         #E6E1F0;
+  --text-primary:   #1A1625;
+  --text-secondary: #4A4458;
+  --text-muted:     #7A748C;
+}
+
+/* ================================================
+   GLOBAL FONT
+   ================================================ */
+body,
+.page-wrapper,
+.lead-connector,
+.hl_header,
+.topbar,
+.card,
+.form-control,
+.btn {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+}
+
+/* ================================================
+   SIDEBAR — .lead-connector (GHL v2 sidebar root)
+   ================================================ */
+
+.lead-connector {
+  background-color: #F7F6FA !important;
+  border-right: 1px solid #E6E1F0 !important;
+}
+
+/* ── Location Switcher ── */
+#location-switcher-sidbar-v2 {
+  background-color: rgba(124, 58, 237, 0.08) !important;
+  border-radius: 8px !important;
+  transition: background-color 0.15s ease !important;
+}
+
+#location-switcher-sidbar-v2:hover {
+  background-color: rgba(124, 58, 237, 0.15) !important;
+}
+
+.hl_switcher-loc-name {
+  color: #161A25 !important;
+  font-weight: 600 !important;
+  font-size: 0.8rem !important;
+}
+
+.hl_switcher-loc-city {
+  color: #4A4458 !important;
+  font-size: 0.7rem !important;
+}
+
+.switcher-caret-holder {
+  color: #7A748C !important;
+}
+
+/* ── Search Bar ── */
+#globalSearchOpener {
+  background-color: #FCFBFF !important;
+  border: 1px solid #E6E1F0 !important;
+  border-radius: 6px !important;
+  transition: background-color 0.15s ease !important;
+}
+
+#globalSearchOpener:hover {
+  border-color: #7C3AED !important;
+  background-color: #ffffff !important;
+}
+
+.search-placeholder {
+  color: #7A748C !important;
+}
+
+.search-icon {
+  color: #7A748C !important;
+}
+
+.search-shortcut {
+  background-color: #E6E1F0 !important;
+  color: #4A4458 !important;
+  border-radius: 4px !important;
+}
+
+/* ── Quick Actions Button ── */
+#quickActions {
+  background-color: rgba(124, 58, 237, 0.1) !important;
+  border-radius: 6px !important;
+  transition: background-color 0.15s ease !important;
+}
+
+#quickActions:hover {
+  background-color: rgba(124, 58, 237, 0.2) !important;
+}
+
+/* ── Nav Links — Default (inactive) ── */
+/* Do NOT set opacity here — GHL's Tailwind `opacity-70` on the <a> already handles dimming.
+   Setting it again dims the whole element including text and makes it invisible. */
+.hl_nav-header a,
+.hl_nav-settings a {
+  color: #161A25 !important;
+  border-radius: 6px !important;
+  transition: background-color 0.15s ease !important;
+}
+
+/* ── Nav Titles (text span inside each link) ── */
+.hl_nav-header a .nav-title,
+.hl_nav-settings a .nav-title,
+.hl_nav-header a .hl_text-overflow,
+.hl_nav-settings a .hl_text-overflow {
+  color: #161A25 !important;
+}
+
+/* ── Nav Links — Hover ── */
+.hl_nav-header a:hover,
+.hl_nav-settings a:hover {
+  background-color: rgba(124, 58, 237, 0.1) !important;
+  opacity: 1 !important;
+}
+
+/* ── Nav Links — Active ── */
+.hl_nav-header a.active,
+.hl_nav-header a.exact-active {
+  background-color: #7C3AED !important;
+  opacity: 1 !important;
+}
+
+/* ── Active link text must stay white on purple bg ── */
+.hl_nav-header a.active .nav-title,
+.hl_nav-header a.active .hl_text-overflow,
+.hl_nav-header a.exact-active .nav-title,
+.hl_nav-header a.exact-active .hl_text-overflow {
+  color: #ffffff !important;
+}
+
+/* ── Nav Title Text ── */
+.nav-title {
+  color: inherit !important;
+}
+
+/* ── Nav Section Divider ── */
+.divider p {
+  border-color: #E6E1F0 !important;
+}
+
+/* ================================================
+   MAIN HEADER
+   ================================================ */
+
+.topbar,
+.hl_header,
+header.navbar {
+  background: #F7F6FA !important;
+  border-bottom: 1px solid #E6E1F0 !important;
+}
+
+.topbar .nav-link,
+.topbar .navbar-text,
+.hl_header a,
+.hl_header span {
+  color: #161A25 !important;
+}
+
+.topbar .nav-link:hover,
+.hl_header a:hover {
+  color: #7C3AED !important;
+}
+
+/* ================================================
+   QUICK ACTION BUTTONS
+   ================================================ */
+
+.quick-actions .btn,
+.quick-action-btn,
+.hl_quick-actions button {
+  background-color: #7C3AED !important;
+  border-color: #7C3AED !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.quick-actions .btn:hover,
+.quick-action-btn:hover,
+.hl_quick-actions button:hover {
+  background-color: #6D28D9 !important;
+  border-color: #6D28D9 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.35) !important;
+}
+
+/* ================================================
+   PAGE CONTENT AREA
+   ================================================ */
+
+.page-wrapper {
+  background-color: #F7F6FA !important;
+}
+
+/* ================================================
+   CARDS
+   ================================================ */
+
+.card {
+  border: 1px solid #E6E1F0 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 1px 3px rgba(26, 22, 37, 0.04) !important;
+  overflow: hidden;
+}
+
+.card .card-header,
+.card-header {
+  background-color: #FCFBFF !important;
+  border-bottom: 1px solid #E6E1F0 !important;
+  padding: 14px 20px !important;
+}
+
+.card .card-header h4,
+.card .card-header h5,
+.card .card-header .card-title {
+  color: #1A1625 !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+}
+
+.card .card-header a,
+.card-header a {
+  color: #F7F6FA !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  transition: color 0.15s ease !important;
+}
+
+.card .card-header a:hover,
+.card-header a:hover {
+  color: #F7F6FA !important;
+  text-decoration: underline !important;
+}
+
+.card .card-body {
+  padding: 20px !important;
+}
+
+/* ================================================
+   LOADING ANIMATION
+   ================================================ */
+
+.spinner-border,
+.loading-spinner,
+.hl-loading {
+  color: #7C3AED !important;
+  border-color: #7C3AED !important;
+  border-right-color: transparent !important;
+}
+
+.nprogress .bar,
+#nprogress .bar {
+  background-color: #7C3AED !important;
+  height: 3px !important;
+}
+
+.nprogress .peg,
+#nprogress .peg {
+  box-shadow: 0 0 10px #7C3AED, 0 0 5px #7C3AED !important;
+}
+
+/* ================================================
+   TABLES
+   ================================================ */
+
+.table thead th {
+  background-color: #F0ECF8 !important;
+  color: #4A4458 !important;
+  font-weight: 600 !important;
+  font-size: 0.8rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+  border-bottom: 2px solid #E6E1F0 !important;
+  padding: 12px 16px !important;
+}
+
+.table tbody td {
+  padding: 12px 16px !important;
+  border-bottom: 1px solid #F0ECF8 !important;
+  color: #1A1625 !important;
+  vertical-align: middle !important;
+}
+
+.table tbody tr:hover {
+  background-color: #F7F6FA !important;
+}
+
+/* ================================================
+   FORM INPUTS
+   ================================================ */
+
+/* .form-control,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea,
+select.form-control {
+  border: 1px solid #E6E1F0 !important;
+  border-radius: 6px !important;
+  padding: 8px 12px !important;
+  font-size: 0.875rem !important;
+  color: #1A1625 !important;
+  background-color: #ffffff !important;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease !important;
+}
+
+.form-control:focus,
+input:focus,
+textarea:focus {
+  border-color: #f7f7fa !important;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.12) !important;
+  outline: none !important;
+} */
+
+/* ================================================
+   PRIMARY BUTTONS
+   ================================================ */
+
+.btn-primary,
+.btn-blue {
+  background-color: #7C3AED !important;
+  border-color: #7C3AED !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-blue:hover {
+  background-color: #6D28D9 !important;
+  border-color: #6D28D9 !important;
+}
+
+/* ================================================
+   BADGES AND TAGS
+   ================================================ */
+
+.badge,
+.tag,
+.label {
+  border-radius: 20px !important;
+  padding: 4px 10px !important;
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.02em !important;
+}
+
+.badge-primary {
+  background-color: #EDE9FE !important;
+  color: #f7f6fa !important;
+}
+
+.badge-success {
+  background-color: #dcfce7 !important;
+  color: #166534 !important;
+}
+
+.badge-warning {
+  background-color: #fef3c7 !important;
+  color: #92400e !important;
+}
+
+.badge-danger {
+  background-color: #FEE5E3 !important;
+  color: #C0392B !important;
+}
+.hl_header --agency {
+  background-color: #F7F6FA !important;
+  border-bottom: 1px solid #E6E1F0 !important;
+}
+
+/* ================================================
+   SETTINGS SIDEBAR — .hl_nav-header-without-footer
+   (Settings pages use this instead of .hl_nav-header)
+   ================================================ */
+
+/* Back button */
+#backButtonv2 {
+  color: #161A25 !important;
+  background-color: rgba(124, 58, 237, 0.08) !important;
+  border-radius: 6px !important;
+  transition: background-color 0.15s ease !important;
+}
+
+#backButtonv2:hover {
+  background-color: rgba(124, 58, 237, 0.15) !important;
+  color: #7C3AED !important;
+}
+
+#backButtonv2 i {
+  color: inherit !important;
+}
+
+/* "Settings" section heading */
+.menu-title {
+  color: #7A748C !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+}
+
+/* Nav links — inactive */
+.hl_nav-header-without-footer a {
+  color: #161A25 !important;
+  border-radius: 6px !important;
+  transition: background-color 0.15s ease !important;
+}
+
+/* Nav title spans inside settings links */
+.hl_nav-header-without-footer a .nav-title,
+.hl_nav-header-without-footer a .hl_text-overflow,
+.hl_nav-header-without-footer a .hl_force-block {
+  color: #161A25 !important;
+}
+
+/* Nav links — hover */
+.hl_nav-header-without-footer a:hover {
+  background-color: rgba(124, 58, 237, 0.1) !important;
+  opacity: 1 !important;
+}
+
+/* Nav links — active */
+.hl_nav-header-without-footer a.active,
+.hl_nav-header-without-footer a.exact-active {
+  background-color: #7C3AED !important;
+  opacity: 1 !important;
+}
+
+/* Active link text stays white */
+.hl_nav-header-without-footer a.active .nav-title,
+.hl_nav-header-without-footer a.active .hl_text-overflow,
+.hl_nav-header-without-footer a.active .hl_force-block,
+.hl_nav-header-without-footer a.exact-active .nav-title,
+.hl_nav-header-without-footer a.exact-active .hl_text-overflow,
+.hl_nav-header-without-footer a.exact-active .hl_force-block {
+  color: #ffffff !important;
+}
+
+/* ================================================
+   LOADER — .hl-loader-container / .lds-ring
+   ================================================ */
+
+.hl-loader-container {
+  background-color: rgba(247, 246, 250, 0.92) !important;
+  backdrop-filter: blur(4px) !important;
+}
+
+.lds-ring div {
+  border-color: #7C3AED transparent transparent transparent !important;
+}
+
+.hl-loader-info {
+  color: #4A4458 !important;
+  font-family: 'Inter', system-ui, sans-serif !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+}
