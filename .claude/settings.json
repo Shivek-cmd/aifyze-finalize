@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(domain:wattsgroup.in)",
       "WebFetch(domain:wattscommunity.in)",
-      "WebFetch(domain:riteshwatts.com)"
+      "WebFetch(domain:riteshwatts.com)",
+      "WebFetch(domain:marketplace.gohighlevel.com)"
     ],
     "additionalDirectories": [
       "d:\\Watts Company\\aifyze"

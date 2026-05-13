@@ -800,7 +800,7 @@
 |-----|-------|
 | title | 5 Signs Your Business Needs AI Automation Right Now \| Aifyze Blog |
 | description | From bottlenecked operations to missed leads, these five indicators tell you it is time to integrate AI into your workflows. |
-| keywords | — |
+| keywords | signs your business needs AI automation, business AI automation, when to automate your business, AI for small business, workflow automation checklist, manual process automation, AI automation benefits, business bottlenecks AI, repetitive task automation, AI consulting Mississauga, Aifyze |
 | canonical | https://aifyze.com/blog/5-signs-your-business-needs-ai-automation |
 | og:title | 5 Signs Your Business Needs AI Automation Right Now \| Aifyze Blog |
 | og:description | From bottlenecked operations to missed leads, these five indicators tell you it is time to integrate AI into your workflows. |
