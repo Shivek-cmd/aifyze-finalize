@@ -51,6 +51,7 @@ This guide covers everything needed to write and publish a new blog post: conten
 | 9 | `/Blog9/` | Why Hiring "AI Employees" Will Change the Way You Think About Your Org Chart | Business Growth | April 22, 2026 | 8 min | `/blog/ai-employees-org-chart-digital-labor` |
 | 10 | `/Blog10/` | How to Use AI Lead Generation Automation to Grow Your Coaching Practice (Without the Spam) | Industry Insights | April 24, 2026 | 8 min | `/blog/ai-lead-generation-automation-coaching-practice` |
 | 11 | `/Blog11/` | 10 Reasons Your AI Workflow Automation Isn't Showing ROI (And How to Fix It) | Business Growth | April 28, 2026 | 10 min | `/blog/why-ai-workflow-automation-isnt-showing-roi` |
+| 12 | `/Blog12/` | Beyond the Lead Factory: Why "More" Is Your 2026 Revenue Killer | Business Growth | May 13, 2026 | 8 min | `/blog/beyond-lead-factory-revenue-intelligence-2026` |
 
 ---
 
