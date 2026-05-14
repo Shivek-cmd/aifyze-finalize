@@ -1,0 +1,905 @@
+<!-- ═══════════ HERO ═══════════ -->
+<section class="industries-hero">
+    <div class="industries-hero__bg">
+        <img src="{{custom_values.aifyze_industries_hero}}" alt="AI automation solutions for every industry" loading="eager">
+    </div>
+    <div class="container">
+        <div class="reveal">
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span class="separator">/</span>
+                <span class="current">Industries We Serve</span>
+            </nav>
+            <p class="label" style="color:rgba(252,251,255,.6);">AI Solutions Built For You</p>
+            <h1>Industries<br>We Serve</h1>
+            <p>Whether you're a salon, a law firm, or a restaurant &mdash; we have AI solutions built for your business type.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ═══════════ INDUSTRIES FEATURE ═══════════ -->
+<section class="ind-feature">
+    <div class="container">
+
+        <!-- ── Tab Navigation ── -->
+        <div class="ind-tabs-wrap reveal">
+            <nav class="ind-tabs" role="tablist" aria-label="Select your industry">
+                <button class="ind-tab active" role="tab" aria-selected="true" aria-controls="panel-real-estate" data-target="panel-real-estate">
+                    <svg class="ind-tab__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Real Estate
+                </button>
+                <button class="ind-tab" role="tab" aria-selected="false" aria-controls="panel-ecommerce" data-target="panel-ecommerce">
+                    <svg class="ind-tab__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                    E-Commerce
+                </button>
+                <button class="ind-tab" role="tab" aria-selected="false" aria-controls="panel-coaching" data-target="panel-coaching">
+                    <svg class="ind-tab__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                    Coaching
+                </button>
+                <button class="ind-tab" role="tab" aria-selected="false" aria-controls="panel-professional" data-target="panel-professional">
+                    <svg class="ind-tab__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                    Pro Services
+                </button>
+                <button class="ind-tab" role="tab" aria-selected="false" aria-controls="panel-restaurants" data-target="panel-restaurants">
+                    <svg class="ind-tab__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
+                    Restaurants
+                </button>
+                <button class="ind-tab" role="tab" aria-selected="false" aria-controls="panel-fitness" data-target="panel-fitness">
+                    <svg class="ind-tab__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 6.5h11"/><path d="M6.5 17.5h11"/><path d="M3 9.5V6a1 1 0 0 1 1-1h1.5"/><path d="M3 14.5V18a1 1 0 0 0 1 1h1.5"/><path d="M21 9.5V6a1 1 0 0 0-1-1h-1.5"/><path d="M21 14.5V18a1 1 0 0 1-1 1h-1.5"/></svg>
+                    Fitness
+                </button>
+                <button class="ind-tab" role="tab" aria-selected="false" aria-controls="panel-medical" data-target="panel-medical">
+                    <svg class="ind-tab__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6h0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6h0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg>
+                    Medical
+                </button>
+            </nav>
+        </div>
+
+        <!-- ── Panels ── -->
+        <div class="ind-panels">
+
+            <!-- ════════════ REAL ESTATE ════════════ -->
+            <div class="ind-panel active" id="panel-real-estate" role="tabpanel">
+                <article class="ind-card reveal">
+                    <div class="ind-card__hero">
+                        <div class="ind-card__visual">
+                            <img src="{{custom_values.aifyze_ind_real_estate}}" alt="Real estate AI automation solutions" loading="lazy">
+                            <span class="ind-card__badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                                Real Estate Agents
+                            </span>
+                            <span class="ind-card__counter">01&nbsp;/&nbsp;07</span>
+                        </div>
+                        <div class="ind-card__hook-wrap">
+                            <div class="ind-card__hook-meta">
+                                <span class="ind-card__num">#1</span>
+                                <span class="ind-card__rule" aria-hidden="true"></span>
+                                <span class="ind-card__cat">Real Estate Agents</span>
+                            </div>
+                            <blockquote class="ind-card__hook">
+                                &ldquo;Every unanswered call is a deal walking out the door.&rdquo;
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="ind-card__analysis">
+                        <div class="ind-pain">
+                            <p class="ind-col-eyebrow ind-eyebrow--pain">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
+                                Where It Hurts
+                            </p>
+                            <p class="ind-col-intro">Agents lose more deals to slow follow-up than to bad listings. Here&rsquo;s where the pipeline actually leaks.</p>
+                            <ul class="ind-pain-list">
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Hot leads go cold in minutes</span>
+                                    <p>9pm enquiry, 10am reply &mdash; buyer already toured with someone else.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Missed calls = missed deals</span>
+                                    <p>30&ndash;40% of agent calls go to voicemail and never get returned.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Admin eats the selling day</span>
+                                    <p>CRM data entry, doc chasing, viewing scheduling &mdash; hours every day.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Pipelines stall in silence</span>
+                                    <p>Deals rot in &lsquo;nurture&rsquo; with no one nudging them forward.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">No after-hours coverage</span>
+                                    <p>Evenings and weekends &mdash; peak buyer time &mdash; go unanswered.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Manual follow-up forgotten</span>
+                                    <p>Day-3, day-7, day-14 touches almost never happen consistently.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ind-deploy">
+                            <p class="ind-col-eyebrow ind-eyebrow--deploy">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+                                What We Deploy
+                            </p>
+                            <p class="ind-col-intro">We deploy a 24/7 acquisition layer that catches every lead, qualifies it instantly and keeps deals moving.</p>
+                            <ul class="ind-deploy-list">
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>24/7 AI voice agent</strong><p>Answers every call, qualifies and books viewings &mdash; even at 2am.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Instant SMS + email reply</strong><p>First touch in under 60 seconds on every portal enquiry.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Auto CRM enrichment</strong><p>Leads tagged, scored and pushed in under two minutes.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Viewing scheduler</strong><p>Two-way calendar sync with reminders to cut no-shows.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Stalled-deal radar</strong><p>Pipeline dashboard flags deals that haven&rsquo;t moved in X days.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Multi-step nurture</strong><p>Personalised drip across SMS, email and WhatsApp on autopilot.</p></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ind-metrics">
+                        <div class="ind-metrics__header">
+                            <span class="ind-metrics__eyebrow">The Numbers, in 60 Days</span>
+                            <span class="ind-metrics__line" aria-hidden="true"></span>
+                            <span class="ind-metrics__badge">Client Average</span>
+                        </div>
+                        <div class="ind-metrics__row">
+                            <div class="ind-metric"><span class="ind-metric__val">60%</span><span class="ind-metric__lbl">less manual admin in 30 days</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">3&times;</span><span class="ind-metric__lbl">qualified leads booked weekly</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">&lt;2 min</span><span class="ind-metric__lbl">first-touch response, 24/7</span></div>
+                        </div>
+                    </div>
+                <div class="ind-cta">
+                    <div class="ind-cta__copy">
+                        <h3>Ready to see this running in <em>your</em> real estate business?</h3>
+                        <p>30-minute audit. We map the leaks, show you the playbook, and tell you the realistic 60-day result. No pitch.</p>
+                    </div>
+                    <a href="/contact" class="ind-cta__btn">
+                        <span>Book your free AI audit</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+                </article>
+            </div><!-- /panel-real-estate -->
+
+            <!-- ════════════ E-COMMERCE ════════════ -->
+            <div class="ind-panel" id="panel-ecommerce" role="tabpanel">
+                <article class="ind-card reveal">
+                    <div class="ind-card__hero">
+                        <div class="ind-card__visual">
+                            <img src="{{custom_values.aifyze_ind_ecommerce}}" alt="E-commerce AI automation solutions" loading="lazy">
+                            <span class="ind-card__badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                                E-Commerce Stores
+                            </span>
+                            <span class="ind-card__counter">02&nbsp;/&nbsp;07</span>
+                        </div>
+                        <div class="ind-card__hook-wrap">
+                            <div class="ind-card__hook-meta">
+                                <span class="ind-card__num">#2</span>
+                                <span class="ind-card__rule" aria-hidden="true"></span>
+                                <span class="ind-card__cat">E-Commerce Stores</span>
+                            </div>
+                            <blockquote class="ind-card__hook">
+                                &ldquo;The cart isn&rsquo;t abandoned. The follow-up is.&rdquo;
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="ind-card__analysis">
+                        <div class="ind-pain">
+                            <p class="ind-col-eyebrow ind-eyebrow--pain">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
+                                Where It Hurts
+                            </p>
+                            <p class="ind-col-intro">Most stores don&rsquo;t have a traffic problem &mdash; they have a follow-through problem. Here&rsquo;s where the revenue leaks.</p>
+                            <ul class="ind-pain-list">
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Carts vanish without recovery</span>
+                                    <p>60&ndash;70% abandonment, with one tired email sent six hours late.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Support tickets pile up</span>
+                                    <p>Same questions every day &mdash; order status, returns, sizing, restock.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Slow reply, lost sale</span>
+                                    <p>Pre-purchase questions go cold while the buyer scrolls a competitor.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Repeat customers slip away</span>
+                                    <p>First-time buyers never re-engaged with the right offer.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Reviews never asked for</span>
+                                    <p>Post-purchase silence &mdash; no review prompt, no UGC, no proof.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Inventory questions stall</span>
+                                    <p>&lsquo;Is this back in stock?&rsquo; goes unanswered across DMs and chat.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ind-deploy">
+                            <p class="ind-col-eyebrow ind-eyebrow--deploy">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+                                What We Deploy
+                            </p>
+                            <p class="ind-col-intro">We deploy a recovery + retention engine that turns missed sales into revenue &mdash; without hiring a single extra person.</p>
+                            <ul class="ind-deploy-list">
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Multi-touch cart recovery</strong><p>SMS + email sequences within minutes, with smart discount tiers.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>AI support concierge</strong><p>Handles 70%+ of tickets across web, WhatsApp and Instagram.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Pre-sale chat closer</strong><p>Answers product questions and recovers hesitant buyers in real time.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Post-purchase journey</strong><p>Segmented cross-sell, reorder and review flows &mdash; fully automated.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Win-back campaigns</strong><p>Lapsed buyers re-engaged based on RFM and product affinity.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Restock + back-in-stock alerts</strong><p>Auto-notify interested customers the moment SKUs return.</p></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ind-metrics">
+                        <div class="ind-metrics__header">
+                            <span class="ind-metrics__eyebrow">The Numbers, in 90 Days</span>
+                            <span class="ind-metrics__line" aria-hidden="true"></span>
+                            <span class="ind-metrics__badge">Client Average</span>
+                        </div>
+                        <div class="ind-metrics__row">
+                            <div class="ind-metric"><span class="ind-metric__val">15&ndash;25%</span><span class="ind-metric__lbl">abandoned cart recovery rate</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">&lt;60s</span><span class="ind-metric__lbl">support response, no extra staff</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">+40%</span><span class="ind-metric__lbl">repeat purchases in 90 days</span></div>
+                        </div>
+                    </div>
+                <div class="ind-cta">
+                    <div class="ind-cta__copy">
+                        <h3>Ready to see this running in <em>your</em> e-commerce store?</h3>
+                        <p>30-minute audit. We map the leaks, show you the playbook, and tell you the realistic 90-day result. No pitch.</p>
+                    </div>
+                    <a href="/contact" class="ind-cta__btn">
+                        <span>Book your free AI audit</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+                </article>
+            </div><!-- /panel-ecommerce -->
+
+            <!-- ════════════ COACHING ════════════ -->
+            <div class="ind-panel" id="panel-coaching" role="tabpanel">
+                <article class="ind-card reveal">
+                    <div class="ind-card__hero">
+                        <div class="ind-card__visual">
+                            <img src="{{custom_values.aifyze_ind_coaching}}" alt="Coaching and consulting AI automation" loading="lazy">
+                            <span class="ind-card__badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                                Coaching &amp; Consulting
+                            </span>
+                            <span class="ind-card__counter">03&nbsp;/&nbsp;07</span>
+                        </div>
+                        <div class="ind-card__hook-wrap">
+                            <div class="ind-card__hook-meta">
+                                <span class="ind-card__num">#3</span>
+                                <span class="ind-card__rule" aria-hidden="true"></span>
+                                <span class="ind-card__cat">Coaching &amp; Consulting</span>
+                            </div>
+                            <blockquote class="ind-card__hook">
+                                &ldquo;Discovery calls don&rsquo;t close themselves. Systems do.&rdquo;
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="ind-card__analysis">
+                        <div class="ind-pain">
+                            <p class="ind-col-eyebrow ind-eyebrow--pain">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
+                                Where It Hurts
+                            </p>
+                            <p class="ind-col-intro">Coaches live and die by the next discovery call &mdash; but the booking, nurture and onboarding flow is usually held together by sticky notes.</p>
+                            <ul class="ind-pain-list">
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Bookings are inconsistent</span>
+                                    <p>Feast-and-famine months because no one nurtures the &lsquo;maybe laters&rsquo;.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Discovery call no-shows</span>
+                                    <p>30&ndash;50% don&rsquo;t show because reminders aren&rsquo;t doing the work.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Proposals go silent</span>
+                                    <p>Sent and forgotten &mdash; no timed follow-up, no nudge, no close.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Onboarding feels clunky</span>
+                                    <p>Clients chase you for the welcome pack, contract and calendar invite.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Forecasting is guesswork</span>
+                                    <p>No clear MRR view, no pipeline truth, no churn early warning.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Lead magnets don't convert</span>
+                                    <p>Opt-ins downloaded and ghosted &mdash; no nurture sequence behind them.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ind-deploy">
+                            <p class="ind-col-eyebrow ind-eyebrow--deploy">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+                                What We Deploy
+                            </p>
+                            <p class="ind-col-intro">We deploy a full revenue engine that books, nurtures, onboards and forecasts &mdash; so you spend the week coaching, not chasing.</p>
+                            <ul class="ind-deploy-list">
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Instant booking + reminders</strong><p>Two-step SMS + email reminders that lift show-up rates 30&ndash;40%.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Lead magnet &rarr; nurture</strong><p>Every opt-in dropped into a value-first sequence with a soft offer.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Proposal autopilot</strong><p>Timed follow-ups at 24h, 72h and 7d, plus open-tracking pings.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>One-click onboarding</strong><p>Contract, welcome pack, kickoff call &mdash; all triggered on payment.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Client portal + check-ins</strong><p>Automated weekly check-ins keep retention and referrals high.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Revenue dashboard</strong><p>Live MRR, pipeline, forecast and at-risk clients on one screen.</p></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ind-metrics">
+                        <div class="ind-metrics__header">
+                            <span class="ind-metrics__eyebrow">The Numbers, in 60 Days</span>
+                            <span class="ind-metrics__line" aria-hidden="true"></span>
+                            <span class="ind-metrics__badge">Client Average</span>
+                        </div>
+                        <div class="ind-metrics__row">
+                            <div class="ind-metric"><span class="ind-metric__val">+40%</span><span class="ind-metric__lbl">show-up rate on calls</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">20 min</span><span class="ind-metric__lbl">onboarding (was 3 hours)</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">2&times;</span><span class="ind-metric__lbl">proposals followed in 48h</span></div>
+                        </div>
+                    </div>
+                <div class="ind-cta">
+                    <div class="ind-cta__copy">
+                        <h3>Ready to see this running in <em>your</em> coaching practice?</h3>
+                        <p>30-minute audit. We map the leaks, show you the playbook, and tell you the realistic 60-day result. No pitch.</p>
+                    </div>
+                    <a href="/contact" class="ind-cta__btn">
+                        <span>Book your free AI audit</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+                </article>
+            </div><!-- /panel-coaching -->
+
+            <!-- ════════════ PROFESSIONAL SERVICES ════════════ -->
+            <div class="ind-panel" id="panel-professional" role="tabpanel">
+                <article class="ind-card reveal">
+                    <div class="ind-card__hero">
+                        <div class="ind-card__visual">
+                            <img src="{{custom_values.aifyze_ind_professional}}" alt="Professional services AI automation" loading="lazy">
+                            <span class="ind-card__badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                                Professional Services
+                            </span>
+                            <span class="ind-card__counter">04&nbsp;/&nbsp;07</span>
+                        </div>
+                        <div class="ind-card__hook-wrap">
+                            <div class="ind-card__hook-meta">
+                                <span class="ind-card__num">#4</span>
+                                <span class="ind-card__rule" aria-hidden="true"></span>
+                                <span class="ind-card__cat">Professional Services</span>
+                            </div>
+                            <blockquote class="ind-card__hook">
+                                &ldquo;First to respond wins the matter. Be first, every time.&rdquo;
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="ind-card__analysis">
+                        <div class="ind-pain">
+                            <p class="ind-col-eyebrow ind-eyebrow--pain">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
+                                Where It Hurts
+                            </p>
+                            <p class="ind-col-intro">Law firms, accountants and agencies lose business on response time and intake friction &mdash; not on price or expertise.</p>
+                            <ul class="ind-pain-list">
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Enquiries wait hours</span>
+                                    <p>By the time the partner replies, the lead is on a call elsewhere.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Intake is a bottleneck</span>
+                                    <p>Manual forms and document chasing add 3&ndash;5 days to every matter.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Conflict checks slow everything</span>
+                                    <p>Manual checks delay engagement and frustrate new clients.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Invoices age, AR balloons</span>
+                                    <p>30/60/90 days outstanding &mdash; no one wants to be the chaser.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Clients chase for updates</span>
+                                    <p>Status emails go forgotten; clients lose confidence quickly.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">No after-hours capture</span>
+                                    <p>Evening and weekend enquiries hit voicemail and disappear.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ind-deploy">
+                            <p class="ind-col-eyebrow ind-eyebrow--deploy">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+                                What We Deploy
+                            </p>
+                            <p class="ind-col-intro">We deploy an intake + client-experience layer that makes a 5-person firm feel like a 50-person firm &mdash; and gets paid faster.</p>
+                            <ul class="ind-deploy-list">
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Instant enquiry bot</strong><p>Sub-2-minute reply on web, phone and email &mdash; 24/7.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Smart intake link</strong><p>Captures matter type, runs conflict checks, files docs automatically.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Automated AR rescue</strong><p>Polite reminders at 7/14/30 days with payment links and escalation.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Milestone client updates</strong><p>&lsquo;We filed today&rsquo;, &lsquo;court date confirmed&rsquo; &mdash; sent on triggers.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Document collection bot</strong><p>Chases missing docs across email + SMS until everything&rsquo;s in.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>After-hours AI receptionist</strong><p>Captures urgent enquiries and books consults overnight.</p></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ind-metrics">
+                        <div class="ind-metrics__header">
+                            <span class="ind-metrics__eyebrow">The Numbers, in 60 Days</span>
+                            <span class="ind-metrics__line" aria-hidden="true"></span>
+                            <span class="ind-metrics__badge">Client Average</span>
+                        </div>
+                        <div class="ind-metrics__row">
+                            <div class="ind-metric"><span class="ind-metric__val">&lt;2 min</span><span class="ind-metric__lbl">first response, 24/7</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">&minus;70%</span><span class="ind-metric__lbl">intake processing time</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">&minus;35%</span><span class="ind-metric__lbl">outstanding invoices in 60d</span></div>
+                        </div>
+                    </div>
+                <div class="ind-cta">
+                    <div class="ind-cta__copy">
+                        <h3>Ready to see this running in <em>your</em> professional firm?</h3>
+                        <p>30-minute audit. We map the leaks, show you the playbook, and tell you the realistic 60-day result. No pitch.</p>
+                    </div>
+                    <a href="/contact" class="ind-cta__btn">
+                        <span>Book your free AI audit</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+                </article>
+            </div><!-- /panel-professional -->
+
+            <!-- ════════════ RESTAURANTS ════════════ -->
+            <div class="ind-panel" id="panel-restaurants" role="tabpanel">
+                <article class="ind-card reveal">
+                    <div class="ind-card__hero">
+                        <div class="ind-card__visual">
+                            <img src="{{custom_values.aifyze_ind_restaurants}}" alt="Restaurant and food AI automation" loading="lazy">
+                            <span class="ind-card__badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
+                                Restaurants &amp; Food
+                            </span>
+                            <span class="ind-card__counter">05&nbsp;/&nbsp;07</span>
+                        </div>
+                        <div class="ind-card__hook-wrap">
+                            <div class="ind-card__hook-meta">
+                                <span class="ind-card__num">#5</span>
+                                <span class="ind-card__rule" aria-hidden="true"></span>
+                                <span class="ind-card__cat">Restaurants &amp; Food</span>
+                            </div>
+                            <blockquote class="ind-card__hook">
+                                &ldquo;Empty seats are loud. Make sure nobody books them then ghosts.&rdquo;
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="ind-card__analysis">
+                        <div class="ind-pain">
+                            <p class="ind-col-eyebrow ind-eyebrow--pain">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
+                                Where It Hurts
+                            </p>
+                            <p class="ind-col-intro">Margins live in the gap between a full Saturday and a half-empty Tuesday. Phones, no-shows and forgotten regulars quietly cost you both.</p>
+                            <ul class="ind-pain-list">
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">No-shows bleed revenue</span>
+                                    <p>A Saturday 4-top no-show is $200+ lost &mdash; with no warning to fill it.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Phones overflow at peak</span>
+                                    <p>Staff stuck on &lsquo;are you open Sunday?&rsquo; calls instead of seating guests.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">After-hours bookings missed</span>
+                                    <p>Most reservation intent happens after the host stand goes home.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Regulars forgotten</span>
+                                    <p>The Friday couple stops coming &mdash; and no one notices for months.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Reviews don't get asked for</span>
+                                    <p>Happy guests leave, never prompted, never become 5-star reviews.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Group enquiries delayed</span>
+                                    <p>Private hire and large bookings lost to slower replies.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ind-deploy">
+                            <p class="ind-col-eyebrow ind-eyebrow--deploy">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+                                What We Deploy
+                            </p>
+                            <p class="ind-col-intro">We deploy a front-of-house automation layer that fills seats, prevents no-shows and brings regulars back.</p>
+                            <ul class="ind-deploy-list">
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>After-hours AI phone agent</strong><p>Takes bookings, answers FAQs and handles modifications 24/7.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Two-step no-show defence</strong><p>Confirmation 24h out, reminder 2h out &mdash; cuts no-shows 30&ndash;50%.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Instant waitlist fill</strong><p>Cancellations auto-offered to the waitlist within seconds.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Loyalty re-engagement</strong><p>Lapsed regulars detected and pulled back with a personal offer.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Review-growth flow</strong><p>Post-visit prompts that 3&times; Google reviews in 60 days.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Events + group enquiry bot</strong><p>Captures, qualifies and books private hires while you serve.</p></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ind-metrics">
+                        <div class="ind-metrics__header">
+                            <span class="ind-metrics__eyebrow">The Numbers, in 60 Days</span>
+                            <span class="ind-metrics__line" aria-hidden="true"></span>
+                            <span class="ind-metrics__badge">Client Average</span>
+                        </div>
+                        <div class="ind-metrics__row">
+                            <div class="ind-metric"><span class="ind-metric__val">&minus;30&ndash;50%</span><span class="ind-metric__lbl">no-show rate</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">+20%</span><span class="ind-metric__lbl">repeat visit rate</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">3&times;</span><span class="ind-metric__lbl">Google reviews in 60 days</span></div>
+                        </div>
+                    </div>
+                <div class="ind-cta">
+                    <div class="ind-cta__copy">
+                        <h3>Ready to see this running in <em>your</em> restaurant?</h3>
+                        <p>30-minute audit. We map the leaks, show you the playbook, and tell you the realistic 60-day result. No pitch.</p>
+                    </div>
+                    <a href="/contact" class="ind-cta__btn">
+                        <span>Book your free AI audit</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+                </article>
+            </div><!-- /panel-restaurants -->
+
+            <!-- ════════════ FITNESS ════════════ -->
+            <div class="ind-panel" id="panel-fitness" role="tabpanel">
+                <article class="ind-card reveal">
+                    <div class="ind-card__hero">
+                        <div class="ind-card__visual">
+                            <img src="{{custom_values.aifyze_ind_fitness}}" alt="Fitness and wellness AI automation" loading="lazy">
+                            <span class="ind-card__badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 6.5h11"/><path d="M6.5 17.5h11"/><path d="M3 9.5V6a1 1 0 0 1 1-1h1.5"/><path d="M3 14.5V18a1 1 0 0 0 1 1h1.5"/><path d="M21 9.5V6a1 1 0 0 0-1-1h-1.5"/><path d="M21 14.5V18a1 1 0 0 1-1 1h-1.5"/></svg>
+                                Fitness &amp; Wellness
+                            </span>
+                            <span class="ind-card__counter">06&nbsp;/&nbsp;07</span>
+                        </div>
+                        <div class="ind-card__hook-wrap">
+                            <div class="ind-card__hook-meta">
+                                <span class="ind-card__num">#6</span>
+                                <span class="ind-card__rule" aria-hidden="true"></span>
+                                <span class="ind-card__cat">Fitness &amp; Wellness</span>
+                            </div>
+                            <blockquote class="ind-card__hook">
+                                &ldquo;Coaches should coach. Not chase no-shows in DMs.&rdquo;
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="ind-card__analysis">
+                        <div class="ind-pain">
+                            <p class="ind-col-eyebrow ind-eyebrow--pain">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
+                                Where It Hurts
+                            </p>
+                            <p class="ind-col-intro">Studios grow on trial conversion and retention &mdash; but most lose both because the journey is held together by Instagram DMs.</p>
+                            <ul class="ind-pain-list">
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Trials don't convert</span>
+                                    <p>Free-week sign-ups never get a structured nurture &mdash; half ghost.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Bookings scatter everywhere</span>
+                                    <p>DMs, WhatsApp, app, front desk &mdash; coaches reconcile for hours.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Class no-shows frustrate coaches</span>
+                                    <p>Reminders are inconsistent; spots go empty, waitlists grow.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Churn arrives unannounced</span>
+                                    <p>By the time someone cancels, they&rsquo;ve been gone for weeks.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Lead enquiries reply slow</span>
+                                    <p>Instagram and Google leads cool before anyone answers.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Referrals never asked for</span>
+                                    <p>Your best members aren&rsquo;t prompted to bring friends in.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ind-deploy">
+                            <p class="ind-col-eyebrow ind-eyebrow--deploy">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+                                What We Deploy
+                            </p>
+                            <p class="ind-col-intro">We deploy a member lifecycle system that nurtures trials, automates bookings and catches churn &mdash; so coaches actually coach.</p>
+                            <ul class="ind-deploy-list">
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Trial-to-member nurture</strong><p>Day-by-day SMS + email journey with the right offer at the right moment.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>AI booking + waitlist</strong><p>One source of truth with smart waitlist auto-fill.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Class reminder stack</strong><p>Two-step reminders that cut class no-shows by 30%+.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Churn early-warning</strong><p>Attendance drops trigger a personal coach touch before cancel.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Lead reply bot</strong><p>Sub-60-second response across Instagram, web and Google.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Referral engine</strong><p>Auto-prompts your top members to refer a friend, with rewards.</p></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ind-metrics">
+                        <div class="ind-metrics__header">
+                            <span class="ind-metrics__eyebrow">The Numbers, in 90 Days</span>
+                            <span class="ind-metrics__line" aria-hidden="true"></span>
+                            <span class="ind-metrics__badge">Client Average</span>
+                        </div>
+                        <div class="ind-metrics__row">
+                            <div class="ind-metric"><span class="ind-metric__val">+35%</span><span class="ind-metric__lbl">trial conversion rate</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">&minus;80%</span><span class="ind-metric__lbl">admin time on bookings</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">+25%</span><span class="ind-metric__lbl">member lifetime value</span></div>
+                        </div>
+                    </div>
+                <div class="ind-cta">
+                    <div class="ind-cta__copy">
+                        <h3>Ready to see this running in <em>your</em> gym or studio?</h3>
+                        <p>30-minute audit. We map the leaks, show you the playbook, and tell you the realistic 90-day result. No pitch.</p>
+                    </div>
+                    <a href="/contact" class="ind-cta__btn">
+                        <span>Book your free AI audit</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+                </article>
+            </div><!-- /panel-fitness -->
+
+            <!-- ════════════ MEDICAL ════════════ -->
+            <div class="ind-panel" id="panel-medical" role="tabpanel">
+                <article class="ind-card reveal">
+                    <div class="ind-card__hero">
+                        <div class="ind-card__visual">
+                            <img src="{{custom_values.aifyze_ind_medical}}" alt="Medical and dental AI automation" loading="lazy">
+                            <span class="ind-card__badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6h0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6h0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg>
+                                Medical &amp; Dental
+                            </span>
+                            <span class="ind-card__counter">07&nbsp;/&nbsp;07</span>
+                        </div>
+                        <div class="ind-card__hook-wrap">
+                            <div class="ind-card__hook-meta">
+                                <span class="ind-card__num">#7</span>
+                                <span class="ind-card__rule" aria-hidden="true"></span>
+                                <span class="ind-card__cat">Medical &amp; Dental</span>
+                            </div>
+                            <blockquote class="ind-card__hook">
+                                &ldquo;Full chairs. Faster intake. Zero paper.&rdquo;
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="ind-card__analysis">
+                        <div class="ind-pain">
+                            <p class="ind-col-eyebrow ind-eyebrow--pain">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
+                                Where It Hurts
+                            </p>
+                            <p class="ind-col-intro">Clinics live on chair utilisation and recall &mdash; and both leak through no-shows, paper intake and missed after-hours calls.</p>
+                            <ul class="ind-pain-list">
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">No-shows waste chair time</span>
+                                    <p>Every empty 30-minute slot is unrecoverable revenue.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Paper intake drags</span>
+                                    <p>Clipboards add 15 minutes per patient; staff re-key everything.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">After-hours calls vanish</span>
+                                    <p>New-patient enquiries hit voicemail at 6:01pm and never return.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Recall lists go untouched</span>
+                                    <p>Hygiene and check-up recalls quietly stop happening.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Insurance questions stall bookings</span>
+                                    <p>Patients delay booking because they can&rsquo;t get a quick answer.</p>
+                                </li>
+                                <li class="ind-pain-item">
+                                    <span class="ind-pain-tag">Reviews scarce</span>
+                                    <p>Happy patients leave, never prompted to share their experience.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ind-deploy">
+                            <p class="ind-col-eyebrow ind-eyebrow--deploy">
+                                <span class="ind-eyebrow-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+                                What We Deploy
+                            </p>
+                            <p class="ind-col-intro">We deploy a HIPAA-aware intake + recall layer that protects chair time, digitises paperwork and captures every enquiry.</p>
+                            <ul class="ind-deploy-list">
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Two-step appointment reminders</strong><p>SMS + email at 48h and 2h with one-tap reschedule.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Digital intake on booking</strong><p>Forms sent the moment a patient books, auto-filed to PMS.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>After-hours AI agent</strong><p>Captures urgent enquiries, books new patients into the right slot.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Recall reactivation</strong><p>Lapsed patients re-engaged with personalised SMS recall flows.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Insurance + cost FAQ bot</strong><p>Answers eligibility and pricing questions instantly, 24/7.</p></div>
+                                </li>
+                                <li class="ind-deploy-item">
+                                    <span class="ind-deploy-dot" aria-hidden="true"></span>
+                                    <div class="ind-deploy-text"><strong>Review-growth automation</strong><p>Post-visit prompts that quadruple Google review volume.</p></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ind-metrics">
+                        <div class="ind-metrics__header">
+                            <span class="ind-metrics__eyebrow">The Numbers, in 60 Days</span>
+                            <span class="ind-metrics__line" aria-hidden="true"></span>
+                            <span class="ind-metrics__badge">Client Average</span>
+                        </div>
+                        <div class="ind-metrics__row">
+                            <div class="ind-metric"><span class="ind-metric__val">&minus;40&ndash;60%</span><span class="ind-metric__lbl">no-show rate</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">&minus;65%</span><span class="ind-metric__lbl">intake processing time</span></div>
+                            <div class="ind-metric"><span class="ind-metric__val">4&times;</span><span class="ind-metric__lbl">recall open rate vs calls</span></div>
+                        </div>
+                    </div>
+                <div class="ind-cta">
+                    <div class="ind-cta__copy">
+                        <h3>Ready to see this running in <em>your</em> clinic?</h3>
+                        <p>30-minute audit. We map the leaks, show you the playbook, and tell you the realistic 60-day result. No pitch.</p>
+                    </div>
+                    <a href="/contact" class="ind-cta__btn">
+                        <span>Book your free AI audit</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+                </article>
+            </div><!-- /panel-medical -->
+
+        </div><!-- /ind-panels -->
+
+        <div class="ind-more-divider" aria-hidden="true">
+            <span class="ind-more-divider__line"></span>
+            <span class="ind-more-divider__text">43+ More Industries Below</span>
+            <span class="ind-more-divider__line"></span>
+        </div>
+
+    </div><!-- /container -->
+</section>
+
+<script>
+(function () {
+    'use strict';
+    var tabs   = document.querySelectorAll('.ind-tab');
+    var panels = document.querySelectorAll('.ind-panel');
+    tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+            tabs.forEach(function (t) {
+                t.classList.remove('active');
+                t.setAttribute('aria-selected', 'false');
+            });
+            panels.forEach(function (p) { p.classList.remove('active'); });
+            tab.classList.add('active');
+            tab.setAttribute('aria-selected', 'true');
+            var target = document.getElementById(tab.getAttribute('data-target'));
+            if (target) target.classList.add('active');
+        });
+    });
+}());
+</script>
+
