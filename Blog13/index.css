@@ -147,6 +147,8 @@
     font-size: 1rem;
     line-height: 1.8;
     color: var(--body);
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 .blog-detail__article h2 {
@@ -438,6 +440,11 @@
     overflow: hidden;
 }
 
+.blog-chart svg {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 /* Workflow & Platform Tables */
 .blog-data-table-wrap {
     overflow-x: auto;
@@ -448,7 +455,8 @@
 
 .blog-data-table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     font-size: 0.9rem;
     min-width: 480px;
 }
