@@ -441,7 +441,7 @@
 /* Workflow & Platform Tables */
 .blog-data-table-wrap {
     overflow-x: auto;
-    margin: var(--sp-6) 0;
+    margin: var(--sp-3) 0;
     border-radius: var(--radius-lg);
     border: 1px solid var(--border);
 }
@@ -456,7 +456,7 @@
 .blog-data-table thead th {
     text-align: left;
     padding: var(--sp-3) var(--sp-5);
-    background: var(--color-primary);
+    background: #7C3AED;
     color: #fff;
     font-weight: 600;
     font-family: var(--font-body);
