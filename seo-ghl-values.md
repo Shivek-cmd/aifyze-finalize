@@ -27,6 +27,7 @@
 25. [Blog —  5. The 90-Day AI Roadmap: Integrate AI Without Ripping Out Your Tech Stack](#25-blog--the-90-day-ai-roadmap-integrate-ai-without-ripping-out-your-tech-stack)
 26. [Blog — 11. 10 Reasons Your AI Workflow Automation Isn't Showing ROI (And How to Fix It)](#26-blog--10-reasons-your-ai-workflow-automation-isnt-showing-roi)
 30. [Blog — 12. Beyond the Lead Factory: Why "More" Is Your 2026 Revenue Killer](#30-blog--beyond-the-lead-factory-revenue-intelligence-2026)
+32. [Industries We Serve](#32-industries-we-serve)
 
 ---
 
@@ -2169,3 +2170,99 @@ https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi
 - **Article image GHL variable:** `aifyze_blog13_ai_tech_stack_1`
 - **Internal links in article:** [Building Your AI Strategy Roadmap](/blog/ai-strategy-roadmap-small-business-guide), [5 Signs Your Business Needs AI Automation](/blog/signs-your-business-needs-ai-automation), [The 90-Day AI Roadmap](/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul), [AI Strategy Consulting](/services/ai-strategy-consulting), [Contact](/contact)
 - **TOC anchors:** `#the-hidden-tax`, `#what-is-an-ai-brain`, `#lean-ai-stack-example`, `#the-stack-you-build-next`, `#faq`
+
+---
+
+## 32. Industries We Serve
+
+**URL:** `https://aifyze.com/industries-we-serve`
+
+| Key | Value |
+|-----|-------|
+| title | Industries We Serve \| AI Automation for 60+ Business Types — Aifyze |
+| description | Battle-tested AI automation for 60+ industries — real estate, restaurants, medical, law firms, e-commerce, and more. Serving Canada & the US. |
+| keywords | AI automation by industry, AI for small business, industry-specific AI solutions, AI consulting real estate, AI for restaurants, AI for medical practices, AI for law firms, AI for e-commerce, AI for coaches, Mississauga AI consulting, Aifyze |
+| canonical | https://aifyze.com/industries-we-serve |
+| og:title | Industries We Serve \| AI Automation for 60+ Business Types — Aifyze |
+| og:description | Battle-tested AI automation playbooks scoped to your industry — real estate, e-commerce, coaching, restaurants, medical, and 55 more. |
+| og:url | https://aifyze.com/industries-we-serve |
+| og:type | website |
+| og:site_name | Aifyze |
+| og:image | {{custom_values.aifyze_industries_hero}} |
+| og:image:width | 1200 |
+| og:image:height | 630 |
+| twitter:card | summary_large_image |
+| twitter:title | Industries We Serve \| AI Automation for 60+ Business Types — Aifyze |
+| twitter:description | Battle-tested AI automation playbooks scoped to your industry — real estate, e-commerce, coaching, restaurants, medical, and 55 more. |
+| twitter:image | {{custom_values.aifyze_industries_hero}} |
+
+### Schema Markup (JSON-LD)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://aifyze.com/industries-we-serve#webpage",
+      "name": "Industries We Serve",
+      "url": "https://aifyze.com/industries-we-serve",
+      "description": "Battle-tested AI automation playbooks scoped to your industry — real estate, e-commerce, coaching, restaurants, medical, and 55 more. Aifyze serves businesses across Canada and the United States.",
+      "isPartOf": {
+        "@id": "https://aifyze.com/#website"
+      },
+      "about": {
+        "@id": "https://aifyze.com/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://aifyze.com/industries-we-serve#industries"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://aifyze.com/industries-we-serve#industries",
+      "name": "Industries Served by Aifyze",
+      "description": "AI automation playbooks across 60+ industries",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Real Estate"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "E-Commerce"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://aifyze.com/industries-we-serve#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://aifyze.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Industries We Serve",
+          "item": "https://aifyze.com/industries-we-serve"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Notes
+
+- **Page type:** Service/category landing page (not a blog post)
+- **Hero image GHL variable:** `aifyze_industries_hero`
+- **Tier 1 industries (featured panels):** Real Estate, E-Commerce, Coaching, Professional Services, Restaurants, Fitness, Medical
+- **Tier 2 industries:** 56 additional industry cards with per-industry AI playbook modals
+- **Internal links:** [AI-fy Your Business Processes](/services/ai-fy-your-business-processes), [AI Strategy Consulting](/services/ai-strategy-consulting), [Hire Your AI CEO](/services/hire-your-ai-ceo), [Contact](/contact)
+- **OG image:** Use the hero image GHL custom value — swap for a dedicated OG graphic once available

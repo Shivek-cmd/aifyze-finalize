@@ -7,7 +7,7 @@
   <div class="header__pill">
     <!-- Logo -->
     <a href="/" class="header__logo" aria-label="Aifyze Home">
-      <img src="/assets/images/logo-circle.png" alt="Aifyze" width="100" height="100">
+      <img src="{{custom_values.aifyze_logo}}" alt="Aifyze" width="100" height="100">
     </a>
 
     <!-- Desktop Nav -->
@@ -74,6 +74,9 @@
           </div>
         </li>
         <li class="header__menu-item">
+          <a href="/industries-we-serve" class="header__menu-link">Industries We Serve</a>
+        </li>
+        <li class="header__menu-item">
           <a href="/businesses-we-work-with" class="header__menu-link">Our Associations</a>
         </li>
         <li class="header__menu-item">
@@ -107,7 +110,7 @@
   <div class="header__drawer" aria-hidden="true">
     <div class="header__drawer-top">
       <a href="/" aria-label="Aifyze Home">
-        <img src="/assets/images/logo-circle.png" alt="Aifyze" width="80" height="80" style="border-radius:50%;">
+        <img src="{{custom_values.aifyze_logo}}" alt="Aifyze" width="80" height="80" style="border-radius:50%;">
       </a>
       <button class="header__drawer-close" aria-label="Close menu">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg>
@@ -148,6 +151,7 @@
           </div>
         </a>
       </div>
+      <a href="/industries-we-serve" class="header__drawer-link">Industries We Serve</a>
       <a href="/businesses-we-work-with" class="header__drawer-link">Our Associations</a>
       <a href="/blog" class="header__drawer-link">Blog</a>
       <a href="/contact" class="header__drawer-link">Contact</a>

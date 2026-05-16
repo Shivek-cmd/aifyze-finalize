@@ -1036,6 +1036,12 @@
     min-height: 360px;
 }
 
+.t2-modal__body .ind-card__visual {
+    height: 320px;
+    min-height: 320px;
+    max-height: 320px;
+}
+
 .t2-modal__body .ind-card__hook {
     font-size: clamp(1.1rem, 2vw, 1.6rem);
 }
@@ -1057,7 +1063,7 @@
     .t2-controls { flex-direction: column; align-items: flex-start; gap: var(--sp-3); }
 
     .t2-modal__body .ind-card__hero { grid-template-columns: 1fr; min-height: auto; }
-    .t2-modal__body .ind-card__visual { min-height: 200px; }
+    .t2-modal__body .ind-card__visual { height: 220px; min-height: 220px; max-height: 220px; }
     .t2-modal__body .ind-card__analysis { grid-template-columns: 1fr; }
     .t2-modal__body .ind-pain { border-right: none; border-bottom: 1.5px solid var(--border); }
     .t2-modal__body .ind-cta { flex-direction: column; align-items: flex-start; padding: var(--sp-6); }

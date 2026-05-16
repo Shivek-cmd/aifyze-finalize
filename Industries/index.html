@@ -1037,6 +1037,65 @@
         b2b:          '{{custom_values.aifyze_ind_b2b}}'
     };
 
+    var IND_IMG = {
+        plumbing:    '{{custom_values.aifyze_t2_plumbing}}',
+        hvac:        '{{custom_values.aifyze_t2_hvac}}',
+        electrical:  '{{custom_values.aifyze_t2_electrical}}',
+        landscaping: '{{custom_values.aifyze_t2_landscaping}}',
+        cleaning:    '{{custom_values.aifyze_t2_cleaning}}',
+        law:         '{{custom_values.aifyze_t2_law}}',
+        accounting:  '{{custom_values.aifyze_t2_accounting}}',
+        financial:   '{{custom_values.aifyze_t2_financial}}',
+        insurance:   '{{custom_values.aifyze_t2_insurance}}',
+        mortgage:    '{{custom_values.aifyze_t2_mortgage}}',
+        hr:          '{{custom_values.aifyze_t2_hr}}',
+        chiropractic:'{{custom_values.aifyze_t2_chiropractic}}',
+        physio:      '{{custom_values.aifyze_t2_physio}}',
+        therapy:     '{{custom_values.aifyze_t2_therapy}}',
+        nutrition:   '{{custom_values.aifyze_t2_nutrition}}',
+        medspa:      '{{custom_values.aifyze_t2_medspa}}',
+        hotels:      '{{custom_values.aifyze_t2_hotels}}',
+        bnb:         '{{custom_values.aifyze_t2_bnb}}',
+        vacation:    '{{custom_values.aifyze_t2_vacation}}',
+        catering:    '{{custom_values.aifyze_t2_catering}}',
+        venue:       '{{custom_values.aifyze_t2_venue}}',
+        boutique:    '{{custom_values.aifyze_t2_boutique}}',
+        pets:        '{{custom_values.aifyze_t2_pets}}',
+        gifts:       '{{custom_values.aifyze_t2_gifts}}',
+        homedecor:   '{{custom_values.aifyze_t2_homedecor}}',
+        sports:      '{{custom_values.aifyze_t2_sports}}',
+        autorepair:  '{{custom_values.aifyze_t2_autorepair}}',
+        dealership:  '{{custom_values.aifyze_t2_dealership}}',
+        detailing:   '{{custom_values.aifyze_t2_detailing}}',
+        roadside:    '{{custom_values.aifyze_t2_roadside}}',
+        tutoring:    '{{custom_values.aifyze_t2_tutoring}}',
+        music:       '{{custom_values.aifyze_t2_music}}',
+        martialarts: '{{custom_values.aifyze_t2_martialarts}}',
+        language:    '{{custom_values.aifyze_t2_language}}',
+        online:      '{{custom_values.aifyze_t2_online}}',
+        hairsalon:   '{{custom_values.aifyze_t2_hairsalon}}',
+        nails:       '{{custom_values.aifyze_t2_nails}}',
+        barber:      '{{custom_values.aifyze_t2_barber}}',
+        makeup:      '{{custom_values.aifyze_t2_makeup}}',
+        spa:         '{{custom_values.aifyze_t2_spa}}',
+        wedding:     '{{custom_values.aifyze_t2_wedding}}',
+        photography: '{{custom_values.aifyze_t2_photography}}',
+        dj:          '{{custom_values.aifyze_t2_dj}}',
+        partyrentals:'{{custom_values.aifyze_t2_partyrentals}}',
+        msp:         '{{custom_values.aifyze_t2_msp}}',
+        software:    '{{custom_values.aifyze_t2_software}}',
+        marketing:   '{{custom_values.aifyze_t2_marketing}}',
+        cyber:       '{{custom_values.aifyze_t2_cyber}}',
+        design:      '{{custom_values.aifyze_t2_design}}',
+        video:       '{{custom_values.aifyze_t2_video}}',
+        branding:    '{{custom_values.aifyze_t2_branding}}',
+        web:         '{{custom_values.aifyze_t2_web}}',
+        staffing:    '{{custom_values.aifyze_t2_staffing}}',
+        comclean:    '{{custom_values.aifyze_t2_comclean}}',
+        logistics:   '{{custom_values.aifyze_t2_logistics}}',
+        facilities:  '{{custom_values.aifyze_t2_facilities}}'
+    };
+
     var CAT_LABEL = {
         home:'Home Services', professional:'Professional Services',
         health:'Health &amp; Wellness', hospitality:'Hospitality',
@@ -1569,6 +1628,7 @@
     var modalBd    = document.getElementById('t2ModalBd');
     var modalClose = document.getElementById('t2ModalClose');
     var modalBody  = document.getElementById('t2ModalBody');
+    var modalShell = modal.querySelector('.t2-modal__shell');
 
     var state = {q:'', cat:'all', sort:'featured'};
 
@@ -1645,7 +1705,7 @@
 
         var pb  = PB[ind.cat];
         var lbl = CAT_LABEL[ind.cat] || ind.cat;
-        var img = CAT_IMG[ind.cat] || '';
+        var img = IND_IMG[ind.id] || CAT_IMG[ind.cat] || '';
 
         var pains = pb.pains.map(function(p) {
             return '<li class="ind-pain-item"><span class="ind-pain-tag">'+esc(p.t)+'</span><p>'+esc(p.d)+'</p></li>';
@@ -1706,6 +1766,7 @@
             + '</article>';
 
         modal.hidden = false;
+        modalShell.scrollTop = 0;
         document.body.style.overflow = 'hidden';
         modalClose.focus();
     }
