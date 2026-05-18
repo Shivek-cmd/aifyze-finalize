@@ -194,6 +194,8 @@ See `custom-values.md` for the full asset mapping.
 | 3 | 5 Signs Your Business Needs AI Automation Right Now | Business Growth | Mar 10, 2026 | `/blog/signs-your-business-needs-ai-automation` |
 | 4 | AI for Coaches and Consultants: Scale Your Practice Without Burning Out | Industry Insights | Feb 15, 2026 | `/blog/ai-for-coaches-consultants-scale-practice` |
 | 5 | The 90-Day AI Roadmap (FEATURED) | AI Strategy | Apr 10, 2026 | `/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul` |
+| 13 | The AI Tech Stack Purge: Consolidate Your 20-App Mess into One AI Brain | AI Strategy | May 14, 2026 | `/blog/ai-tech-stack-consolidation-one-ai-brain` |
+| 14 | Beyond the Chatbot: Why Your Business Needs an AI Org Chart in 2026 | AI Strategy | May 18, 2026 | `/blog/ai-org-chart-ai-employees-teams-2026` |
 
 ### Blog Categories
 `AI Automation` | `AI Strategy` | `Business Growth` | `Industry Insights`

@@ -2,10 +2,12 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "Bash(mkdir \"d:\\\\Watts Company\\\\aifyze\\\\Blog14\")"
+      "Bash(mkdir \"d:\\\\Watts Company\\\\aifyze\\\\Blog14\")",
+      "Bash(mkdir -p \"d:/Watts Company/aifyze/Blog14\")"
     ],
     "additionalDirectories": [
-      "d:\\Watts Company\\aifyze"
+      "d:\\Watts Company\\aifyze",
+      "d:\\Watts Company\\aifyze\\Blog14"
     ]
   }
 }

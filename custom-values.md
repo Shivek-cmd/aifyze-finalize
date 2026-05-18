@@ -105,3 +105,7 @@ Each key follows the `AiFyze_` prefix naming convention.
 | aifyze_blog12_beyond_lead_factory_hero | |
 | aifyze_blog13_ai_tech_stack_hero | |
 | aifyze_blog13_ai_tech_stack_1 | |
+| aifyze_blog14_ai_org_chart_hero | |
+| aifyze_blog14_ai_org_chart_1 | |
+| aifyze_blog14_ai_org_chart_2 | |
+| aifyze_blog14_ai_org_chart_3 | |
