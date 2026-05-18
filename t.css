@@ -458,94 +458,9 @@
     line-height: 1.7;
 }
 
-/* Industry fit */
-.contact-industries {
-    padding: 5rem 0;
-    background: var(--bg-secondary);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-}
-
-.contact-industries__inner {
-    display: grid;
-    grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 1fr);
-    gap: var(--sp-10);
-    align-items: center;
-}
-
-.contact-industries__copy h2 {
-    font-family: var(--font-heading);
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
-    color: var(--foreground);
-    line-height: 1.2;
-}
-
-.contact-industries__copy p:not(.label) {
-    margin-top: var(--sp-4);
-    max-width: 42rem;
-    color: var(--body);
-    font-size: 0.9375rem;
-    line-height: 1.7;
-}
-
-.contact-industries__links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--sp-2);
-}
-
-.contact-industries__links a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 2.5rem;
-    padding: 0.55rem 1rem;
-    border: 1px solid var(--border);
-    border-radius: var(--radius-full);
-    background: var(--bg);
-    color: var(--body);
-    font-size: 0.8125rem;
-    font-weight: 500;
-    transition: background var(--duration-md), color var(--duration-md), border-color var(--duration-md);
-}
-
-.contact-industries__links a:hover {
-    background: var(--foreground);
-    border-color: var(--foreground);
-    color: var(--bg-secondary);
-}
-
-.contact-industries__actions {
-    grid-column: 1 / -1;
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--sp-4);
-}
-
 /* FAQ */
 .contact-faq {
     padding: 5rem 0;
-}
-
-@media (max-width: 1024px) {
-    .contact-industries__inner {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 640px) {
-    .contact-industries__links a {
-        flex: 1 1 calc(50% - var(--sp-2));
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
-        text-align: center;
-        white-space: normal;
-    }
-
-    .contact-industries__actions .btn {
-        width: 100%;
-        white-space: normal;
-    }
 }
 
 .contact-faq__list {

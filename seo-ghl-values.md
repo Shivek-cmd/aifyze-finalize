@@ -322,6 +322,9 @@
 }
 ```
 
+- **New internal link section:** Industry-Specific Solutions strip before Process
+- **Industry links:** [Industries We Serve](/industries-we-serve), [Real Estate](/industries-we-serve#real-estate), [Professional Services](/industries-we-serve#professional), [Restaurants](/industries-we-serve#restaurants), [Medical](/industries-we-serve#medical), [Law Firms](/industries-we-serve#industry-law), [Plumbing](/industries-we-serve#industry-plumbing)
+
 ---
 
 ## 4. Service — AI-fy Your Business Processes
@@ -375,6 +378,9 @@
   ]
 }
 ```
+
+- **New internal link section:** Perfect For These Industries, placed after Core Capabilities
+- **Industry links:** [Industries We Serve](/industries-we-serve), [Real Estate](/industries-we-serve#real-estate), [Restaurants](/industries-we-serve#restaurants), [Medical & Dental](/industries-we-serve#medical), [E-Commerce](/industries-we-serve#ecommerce), [Home Services](/industries-we-serve#industry-plumbing), [Law Firms](/industries-we-serve#industry-law)
 
 ---
 
@@ -430,6 +436,9 @@
 }
 ```
 
+- **New internal link section:** Perfect For These Industries, placed after Core Capabilities
+- **Industry links:** [Industries We Serve](/industries-we-serve), [Professional Services](/industries-we-serve#professional), [Medical & Dental](/industries-we-serve#medical), [E-Commerce](/industries-we-serve#ecommerce), [Real Estate](/industries-we-serve#real-estate), [IT / MSPs](/industries-we-serve#industry-msp), [Law Firms](/industries-we-serve#industry-law)
+
 ---
 
 ## 6. Service — AI Strategy Consulting
@@ -484,6 +493,9 @@
 }
 ```
 
+- **New internal link section:** Perfect For These Industries, placed after Core Capabilities
+- **Industry links:** [Industries We Serve](/industries-we-serve), [Professional Services](/industries-we-serve#professional), [Medical & Dental](/industries-we-serve#medical), [E-Commerce](/industries-we-serve#ecommerce), [Real Estate](/industries-we-serve#real-estate), [Accounting & CPA](/industries-we-serve#industry-accounting), [Hotels](/industries-we-serve#industry-hotels)
+
 ---
 
 ## 7. Contact
@@ -531,6 +543,9 @@
   ]
 }
 ```
+
+- **New internal link section:** "Not sure if we serve your industry?" placed before FAQ
+- **Industry links:** [Industries We Serve](/industries-we-serve), [Real Estate](/industries-we-serve#real-estate), [Professional Services](/industries-we-serve#professional), [Restaurants](/industries-we-serve#restaurants), [Medical](/industries-we-serve#medical), [E-Commerce](/industries-we-serve#ecommerce), [Law Firms](/industries-we-serve#industry-law)
 
 ---
 
