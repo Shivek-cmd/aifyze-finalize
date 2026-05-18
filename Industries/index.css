@@ -1002,7 +1002,7 @@
     position: sticky;
     top: var(--sp-4);
     float: right;
-    margin: var(--sp-4) var(--sp-4) calc(var(--sp-4) * -1) 0;
+    margin: var(--sp-4) var(--sp-4) calc(-36px - var(--sp-4)) 0;
     z-index: 10;
     display: flex;
     align-items: center;
@@ -1034,12 +1034,20 @@
 .t2-modal__body .ind-card__hero {
     grid-template-columns: 52% 1fr;
     min-height: 360px;
+    align-items: stretch;
 }
 
 .t2-modal__body .ind-card__visual {
-    height: 320px;
     min-height: 320px;
-    max-height: 320px;
+    align-self: stretch;
+}
+
+.t2-modal__body .ind-card__visual img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .t2-modal__body .ind-card__hook {
@@ -1063,7 +1071,7 @@
     .t2-controls { flex-direction: column; align-items: flex-start; gap: var(--sp-3); }
 
     .t2-modal__body .ind-card__hero { grid-template-columns: 1fr; min-height: auto; }
-    .t2-modal__body .ind-card__visual { height: 220px; min-height: 220px; max-height: 220px; }
+    .t2-modal__body .ind-card__visual { min-height: 220px; }
     .t2-modal__body .ind-card__analysis { grid-template-columns: 1fr; }
     .t2-modal__body .ind-pain { border-right: none; border-bottom: 1.5px solid var(--border); }
     .t2-modal__body .ind-cta { flex-direction: column; align-items: flex-start; padding: var(--sp-6); }
@@ -1074,5 +1082,120 @@
     .t2-counters { gap: var(--sp-4); }
     .t2-modal__shell { max-height: 95vh; border-radius: var(--radius-xl); }
     .t2-modal { padding: var(--sp-2); }
+}
+
+
+/* ══════════════════════════════════════════
+   CUSTOM INDUSTRY CTA
+══════════════════════════════════════════ */
+
+.ind-custom-cta {
+    padding: var(--sp-20) 0;
+    background: var(--bg);
+}
+
+.ind-custom-cta__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-12);
+    background: var(--bg-secondary);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius-2xl);
+    padding: var(--sp-12) var(--sp-16);
+    position: relative;
+    overflow: hidden;
+}
+
+.ind-custom-cta__inner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(124,58,237,.06) 0%, rgba(249,112,102,.04) 100%);
+    pointer-events: none;
+}
+
+.ind-custom-cta__text {
+    position: relative;
+    max-width: 36rem;
+}
+
+.ind-custom-cta__eyebrow {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: rgba(124,58,237,.1);
+    border: 1px solid rgba(124,58,237,.22);
+    border-radius: var(--radius-full);
+    padding: 4px 14px;
+    margin: 0 0 var(--sp-4);
+}
+
+.ind-custom-cta__heading {
+    font-family: var(--font-heading);
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--foreground);
+    margin: 0 0 var(--sp-4);
+}
+
+.ind-custom-cta__body {
+    font-size: 1rem;
+    color: var(--body);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.ind-custom-cta__btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-2);
+    padding: 1rem 2rem;
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #fff;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-full);
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+    box-shadow: 0 4px 20px rgba(124,58,237,.35);
+    transition: transform var(--duration-sm) var(--ease-out),
+                box-shadow var(--duration-sm) var(--ease-out);
+}
+
+.ind-custom-cta__btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 28px rgba(124,58,237,.45);
+}
+
+.ind-custom-cta__btn svg {
+    opacity: 0.85;
+    transition: transform var(--duration-sm);
+}
+
+.ind-custom-cta__btn:hover svg { transform: translateX(3px); }
+
+@media (max-width: 768px) {
+    .ind-custom-cta__inner {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: var(--sp-8);
+        gap: var(--sp-6);
+    }
+
+    .ind-custom-cta__btn { width: 100%; justify-content: center; }
+}
+
+@media (max-width: 480px) {
+    .ind-custom-cta { padding: var(--sp-12) 0; }
+    .ind-custom-cta__inner { padding: var(--sp-6); border-radius: var(--radius-xl); }
 }
 
