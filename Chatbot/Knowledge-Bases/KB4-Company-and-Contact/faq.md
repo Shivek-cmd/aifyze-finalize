@@ -42,7 +42,15 @@ Yes. Any information you share in this conversation is used solely to prepare yo
 
 **FAQ: What kinds of businesses does Aifyze work with?**
 
-Aifyze works with small to medium-sized businesses, coaches and consultants, real estate agencies, e-commerce brands, professional services firms, and any business in Canada or the United States with repetitive workflows and a desire to grow without adding headcount. Our sweet spot is businesses with 2 to 50 team members that have existing tools but are not yet using AI effectively.
+Aifyze works with small to medium-sized businesses, coaches and consultants, real estate agencies, e-commerce brands, restaurants, medical and dental practices, fitness businesses, professional services firms, and many other businesses in Canada or the United States with repetitive workflows and a desire to grow without adding headcount. Our sweet spot is businesses with 2 to 50 team members that have existing tools but are not yet using AI effectively. You can browse the full industry list at aifyze.com/industries-we-serve.
+
+---
+
+**FAQ: Where can I see the industries Aifyze serves?**
+
+Visit aifyze.com/industries-we-serve. The page includes Aifyze's main industry playbooks for real estate, e-commerce, coaching, professional services, restaurants, fitness, and medical businesses, plus 50+ additional examples such as law firms, plumbing and home services, hotels, accounting firms, IT/MSPs, salons, retail, education, construction, and logistics.
+
+If your exact industry is not listed, Aifyze may still be a fit if you have repetitive workflows, missed leads, manual admin, customer support load, scheduling issues, reporting bottlenecks, or disconnected tools.
 
 ---
 

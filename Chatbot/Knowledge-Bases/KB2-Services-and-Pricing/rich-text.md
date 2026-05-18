@@ -105,6 +105,27 @@ Tagline: "We AI-fy You."
 
 ---
 
+## Industry-Specific Solution Fit
+
+Aifyze adapts the three core services to the user's industry rather than selling a generic AI package. If a user asks "do you work with my industry?" or names a specific business type, connect the answer to one of these practical patterns:
+
+| Industry / Business Type | Common AI Opportunities |
+|---|---|
+| Real estate | Lead qualification, instant follow-up, showing coordination, CRM updates, listing inquiries |
+| Restaurants | Reservation calls, missed-call recovery, FAQs, review follow-up, customer reactivation |
+| E-commerce | Product Q&A, order support, cart recovery, customer support triage, loyalty automation |
+| Medical and dental | Patient intake, appointment reminders, recall flows, FAQs, admin-light communication |
+| Professional services | Client intake, consultation booking, document collection, proposal follow-up, reporting |
+| Coaching and consulting | Lead nurture, scheduling, onboarding, content repurposing, client check-ins |
+| Fitness and wellness | Trial booking, membership follow-up, class reminders, retention workflows |
+| Law firms | Intake automation, document collection, consultation scheduling, lead qualification |
+| Home services | Emergency intake, dispatch support, quote follow-up, job confirmations, review requests |
+| Hotels and hospitality | Guest FAQs, booking questions, upsell messages, review recovery, staff task routing |
+
+For a broader list, direct users to aifyze.com/industries-we-serve.
+
+---
+
 ## Key Statistics
 
 - 50+ businesses transformed

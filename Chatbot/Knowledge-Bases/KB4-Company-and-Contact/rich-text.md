@@ -58,6 +58,31 @@ For full details: aifyze.com/privacy-policy and aifyze.com/terms-of-service.
 
 ---
 
+## Industries We Serve Page
+
+Aifyze has a dedicated Industries We Serve page at aifyze.com/industries-we-serve.
+
+Use this page when a user asks whether Aifyze works with their industry, wants examples for a specific business type, or asks to browse industry-specific AI use cases.
+
+Featured Tier 1 industries include:
+- Real Estate
+- E-Commerce
+- Coaching and consulting
+- Professional services
+- Restaurants
+- Fitness
+- Medical and dental
+
+The page also includes 50+ additional Tier 2 industry examples, including law firms, plumbing and home services, hotels, accounting and CPA firms, IT/MSPs, salons, retail, education, construction, logistics, finance, and other operationally heavy businesses.
+
+When answering industry questions, keep the answer short and practical:
+- Confirm whether Aifyze can likely help that industry.
+- Mention 1-3 relevant AI use cases.
+- Point them to aifyze.com/industries-we-serve for the full industry list.
+- If they want a tailored recommendation, offer the AI Readiness Assessment or a free AI audit.
+
+---
+
 ## Why Aifyze (The Four Differentiators)
 
 1. **Trusted Partnerships** — Strategic extension of your team, not a distant vendor.

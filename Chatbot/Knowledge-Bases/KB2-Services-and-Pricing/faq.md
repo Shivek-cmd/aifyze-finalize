@@ -49,6 +49,14 @@ It depends on your situation. If you have clear repetitive tasks and existing to
 
 ---
 
+**FAQ: Can Aifyze help my specific industry?**
+
+Very likely, if your business has repetitive workflows, missed leads, manual admin, customer support questions, scheduling pressure, reporting work, or disconnected tools. Aifyze has industry-specific examples for real estate, e-commerce, coaching, professional services, restaurants, fitness, medical and dental, law firms, home services, hotels, accounting, IT/MSPs, and many more.
+
+You can browse the full Industries We Serve page at aifyze.com/industries-we-serve. If your industry is not listed, the best next step is still a quick AI Readiness Assessment or free AI audit so Aifyze can map AI opportunities to your actual workflow.
+
+---
+
 **FAQ: What is a free AI audit?**
 
 A free AI audit is a no-cost consultation with an Aifyze expert. We review your current workflows, tools, and business goals to identify your highest-impact AI opportunities. You leave with clarity on exactly where AI can save time or improve results in your specific business — no obligation to proceed. Book at aifyze.com/contact or ask this bot to help you schedule one.

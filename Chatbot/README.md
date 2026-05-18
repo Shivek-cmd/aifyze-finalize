@@ -63,6 +63,20 @@ Two AI Agents share one KB (KB General). The Aifyze agent has 4 additional dedic
 
 ---
 
+## Industries Page Knowledge
+
+The new Aifyze Industries We Serve page is documented in:
+
+- `Knowledge-Bases/KB4-Company-and-Contact/` for direct company and industry questions
+- `Knowledge-Bases/KB2-Services-and-Pricing/` for industry-specific service examples
+- `Knowledge-Bases/KB1-Assessment-and-Scoring/rich-text.md` for assessment personalization after Q1
+- `AI-Agent/additional-info.md` for routing rules when users ask about specific industries
+- `KB-General/aifyze-overview.md` and `KB-General/faq.md` so the Watts Group agent can also route Aifyze industry questions correctly
+
+Primary URL: `aifyze.com/industries-we-serve`
+
+---
+
 ## GHL Hierarchy — Aifyze AI Agent
 
 ```

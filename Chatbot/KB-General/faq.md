@@ -225,6 +225,11 @@ A: Small to medium-sized businesses, coaches, consultants, and growing enterpris
 
 ---
 
+**Q: What industries does Aifyze serve?**
+A: Aifyze serves real estate, e-commerce, coaching and consulting, professional services, restaurants, fitness, medical and dental, and many additional industries with repetitive workflows or customer communication bottlenecks. The full list is at aifyze.com/industries-we-serve and includes 50+ examples such as law firms, home services, hotels, accounting, IT/MSPs, salons, retail, education, construction, logistics, and finance.
+
+---
+
 **Q: How do I get started with Aifyze?**
 A: Book a free AI audit at aifyze.com or email hello@aifyze.com. Phone: +1 (579) 569-9999.
 
