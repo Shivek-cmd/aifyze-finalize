@@ -131,6 +131,109 @@
     margin-top: var(--sp-12);
 }
 
+/* ── Who We Serve ── */
+.about-serve {
+    background: var(--bg-secondary);
+}
+
+.about-serve__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-8);
+}
+
+.about-serve-card {
+    position: relative;
+    min-height: 15rem;
+    padding: var(--sp-8);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-2xl);
+    background: var(--bg);
+    overflow: hidden;
+    transition: box-shadow var(--duration-md), transform var(--duration-md), border-color var(--duration-md);
+}
+
+.about-serve-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--gradient-primary);
+    opacity: 0;
+    transition: opacity var(--duration-md);
+}
+
+.about-serve-card:hover {
+    border-color: rgba(26,22,37,.15);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+}
+
+.about-serve-card:hover::before {
+    opacity: 1;
+}
+
+.about-serve-card__num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: var(--radius-full);
+    background: var(--foreground);
+    color: var(--bg-secondary);
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: var(--sp-6);
+}
+
+.about-serve-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: var(--sp-3);
+}
+
+.about-serve-card p {
+    font-size: 0.875rem;
+    color: var(--body);
+    line-height: 1.6;
+}
+
+.about-serve__chips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--sp-3);
+    margin-top: var(--sp-10);
+}
+
+.about-serve__chips a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.5rem;
+    padding: 0.55rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-full);
+    background: var(--bg);
+    color: var(--body);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    transition: background var(--duration-md), color var(--duration-md), border-color var(--duration-md);
+}
+
+.about-serve__chips a:hover {
+    background: var(--foreground);
+    border-color: var(--foreground);
+    color: var(--bg-secondary);
+}
+
+.about-serve__action {
+    text-align: center;
+    margin-top: var(--sp-10);
+}
+
 .about-approach-step {
     text-align: center;
     padding: var(--sp-8);
@@ -267,9 +370,54 @@
         margin: var(--sp-12) auto 0;
     }
 
+    .about-serve__grid {
+        grid-template-columns: 1fr;
+        max-width: 28rem;
+        margin: 0 auto;
+    }
+
     .about-approach__grid {
         grid-template-columns: 1fr;
         max-width: 28rem;
         margin: var(--sp-12) auto 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .about-serve-card {
+        min-height: auto;
+        padding: var(--sp-6);
+    }
+
+    .about-serve-card:hover {
+        transform: none;
+    }
+
+    .about-serve-card__num {
+        width: 2.25rem;
+        height: 2.25rem;
+        margin-bottom: var(--sp-4);
+    }
+
+    .about-serve-card h3 {
+        font-size: 1.125rem;
+    }
+
+    .about-serve__chips {
+        justify-content: flex-start;
+        gap: var(--sp-2);
+    }
+
+    .about-serve__chips a {
+        flex: 1 1 calc(50% - var(--sp-2));
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        text-align: center;
+        white-space: normal;
+    }
+
+    .about-serve__action .btn {
+        width: 100%;
+        white-space: normal;
     }
 }

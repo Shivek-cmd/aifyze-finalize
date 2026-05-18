@@ -809,25 +809,4 @@
         grid-template-columns: repeat(2, 1fr);
         gap: var(--sp-6);
     }
-
-    .home-industry-card:hover {
-        transform: none;
-    }
-
-    .home-industry-card__body {
-        padding: var(--sp-5) var(--sp-5) var(--sp-6);
-    }
-
-    .home-industries__chips {
-        justify-content: flex-start;
-        gap: var(--sp-2);
-    }
-
-    .home-industries__chips a {
-        flex: 1 1 calc(50% - var(--sp-2));
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
-        text-align: center;
-        white-space: normal;
-    }
 }

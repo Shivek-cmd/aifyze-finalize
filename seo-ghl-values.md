@@ -159,10 +159,10 @@
         },
         {
           "@type": "Question",
-          "name": "What industries does Aifyze work with?",
+          "name": "What industries and business types does Aifyze work with?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We work across all industries including technology, healthcare, finance, e-commerce, professional services, education, and more. If your business has processes that could benefit from AI, we can help."
+            "text": "We work with coaches, consultants, entrepreneurs, and growing enterprises across industries. Explore our Industries We Serve page to see the full industry map, compare our AI consulting services, or book a free AI audit so we can map the best-fit automation plan for your business."
           }
         },
         {
