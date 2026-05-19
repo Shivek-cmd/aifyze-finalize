@@ -2319,8 +2319,8 @@ https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi
 
 | Key | Value |
 |-----|-------|
-| title | Industries We Serve \| AI Automation for 60+ Business Types — Aifyze |
-| description | Battle-tested AI automation for 60+ industries — real estate, restaurants, medical, law firms, e-commerce, and more. Serving Canada & the US. |
+| title | Industries We Serve \| AI Automation for 50+ Business Types — Aifyze |
+| description | Battle-tested AI automation for 50+ industries — real estate, restaurants, medical, law firms, e-commerce, and more. Serving Canada & the US. |
 | keywords | AI automation by industry, AI for small business, industry-specific AI solutions, AI consulting real estate, AI for restaurants, AI for medical practices, AI for law firms, AI for e-commerce, AI for coaches, Mississauga AI consulting, Aifyze |
 | canonical | https://aifyze.com/industries-we-serve |
 | og:title | Industries We Serve \| AI Automation for 60+ Business Types — Aifyze |
