@@ -28,6 +28,7 @@
 26. [Blog — 11. 10 Reasons Your AI Workflow Automation Isn't Showing ROI (And How to Fix It)](#26-blog--10-reasons-your-ai-workflow-automation-isnt-showing-roi)
 30. [Blog — 12. Beyond the Lead Factory: Why "More" Is Your 2026 Revenue Killer](#30-blog--beyond-the-lead-factory-revenue-intelligence-2026)
 33. [Blog — 14. Beyond the Chatbot: Why Your Business Needs an AI Org Chart in 2026](#33-blog--beyond-the-chatbot-ai-org-chart-2026)
+34. [Blog — 15. The 90-Day AI ROI Framework: A CEO's Guide to Measurable Automation Results](#34-blog--90-day-ai-roi-framework-ceo-guide)
 32. [Industries We Serve](#32-industries-we-serve)
 
 ---
@@ -2406,3 +2407,121 @@ https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi
 - **Tier 2 industries:** 56 additional industry cards with per-industry AI playbook modals
 - **Internal links:** [AI-fy Your Business Processes](/services/ai-fy-your-business-processes), [AI Strategy Consulting](/services/ai-strategy-consulting), [Hire Your AI CEO](/services/hire-your-ai-ceo), [Contact](/contact)
 - **OG image:** Use the hero image GHL custom value — swap for a dedicated OG graphic once available
+
+---
+
+## 34. Blog — 90-Day AI ROI Framework: A CEO's Guide to Measurable Automation Results
+
+**URL:** `https://aifyze.com/blog/90-day-ai-roi-framework-measurable-automation-results`
+
+| Key | Value |
+|-----|-------|
+| title | 90-Day AI ROI Framework: A CEO's Guide to Measurable Results \| Aifyze Blog |
+| description | Only 18% of businesses track AI ROI. This 90-day framework gives mid-size CEOs a phased plan to baseline, measure, and scale automation returns. |
+| keywords | AI ROI framework, AI roadmap for business, AI strategy consulting, AI consulting services, AI CEO, measure AI ROI, AI automation results, mid-size business AI |
+| canonical | https://aifyze.com/blog/90-day-ai-roi-framework-measurable-automation-results |
+| og:title | 90-Day AI ROI Framework: A CEO's Guide to Measurable Automation Results \| Aifyze Blog |
+| og:description | Only 18% of businesses track AI ROI. This 90-day framework gives mid-size CEOs a phased plan to baseline, measure, and scale automation returns. |
+| og:url | https://aifyze.com/blog/90-day-ai-roi-framework-measurable-automation-results |
+| og:type | article |
+| og:site_name | Aifyze |
+| og:image | {{custom_values.aifyze_blog15_ai_roi_hero}} |
+| og:image:width | 1200 |
+| og:image:height | 630 |
+| twitter:card | summary_large_image |
+| twitter:title | 90-Day AI ROI Framework: A CEO's Guide to Measurable Automation Results |
+| twitter:description | Only 18% of businesses track AI ROI. This 90-day framework gives mid-size CEOs a phased plan to baseline, measure, and scale returns. |
+| twitter:image | {{custom_values.aifyze_blog15_ai_roi_hero}} |
+
+### Schema Markup (JSON-LD)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "The 90-Day AI ROI Framework: A CEO's Guide to Measurable Automation Results",
+      "description": "Only 18% of businesses track AI ROI. This 90-day framework gives mid-size CEOs a phased plan to baseline, measure, and scale automation returns.",
+      "image": "https://aifyze.com/assets/og/blog15-ai-roi-framework.jpg",
+      "datePublished": "2026-05-20",
+      "dateModified": "2026-05-20",
+      "author": { "@type": "Organization", "name": "Aifyze" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aifyze",
+        "url": "https://aifyze.com",
+        "logo": { "@type": "ImageObject", "url": "https://aifyze.com/assets/images/logo-circle.png" }
+      },
+      "mainEntityOfPage": "https://aifyze.com/blog/90-day-ai-roi-framework-measurable-automation-results",
+      "keywords": ["AI ROI", "AI roadmap for business", "AI strategy consulting", "AI consulting services", "AI CEO", "measure AI ROI", "automation results"]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What's a realistic ROI timeline for AI automation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the use case. Customer support AI typically shows measurable payback in under six months (Forrester, 2025). Invoice automation often pays back within two to four months. Broader AI agent deployments show results within 12 months for 74% of companies that have agents in production, according to a Google Cloud and National Research Group survey of executives across 24 countries (Sep 2025)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which AI use case should a mid-size business start with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with the highest-volume, most predictable workflow in your business — the one your team runs on autopilot more than 20 times a week. For most mid-size businesses, that's customer support ticket response, invoice processing, or inbound lead follow-up. These three use cases have the fastest ROI profile and the clearest before-and-after metrics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I measure AI ROI without a data team?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You need three numbers documented before deployment: cost per transaction, time per transaction, and error rate. Most modern AI platforms provide built-in dashboards that surface these metrics automatically. Pull the same three numbers 30 days after deployment and calculate the delta. A spreadsheet with those six numbers is a defensible ROI report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the biggest reason AI ROI projects fail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gartner's April 2026 survey of 782 I&O leaders found that the primary cause of AI project failure is unrealistic timeline expectations — 57% of leaders who experienced a failure cited this as a contributing factor. The second cause is deploying AI onto a broken process without redesigning the workflow first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is $3.70 per dollar invested a realistic AI ROI expectation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That's the average across surveyed organizations in IDC and Microsoft's January 2025 study. Top-performing organizations report $10.30 per dollar. The businesses at the high end treat AI ROI as a board-level metric with executive ownership, not a technology experiment."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aifyze.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aifyze.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "The 90-Day AI ROI Framework: A CEO's Guide to Measurable Automation Results" }
+      ]
+    }
+  ]
+}
+```
+
+### Notes
+
+- **Date published:** May 20, 2026
+- **Category:** AI Strategy
+- **Read time:** 9 min read
+- **Hero image GHL variable:** `aifyze_blog15_ai_roi_hero`
+- **Article image GHL variables:** `aifyze_blog15_ai_roi_1`, `aifyze_blog15_ai_roi_2`, `aifyze_blog15_ai_roi_3`
+- **Primary keywords:** AI ROI framework, AI roadmap for business, AI strategy consulting, AI consulting services, AI CEO
+- **Internal links in article:** [90-Day AI Roadmap](/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul), [AI Org Chart](/blog/ai-org-chart-ai-employees-teams-2026), [AI Tech Stack Consolidation](/blog/ai-tech-stack-consolidation-one-ai-brain), [Contact](/contact)
+- **TOC anchors:** `#the-roi-gap`, `#the-90-day-framework`, `#fastest-roi-use-cases`, `#build-your-roi-dashboard`, `#what-high-performers-do-differently`, `#faq`
+- **Charts:** Donut (Thomson Reuters — who tracks AI ROI), Grouped bar (Redwood/Deloitte — cost reduction results), Horizontal timeline (Forrester/Quadient/Google Cloud — ROI timeline by use case)
+- **Key sources:** Google Cloud / NRG (Sep 2025), Thomson Reuters / Accounting Today (2025), Gartner (Apr 2026), IDC / Microsoft (Jan 2025), Redwood Software (Jul 2025), Deloitte State of AI (Jan 2026), Forrester via Sprinklr (2025), Quadient (2025), HBR (Mar 2026), IBM Think (2025–2026)

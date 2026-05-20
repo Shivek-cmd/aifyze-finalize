@@ -109,3 +109,6 @@ Each key follows the `AiFyze_` prefix naming convention.
 | aifyze_blog14_ai_org_chart_1 | |
 | aifyze_blog14_ai_org_chart_2 | |
 | aifyze_blog14_ai_org_chart_3 | |
+| aifyze_blog15_ai_roi_hero | |
+| aifyze_blog15_ai_roi_1 | |
+| aifyze_blog15_ai_roi_2 | |
