@@ -73,6 +73,12 @@ Each key follows the `AiFyze_` prefix naming convention.
 | AiFyze_Service_AIStrategy_Image_1 | |
 | AiFyze_Service_AIStrategy_Image_2 | |
 
+## Services — Founder AI Twin Engine
+
+| Key | Value |
+|-----|-------|
+| AiFyze_Service_FounderTwin_Image_1 | |
+
 ## Contact Us Images
 
 | Key | Value |

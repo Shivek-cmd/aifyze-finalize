@@ -14,6 +14,7 @@
 4. [Service — AI-fy Your Business Processes](#4-service--ai-fy-your-business-processes)
 5. [Service — Hire Your AI CEO](#5-service--hire-your-ai-ceo)
 6. [Service — AI Strategy Consulting](#6-service--ai-strategy-consulting)
+- [Service — Founder AI Twin Engine](#service--founder-ai-twin-engine)
 7. [Contact](#7-contact)
 8. [Businesses We Work With](#8-businesses-we-work-with)
 9. [Blog Listing](#9-blog-listing)
@@ -496,6 +497,104 @@
 
 - **New internal link section:** Perfect For These Industries, placed after Core Capabilities
 - **Industry links:** [Industries We Serve](/industries-we-serve), [Professional Services](/industries-we-serve#professional), [Medical & Dental](/industries-we-serve#medical), [E-Commerce](/industries-we-serve#ecommerce), [Real Estate](/industries-we-serve#real-estate), [Accounting & CPA](/industries-we-serve#industry-accounting), [Hotels](/industries-we-serve#industry-hotels)
+
+---
+
+## Service — Founder AI Twin Engine
+
+**URL:** `https://aifyze.com/services/founder-ai-twin-engine`
+
+| Key | Value |
+|-----|-------|
+| title | Founder AI Twin Engine — AI-Powered Founder Content \| Aifyze |
+| description | Build consistent founder visibility with your own AI twin. Done-for-you scriptwriting, video production, and publishing — 4 long-form + 12 short-form videos per month. |
+| keywords | founder AI twin, AI content creation for founders, founder-led video content, founder visibility AI, personal brand AI, AI twin engine, content automation founders, Aifyze |
+| canonical | https://aifyze.com/services/founder-ai-twin-engine |
+| og:title | Founder AI Twin Engine — AI-Powered Founder Content \| Aifyze |
+| og:description | Build consistent founder visibility with your own AI twin. Done-for-you scriptwriting, video production, and publishing. |
+| og:url | https://aifyze.com/services/founder-ai-twin-engine |
+| og:type | website |
+| og:site_name | Aifyze |
+| og:image | https://aifyze.com/assets/og/og-image.png |
+| og:image:width | 1200 |
+| og:image:height | 630 |
+| twitter:card | summary_large_image |
+| twitter:title | Founder AI Twin Engine — AI-Powered Founder Content \| Aifyze |
+| twitter:description | Build consistent founder visibility with your own AI twin. Done-for-you content production and publishing. |
+| twitter:image | https://aifyze.com/assets/og/og-image.png |
+
+### Schema Markup (JSON-LD)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Founder AI Twin Engine",
+      "provider": { "@type": "Organization", "name": "Aifyze", "url": "https://aifyze.com" },
+      "description": "AI-powered content creation that builds your founder brand through video production, scriptwriting, and publishing — done for you, month after month.",
+      "url": "https://aifyze.com/services/founder-ai-twin-engine",
+      "serviceType": "AI Content Creation",
+      "offers": {
+        "@type": "Offer",
+        "price": "1500",
+        "priceCurrency": "USD",
+        "description": "Monthly retainer — 4 long-form videos (up to 8 min each), 12 short-form videos (under 1 min each), AI twin creation, scriptwriting, premium editing, and publishing support. One-time $1,500 setup fee."
+      },
+      "areaServed": [
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Country", "name": "United States" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Founder AI Twin Engine?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Founder AI Twin Engine is an AI-powered content system that captures your voice, expertise, and brand presence to produce consistent founder-led video content — without you recording every piece manually. Each month you receive 4 long-form and 12 short-form videos, fully scripted, produced, and published."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to be on camera to use the Founder AI Twin Engine?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The AI twin captures your voice and brand identity so content sounds and looks like you, even if you prefer not to record yourself frequently. It is designed specifically for camera-shy founders who still want strong visibility and authority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in the monthly Founder AI Twin Engine package?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each month you receive 4 long-form videos (up to 8 minutes each), 12 short-form videos (under 1 minute each), monthly content strategy and planning, professional scriptwriting for all content, premium editing and branded packaging, and publishing support on agreed channels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the one-time setup fee cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The $1,500 one-time setup fee covers AI twin creation and system setup — building your unique voice model, brand alignment, content system architecture, and initial strategy development before the first month of content production begins."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aifyze.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://aifyze.com/services" },
+        { "@type": "ListItem", "position": 3, "name": "Founder AI Twin Engine" }
+      ]
+    }
+  ]
+}
+```
 
 ---
 

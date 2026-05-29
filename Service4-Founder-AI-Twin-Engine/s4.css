@@ -1,6 +1,5 @@
 /* ============================================================
-   AIFYZE — Service Detail Page Styles
-   Matches original Next.js Aifyze repo design exactly
+   AIFYZE — Service Detail Page Styles (Service 4)
    ============================================================ */
 
 .sd-hero {
@@ -19,7 +18,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: var(--hero-pos, center 45%);
+    object-position: var(--hero-pos, center 50%);
 }
 
 .sd-hero__bg::after {
@@ -60,16 +59,19 @@
     line-height: 1.7;
 }
 
-/* ── Core Capabilities ── */
+.sd-hero__action {
+    margin-top: 2.5rem;
+}
+
+/* ── Section Heading ── */
 .section-heading {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
- /* force left alignment */
     gap: 0.75rem;
- /* consistent spacing between label & heading */
 }
 
+/* ── Core Capabilities ── */
 .sd-capabilities {
     background: var(--bg);
 }
@@ -132,12 +134,7 @@
     line-height: 1.7;
 }
 
-/* ── Expected Outcomes ── */
-.sd-outcomes {
-    background: var(--bg-depth);
-}
-
-/* Perfect For These Industries */
+/* ── Perfect For These Founders ── */
 .sd-industries {
     background: var(--bg-depth);
 }
@@ -166,9 +163,10 @@
     margin-top: var(--sp-16);
 }
 
-.sd-industry-card {
+/* Founder cards (non-linked variant of industry cards) */
+.sd-founder-card {
     position: relative;
-    min-height: 17rem;
+    min-height: 14rem;
     display: flex;
     flex-direction: column;
     padding: var(--sp-8);
@@ -179,7 +177,7 @@
     transition: box-shadow var(--duration-md), transform var(--duration-md), border-color var(--duration-md);
 }
 
-.sd-industry-card::before {
+.sd-founder-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -191,17 +189,17 @@
     transition: opacity var(--duration-md);
 }
 
-.sd-industry-card:hover {
+.sd-founder-card:hover {
     border-color: rgba(26,22,37,.15);
     box-shadow: var(--shadow-md);
     transform: translateY(-2px);
 }
 
-.sd-industry-card:hover::before {
+.sd-founder-card:hover::before {
     opacity: 1;
 }
 
-.sd-industry-card__num {
+.sd-founder-card__num {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -215,67 +213,12 @@
     margin-bottom: var(--sp-5);
 }
 
-.sd-industry-card h3 {
+.sd-founder-card h3 {
     font-size: 1.125rem;
     margin-bottom: var(--sp-3);
 }
 
-.sd-industry-card p {
-    font-size: 0.875rem;
-    color: var(--body);
-    line-height: 1.7;
-    margin-bottom: var(--sp-5);
-}
-
-.sd-industry-card strong {
-    display: inline-flex;
-    color: var(--foreground);
-    font-size: 0.8125rem;
-    font-weight: 500;
-    margin-top: auto;
-}
-
-.sd-industries__action {
-    text-align: center;
-    margin-top: var(--sp-10);
-}
-
-.sd-outcomes .section-heading {
-    text-align: left;
-}
-
-.sd-outcomes .section-heading .label {
-    margin-bottom: var(--sp-4);
-}
-
-.sd-outcomes .section-heading h2 {
-    max-width: 36rem;
-}
-
-.sd-outcomes__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1px;
-    background: var(--border);
-    border-radius: var(--radius-2xl);
-    overflow: hidden;
-    margin-top: var(--sp-16);
-}
-
-.sd-outcome-card {
-    background: var(--bg-secondary);
-    padding: 2.5rem 3.5rem;
-    height: 100%;
-}
-
-.sd-outcome-card h3 {
-    font-family: var(--font-heading);
-    font-size: 1.25rem;
-    color: var(--foreground);
-    margin-bottom: var(--sp-4);
-}
-
-.sd-outcome-card p {
+.sd-founder-card p {
     font-size: 0.875rem;
     color: var(--body);
     line-height: 1.7;
@@ -335,6 +278,154 @@
     line-height: 1.7;
 }
 
+/* ── Expected Outcomes ── */
+.sd-outcomes {
+    background: var(--bg-depth);
+}
+
+.sd-outcomes .section-heading {
+    text-align: left;
+}
+
+.sd-outcomes .section-heading .label {
+    margin-bottom: var(--sp-4);
+}
+
+.sd-outcomes .section-heading h2 {
+    max-width: 36rem;
+}
+
+.sd-outcomes__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border-radius: var(--radius-2xl);
+    overflow: hidden;
+    margin-top: var(--sp-16);
+}
+
+.sd-outcome-card {
+    background: var(--bg-secondary);
+    padding: 2.5rem 3.5rem;
+    height: 100%;
+}
+
+.sd-outcome-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    color: var(--foreground);
+    margin-bottom: var(--sp-4);
+}
+
+.sd-outcome-card p {
+    font-size: 0.875rem;
+    color: var(--body);
+    line-height: 1.7;
+}
+
+/* ── Investment Section ── */
+.sd-investment {
+    background: var(--bg);
+}
+
+.sd-investment .section-heading {
+    text-align: left;
+}
+
+.sd-investment .section-heading .label {
+    margin-bottom: var(--sp-4);
+}
+
+.sd-investment .section-heading h2 {
+    max-width: 36rem;
+}
+
+.sd-investment__card {
+    max-width: 56rem;
+    margin: var(--sp-12) auto 0;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-2xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+}
+
+.sd-investment__card-header {
+    background: var(--foreground);
+    color: var(--bg-secondary);
+    padding: var(--sp-8) var(--sp-10);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sd-investment__card-header h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    margin-bottom: var(--sp-2);
+    color: var(--bg-secondary);
+}
+
+.sd-investment__price {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: var(--sp-2);
+    line-height: 1.2;
+}
+
+.sd-investment__price-unit {
+    font-size: 1.25rem;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.sd-investment__subtext {
+    font-size: 0.875rem;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.sd-investment__card-body {
+    padding: var(--sp-8) var(--sp-10);
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-8);
+    align-items: flex-start;
+    flex: 1;
+}
+
+.sd-investment__features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-4);
+}
+
+.sd-investment__features li {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
+    font-size: 1rem;
+    color: var(--body);
+}
+
+.sd-investment__features li svg {
+    color: var(--foreground);
+    flex-shrink: 0;
+}
+
+.sd-investment__card-body .btn {
+    align-self: center;
+    margin-top: var(--sp-4, 1rem);
+}
+
 /* ── Other Services ── */
 .sd-other {
     background: var(--bg-depth);
@@ -346,6 +437,12 @@
     gap: var(--sp-8);
     max-width: 48rem;
     margin: 0 auto;
+}
+
+/* 3-service variant for S4 */
+.sd-other__grid--3 {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 72rem;
 }
 
 .sd-other__grid .service-card {
@@ -434,56 +531,6 @@
     gap: var(--sp-3);
 }
 
-/* ── CTA ── */
-.sd-cta {
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-/* Background image */
-.sd-cta__bg {
-    position: absolute;
-    inset: 0;
-}
-
-.sd-cta__bg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 0%;
-}
-
-/* Overlay (same as home-cta) */
-.sd-cta__bg::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(26,22,37,.75);
-}
-
-/* Content layer */
-.sd-cta__content {
-    position: relative;
-    z-index: 2;
-    max-width: 48rem;
-    margin: 0 auto;
-}
-
-.sd-cta h2 {
-    color: var(--bg-secondary);
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
-}
-
-.sd-cta p {
-    color: rgba(252,251,255,.7);
-    max-width: 32rem;
-    margin: var(--sp-6) auto 0;
-}
-
-.sd-cta .btn {
-    margin-top: var(--sp-10);
-}
-
 /* ── Internal Links Bar ── */
 .sd-other__links {
     display: flex;
@@ -521,107 +568,55 @@
     color: var(--muted);
 }
 
-/* ── Investment Section ── */
-.sd-investment {
-    background: var(--bg);
-}
-
-.sd-investment .section-heading {
-    text-align: left;
-}
-
-.sd-investment .section-heading .label {
-    margin-bottom: var(--sp-4);
-}
-
-.sd-investment .section-heading h2 {
-    max-width: 36rem;
-}
-
-.sd-investment__card {
-    max-width: 56rem;
-    margin: var(--sp-12) auto 0;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-2xl);
+/* ── CTA ── */
+.sd-cta {
+    position: relative;
     overflow: hidden;
-    box-shadow: var(--shadow-sm);
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 
-.sd-investment__card-header {
-    background: var(--foreground);
-    color: var(--bg-secondary);
-    padding: var(--sp-8) var(--sp-10);
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.sd-cta__bg {
+    position: absolute;
+    inset: 0;
 }
 
-.sd-investment__card-header h3 {
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    margin-bottom: var(--sp-2);
-    color: var(--bg-secondary);
-}
-
-.sd-investment__price {
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: var(--sp-2);
-    line-height: 1.2;
-}
-
-.sd-investment__subtext {
-    font-size: 0.875rem;
-    opacity: 0.8;
-    margin: 0;
-}
-
-.sd-investment__card-body {
-    padding: var(--sp-8) var(--sp-10);
-    display: flex;
-    flex-direction: column;
-    gap: var(--sp-8);
-    align-items: flex-start;
-    flex: 1;
-}
-
-.sd-investment__features {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.sd-cta__bg img {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: var(--sp-4);
+    height: 100%;
+    object-fit: cover;
+    object-position: center 0%;
 }
 
-.sd-investment__features li {
-    display: flex;
-    align-items: center;
-    gap: var(--sp-4);
-    font-size: 1rem;
-    color: var(--body);
+.sd-cta__bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(26,22,37,.75);
 }
 
-.sd-investment__features li svg {
-    color: var(--foreground);
-    flex-shrink: 0;
+.sd-cta__content {
+    position: relative;
+    z-index: 2;
+    max-width: 48rem;
+    margin: 0 auto;
 }
 
-.sd-investment__card-body .btn {
-    align-self: center;
-    margin-top: var(--sp-4, 1rem);
+.sd-cta h2 {
+    color: var(--bg-secondary);
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
 }
 
-/* ── Hero Additional ── */
-.sd-hero__action {
-    margin-top: 2.5rem;
+.sd-cta p {
+    color: rgba(252,251,255,.7);
+    max-width: 32rem;
+    margin: var(--sp-6) auto 0;
 }
 
+.sd-cta .btn {
+    margin-top: var(--sp-10);
+}
+
+/* ── Responsive ── */
 @media (min-width: 768px) {
     .sd-investment__card {
         flex-direction: row;
@@ -635,17 +630,6 @@
 
     .sd-investment__card-body {
         width: 60%;
-    }
-}
-
-@media (max-width: 640px) {
-    .sd-investment__card-header,
-  .sd-investment__card-body {
-        padding: var(--sp-6);
-    }
-
-    .sd-investment__price {
-        font-size: 2rem;
     }
 }
 
@@ -671,9 +655,22 @@
         max-width: 28rem;
     }
 
+    /* Keep 3-col grid readable at tablet */
+    .sd-other__grid.sd-other__grid--3 {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: none;
+    }
+
     .sd-outcome-card,
-  .sd-deliver-item {
+    .sd-deliver-item {
         padding: 2rem 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sd-other__grid.sd-other__grid--3 {
+        grid-template-columns: 1fr;
+        max-width: 28rem;
     }
 }
 
@@ -687,22 +684,26 @@
         margin-top: var(--sp-10);
     }
 
-    .sd-industry-card {
+    .sd-founder-card {
         min-height: auto;
         padding: var(--sp-6);
     }
 
-    .sd-industry-card:hover {
+    .sd-founder-card:hover {
         transform: none;
     }
 
-    .sd-industries__action .btn {
-        width: 100%;
-        white-space: normal;
+    .sd-outcome-card,
+    .sd-deliver-item {
+        padding: 1.5rem;
     }
 
-    .sd-outcome-card,
-  .sd-deliver-item {
-        padding: 1.5rem;
+    .sd-investment__card-header,
+    .sd-investment__card-body {
+        padding: var(--sp-6);
+    }
+
+    .sd-investment__price {
+        font-size: 2rem;
     }
 }

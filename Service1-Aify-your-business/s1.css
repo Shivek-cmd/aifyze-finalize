@@ -348,6 +348,11 @@
     margin: 0 auto;
 }
 
+.sd-other__grid--3 {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 72rem;
+}
+
 .sd-other__grid .service-card {
     display: flex;
     flex-direction: column;
@@ -671,9 +676,21 @@
         max-width: 28rem;
     }
 
+    .sd-other__grid.sd-other__grid--3 {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: none;
+    }
+
     .sd-outcome-card,
   .sd-deliver-item {
         padding: 2rem 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sd-other__grid.sd-other__grid--3 {
+        grid-template-columns: 1fr;
+        max-width: 28rem;
     }
 }
 
