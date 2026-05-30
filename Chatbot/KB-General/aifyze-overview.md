@@ -23,7 +23,7 @@ Aifyze is the AI consulting and automation vertical of Watts Group Ltd., launche
 
 Aifyze delivers practical, ROI-focused AI adoption. No tech stack overhauls, no disruption — just measurable results layered on top of what businesses already use.
 
-## The Three Core Services
+## The Four Core Services
 
 ### Service 1 — AI-fy Your Business Processes
 **Tagline:** Smarter Operations, Zero Disruption
@@ -85,11 +85,33 @@ Aifyze delivers practical, ROI-focused AI adoption. No tech stack overhauls, no 
 
 ---
 
+### Service 4 — Founder AI Twin Engine
+**Tagline:** Smarter Founder Visibility, Zero Disruption
+**Best for:** Founders, coaches, consultants, and service business owners who want consistent content presence and personal brand authority without the time burden of planning, scripting, recording, and editing themselves
+
+**What's included:**
+- AI twin creation that captures your voice, expertise, and brand presence
+- Monthly content strategy and planning built around your business goals
+- Professional scriptwriting for long-form and short-form content
+- Premium video production with polished editing and branded packaging
+- Done-for-you publishing across YouTube and selected social channels
+- Content repurposing across formats for maximum reach
+
+**Key outcomes:**
+- Consistent founder visibility without becoming a full-time content creator
+- Authority content that attracts DMs, discovery calls, and inbound interest
+- 4 long-form and 12 short-form videos produced and published every month
+
+**Pricing:** $1,500/month + $1,500 one-time setup fee
+
+---
+
 ## Who Aifyze Helps
 
 - Small to medium-sized businesses with repetitive operational bottlenecks
 - Coaches and consultants looking to scale without adding headcount
 - Growing enterprises ready to adopt AI without disrupting current operations
+- Founders and personal brand builders who want consistent visibility without the content burden
 - Any business that wants AI but fears complexity
 
 ---

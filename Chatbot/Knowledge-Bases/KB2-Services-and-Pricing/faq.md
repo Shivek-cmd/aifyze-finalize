@@ -4,18 +4,19 @@
 
 ---
 
-**FAQ: What are Aifyze's three main services?**
+**FAQ: What are Aifyze's core services?**
 
-Aifyze offers three core services:
+Aifyze offers four core services:
 1. AI-fy Your Business Processes — automates repetitive workflows (lead follow-up, admin, customer support) layered over your existing tools. Starts from $500.
 2. Hire Your AI CEO — fractional AI executive leadership for strategy, vendor selection, and implementation oversight. Starts from $1,500.
 3. AI Strategy Consulting — tailored AI roadmap, readiness assessment, gap analysis, team training, and change management. Starts from $7,500.
+4. Founder AI Twin Engine — done-for-you AI-powered content creation for founders. Includes AI twin creation, monthly content strategy, scriptwriting, premium video production, and publishing. $1,500/month + $1,500 one-time setup fee.
 
 ---
 
 **FAQ: How much does it cost to work with Aifyze?**
 
-Pricing is scoped to your exact needs — Aifyze does not charge a flat rate because every business is different. As a guide: process automation starts from $500, fractional AI leadership starts from $1,500, and strategy consulting starts from $7,500. The best way to get an accurate investment figure is through a free AI audit where an Aifyze expert reviews your specific situation.
+Pricing is scoped to your exact needs — Aifyze does not charge a flat rate because every business is different. As a guide: process automation starts from $500, fractional AI leadership starts from $1,500, strategy consulting starts from $7,500, and Founder AI Twin Engine is $1,500/month with a $1,500 one-time setup fee. The best way to get an accurate investment figure is through a free AI audit where an Aifyze expert reviews your specific situation.
 
 ---
 
@@ -45,7 +46,13 @@ No. Aifyze's entire approach is built around integrating AI into the tools and w
 
 **FAQ: Which service is right for my business?**
 
-It depends on your situation. If you have clear repetitive tasks and existing tools, "AI-fy Your Business Processes" creates the fastest results. If you're unsure where to start or need a structured plan, "AI Strategy Consulting" is the right first step. If you need ongoing strategic leadership and implementation oversight, "Hire Your AI CEO" provides that. The best way to determine the right path is your AI Readiness Score — or a free AI audit with the Aifyze team.
+It depends on your situation. If you have clear repetitive tasks and existing tools, "AI-fy Your Business Processes" creates the fastest results. If you're unsure where to start or need a structured plan, "AI Strategy Consulting" is the right first step. If you need ongoing strategic leadership and implementation oversight, "Hire Your AI CEO" provides that. If you are a founder, coach, or consultant who wants consistent content presence and personal brand authority without the production burden, "Founder AI Twin Engine" is built for you. The best way to determine the right path is your AI Readiness Score — or a free AI audit with the Aifyze team.
+
+---
+
+**FAQ: What is the Founder AI Twin Engine?**
+
+The Founder AI Twin Engine is Aifyze's AI-powered content creation service for founders. It builds an AI twin that captures your voice, expertise, and brand presence — then produces 4 long-form videos and 12 short-form videos every month, fully scripted, edited, and published for you. It is designed for founders who want consistent visibility and authority without the time burden of planning, recording, and editing themselves. It works especially well for camera-shy founders, consultants, coaches, service business owners, and scaling startups. Pricing is $1,500/month plus a $1,500 one-time setup fee.
 
 ---
 

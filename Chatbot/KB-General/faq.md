@@ -216,7 +216,7 @@ A: Aifyze is Watts Group's AI consulting and automation vertical, launched in 20
 ---
 
 **Q: What services does Aifyze offer?**
-A: Three core services: (1) AI-fy Your Business Processes — automating repetitive workflows; (2) Hire Your AI CEO — fractional AI executive leadership; (3) AI Strategy Consulting — readiness assessments and custom AI roadmaps.
+A: Four core services: (1) AI-fy Your Business Processes — automating repetitive workflows; (2) Hire Your AI CEO — fractional AI executive leadership; (3) AI Strategy Consulting — readiness assessments and custom AI roadmaps; (4) Founder AI Twin Engine — AI-powered founder content with done-for-you scriptwriting, video production, and publishing.
 
 ---
 

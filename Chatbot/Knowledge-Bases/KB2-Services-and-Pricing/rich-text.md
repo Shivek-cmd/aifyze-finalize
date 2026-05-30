@@ -12,7 +12,7 @@ Tagline: "We AI-fy You."
 
 ---
 
-## The Three Core Services
+## The Four Core Services
 
 ### Service 1 — AI-fy Your Business Processes
 **Tagline:** Smarter Operations, Zero Disruption
@@ -74,6 +74,27 @@ Tagline: "We AI-fy You."
 
 ---
 
+### Service 4 — Founder AI Twin Engine
+**Tagline:** Smarter Founder Visibility, Zero Disruption
+**Best for:** Founders, coaches, consultants, and service business owners who want consistent content and personal brand visibility without managing production themselves
+
+**What's included:**
+- AI twin creation that captures your voice, expertise, and brand presence
+- Monthly content strategy and planning built around your business goals
+- Professional scriptwriting for all long-form and short-form content
+- Premium video production with polished editing, captions, and branded packaging
+- Done-for-you publishing across YouTube and selected social channels
+- Content repurposing into high-trust assets across multiple formats
+
+**Key outcomes:**
+- Consistent founder visibility without becoming a full-time content creator
+- Founder-led authority content that attracts inbound interest and trust
+- 4 long-form videos and 12 short-form videos produced and published every month
+
+**Pricing:** $1,500/month + $1,500 one-time setup fee
+
+---
+
 ## The Four Differentiators
 
 1. **Trusted Partnerships** — Aifyze acts as a strategic extension of your team, not a distant vendor.
@@ -99,9 +120,11 @@ Tagline: "We AI-fy You."
 | Repetitive tasks are obvious; tools exist; want quick operational wins | AI-fy Your Business Processes |
 | Unclear where to start; need structure and a roadmap first | AI Strategy Consulting |
 | Need ongoing expert guidance, leadership, and project oversight | Hire Your AI CEO |
+| Founder, coach, or consultant wanting consistent visibility and content presence | Founder AI Twin Engine |
 | Score 50–69 | Start with free AI audit → likely AI-fy or Strategy |
 | Score 70–84 | AI-fy Your Business Processes or guided pilot |
 | Score 85–100 | Implementation + Hire Your AI CEO |
+| User identifies as a founder or personal brand builder | Mention Founder AI Twin Engine as a complementary or standalone option |
 
 ---
 
