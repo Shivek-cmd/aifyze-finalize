@@ -48,7 +48,7 @@ Aifyze is a **premium B2B AI consulting firm** that helps businesses integrate A
 | Stat | Where Used |
 |---|---|
 | 50+ businesses transformed | Homepage, Contact |
-| 3 core service lines | Homepage, Contact |
+| 4 core service lines | Homepage, Contact |
 | 24/7 AI agent availability | Homepage, Contact, Service 1 |
 | 100% client-first approach | Homepage, Contact |
 | 60% reduction in manual work | Service 1, Homepage |
@@ -58,7 +58,7 @@ Aifyze is a **premium B2B AI consulting firm** that helps businesses integrate A
 
 ---
 
-## 2. The Three Services
+## 2. The Four Services
 
 ### Service 1 — AI-fy Your Business Processes
 **Tagline:** Smarter Operations, Zero Disruption  
@@ -114,6 +114,21 @@ Key outcomes: Clarity before investment, board-ready business cases, team buy-in
 
 ---
 
+### Service 4 — Founder AI Twin Engine
+**Tagline:** Build Consistent Founder Visibility — Without the Time Burden  
+**URL:** `/services/founder-ai-twin-engine`  
+**Folder:** `Service4-Founder-AI-Twin-Engine/`  
+
+What it covers:
+- AI Twin Creation (captures your voice, tone, and brand identity)
+- 4 long-form videos + 12 short-form videos produced every month
+- Monthly content strategy, scriptwriting, and premium editing
+- Done-for-you publishing across YouTube and selected channels
+
+Key outcomes: Active founder presence without recording burden, consistent brand authority, monthly video pipeline fully handled, scalable content at a fraction of in-house cost
+
+---
+
 ## 3. Site Structure — Every Page Explained
 
 ### Global Elements (appear on all pages)
@@ -122,14 +137,14 @@ Key outcomes: Clarity before investment, board-ready business cases, team buy-in
 - Floating pill navbar (frosted glass, fixed to top)
 - Logo → Home
 - Nav links: About | Services (mega-dropdown) | Our Associations | Blog | Contact
-- Services mega-dropdown shows all 3 services with icons, numbers, and descriptions + "Book a free call" footer link
+- Services mega-dropdown shows all 4 services with icons, numbers, and descriptions + "Book a free call" footer link
 - CTA button: "Free AI Audit" → `/contact`
 - Mobile: Hamburger → slide-in drawer with same links + "Get Your Free AI Audit" CTA
 
 **Footer** — `global/footer.html`
 - Column 1: Brand description and social links (Facebook, LinkedIn, YouTube, Instagram)
 - Column 2: Company links (About, Services, Associations, Blog, Contact)
-- Column 3: Service links (each of the 3 service detail pages)
+- Column 3: Service links (each of the 4 service detail pages)
 - Column 4: Contact info (email, phone, address)
 - Bottom bar: Privacy Policy | Terms of Service | Copyright
 
@@ -142,7 +157,7 @@ Key outcomes: Clarity before investment, board-ready business cases, team buy-in
 Sections (in order):
 1. **Hero Carousel** — 3 rotating background images, headline "We AI-fy You", subtext, CTAs: "Book Your Free AI Audit" + "Explore Services"
 2. **Stats Bar** — 4 animated counters: 50+ Businesses Transformed | 3 Core Service Lines | 24/7 AI Agent Availability | 100% Client-First Approach
-3. **Services Grid** — "Three Ways We AI-fy Your Business" — 3 service cards with image, badge number, title, description, "Learn More" link. Bottom: "View All Services" button
+3. **Services Grid** — "Four Ways We AI-fy Your Business" — 4 service cards with image, badge number, title, description, "Learn More" link. Bottom: "View All Services" button
 4. **About Preview** — Image + text split: "Smart AI Innovation For Your Business" — 2-paragraph mission blurb + "Learn More About Us" button
 5. **Partner Marquee** — "Businesses We Work With" — 3 rows of auto-scrolling logo strips (RTL / LTR / RTL) featuring 40+ partner brand logos. "See All Partners" button → Our Associations page
 6. **Testimonials** — Rotating slider with 4 client quotes (Sarah Mitchell, David Chen, Rachel Torres, Marcus Johnson) with dots navigation
@@ -173,13 +188,14 @@ Sections (in order):
 **URL:** `/services`
 
 Sections (in order):
-1. **Hero** — Background image, breadcrumb, headline "Three Ways We AI-fy Your Business", descriptive paragraph
-2. **Services (Alternating Layout)** — 3 service rows (Service 1 left/right, Service 2 reversed, Service 3 left/right). Each row: badge number, title, 1-line description, 4 bullet points, "Learn More" + "Book Free AI Audit" buttons
+1. **Hero** — Background image, breadcrumb, headline "Four Ways We AI-fy Your Business", descriptive paragraph
+2. **Services (Alternating Layout)** — 4 service rows alternating left/right. Each row: badge number, title, 1-line description, 4 bullet points, "Learn More" + "Book Free AI Audit" buttons
 3. **Why Choose Aifyze** — Dark background section, 3-column cards: Trusted Partnerships | Focused on Growth | White-Glove Experience
-4. **Our Process** — 4-step grid: Discovery → Strategy → Implementation → Optimization
-5. **CTA Banner** — "Ready to AI-fy Your Business?" + "Book Your Free AI Audit"
+4. **Industry-Specific Solutions** — Strip with 6 industry links (Real Estate, Professional Services, Restaurants, Medical, Law Firms, Plumbing) + "Explore All Industries" button → `/industries-we-serve`
+5. **Our Process** — 4-step grid: Discovery → Strategy → Implementation → Optimization
+6. **CTA Banner** — "Ready to AI-fy Your Business?" + "Book Your Free AI Audit"
 
-> **Where to add something on Services:** A "Pricing Overview" strip could go between the service rows and the Why section. An "Industries We Serve" section (healthcare, legal, e-commerce, etc.) could go between Why and Process.
+> **Where to add something on Services:** A "Pricing Overview" strip could go between the service rows and the Why section.
 
 ---
 
@@ -231,6 +247,23 @@ Sections (in order):
 7. **CTA Banner** — "Ready for a Clear AI Strategy?" + "Book Your Free AI Audit"
 
 > **Where to add something here:** A "What You Get Delivered" tangibles list (e.g. "a written roadmap document", "workshop slides", "ROI model spreadsheet") could go after Investment to make it more concrete. A "Is This Right for You?" checklist could go between the hero and Core Capabilities.
+
+---
+
+### Service 4 — Founder AI Twin Engine
+**File:** `Service4-Founder-AI-Twin-Engine/`  
+**URL:** `/services/founder-ai-twin-engine`
+
+Sections (expected, same pattern as Services 1–3):
+1. **Hero** — Background image, breadcrumb, headline, tagline, "See Investment" scroll button
+2. **Core Capabilities** — AI Twin Creation | Voice & Brand Capture | Long-Form Video Production | Short-Form Video Production | Content Strategy & Scripting | Done-for-You Publishing
+3. **What We Deliver** — Monthly content pipeline, AI twin build, scriptwriting, editing, channel publishing
+4. **Expected Outcomes** — Consistent Founder Visibility | No Recording Burden | Scalable Content | Monthly Pipeline Handled
+5. **Investment** — Pricing card + "Get a Custom Quote" CTA
+6. **Other Services** — Cards linking to Services 1, 2, and 3
+7. **CTA Banner** — "Ready to Build Your AI Twin?" + "Book Your Free AI Audit"
+
+> **Where to add something here:** A "How Your AI Twin Is Built" step-by-step explainer could go between Hero and Core Capabilities. A "Sample Content" or "Before/After" video showcase section could go between Outcomes and Investment.
 
 ---
 
@@ -393,9 +426,10 @@ Custom error page with Aifyze branding, headline, and links back to key pages.
   /services/ai-fy-your-business-processes   → Service 1
   /services/hire-your-ai-ceo               → Service 2
   /services/ai-strategy-consulting         → Service 3
+  /services/founder-ai-twin-engine         → Service 4
 /businesses-we-work-with    → Our Associations
 /blog                       → Blog Listing
-  /blog/[slug]              → Individual Blog Posts (12 published)
+  /blog/[slug]              → Individual Blog Posts (16 published)
 /contact                    → Contact
 /privacy-policy             → Privacy Policy
 /terms-of-service           → Terms of Service

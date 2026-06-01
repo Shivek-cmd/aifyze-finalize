@@ -121,3 +121,6 @@ Each key follows the `AiFyze_` prefix naming convention.
 | aifyze_blog16_lead_scoring_hero | Placeholder: https://images.unsplash.com/photo-1542744173-05336fcc7ad4?fm=jpg&q=80&w=1600&fit=crop |
 | aifyze_blog16_lead_scoring_1 | Placeholder: https://images.unsplash.com/photo-1542744174-a35e40ade835?fm=jpg&q=80&w=1200&fit=crop |
 | aifyze_blog16_lead_scoring_2 | Placeholder: https://images.unsplash.com/photo-1460925895917-afdab827c52f?fm=jpg&q=80&w=1200&fit=crop |
+| aifyze_blog17_founder_ai_driven_hero | Placeholder: extract CDN URL from pixabay.com/illustrations/banner-ai-technology-digital-data-8192025/ |
+| aifyze_blog17_founder_ai_driven_1 | Placeholder: https://cdn.pixabay.com/photo/2015/01/08/18/24/startup-593358_1280.jpg |
+| aifyze_blog17_founder_ai_driven_2 | Placeholder: https://images.unsplash.com/photo-TbaGJYOkWuA?w=1200&h=630&fit=crop&q=80 |

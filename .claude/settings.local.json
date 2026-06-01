@@ -18,7 +18,8 @@
       "WebFetch(domain:www.gartner.com)",
       "WebFetch(domain:greetnow.com)",
       "WebFetch(domain:www.destinationcrm.com)",
-      "Bash(Test-Path \"d:\\\\Watts Company\\\\aifyze\\\\Blog16\")"
+      "Bash(Test-Path \"d:\\\\Watts Company\\\\aifyze\\\\Blog16\")",
+      "Bash(mkdir -p \"d:\\\\Watts Company\\\\aifyze\\\\Blog17\")"
     ],
     "additionalDirectories": [
       "d:\\Watts Company\\aifyze",
