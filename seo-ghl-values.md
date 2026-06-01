@@ -2624,3 +2624,86 @@ https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi
 - **TOC anchors:** `#the-roi-gap`, `#the-90-day-framework`, `#fastest-roi-use-cases`, `#build-your-roi-dashboard`, `#what-high-performers-do-differently`, `#faq`
 - **Charts:** Donut (Thomson Reuters — who tracks AI ROI), Grouped bar (Redwood/Deloitte — cost reduction results), Horizontal timeline (Forrester/Quadient/Google Cloud — ROI timeline by use case)
 - **Key sources:** Google Cloud / NRG (Sep 2025), Thomson Reuters / Accounting Today (2025), Gartner (Apr 2026), IDC / Microsoft (Jan 2025), Redwood Software (Jul 2025), Deloitte State of AI (Jan 2026), Forrester via Sprinklr (2025), Quadient (2025), HBR (Mar 2026), IBM Think (2025–2026)
+
+---
+
+## Section 27 — Blog 16: Ghosting Your Leads? Agentic Lead Scoring
+
+**URL:** `https://aifyze.com/blog/agentic-lead-scoring-silent-revenue-leak-coaches-consultants`
+**Folder:** `/Blog16/`
+
+| Field | Value |
+|---|---|
+| title | Agentic Lead Scoring for Coaches: Fix the $50k Revenue Leak \| Aifyze Blog |
+| description | 73% of leads are never contacted. Coaches lose $40k–$60k/yr to silent pipeline gaps. Agentic lead scoring fixes follow-up automatically. |
+| keywords | agentic lead scoring, lead follow-up automation, coaching business revenue, consultant pipeline, AI lead scoring, lead nurturing, Aifyze |
+| canonical | https://aifyze.com/blog/agentic-lead-scoring-silent-revenue-leak-coaches-consultants |
+| og:title | Agentic Lead Scoring for Coaches: Fix the $50k Revenue Leak \| Aifyze Blog |
+| og:description | 73% of leads are never contacted. Coaches lose $40k–$60k/yr to silent pipeline gaps. Agentic lead scoring fixes follow-up automatically. |
+| og:url | https://aifyze.com/blog/agentic-lead-scoring-silent-revenue-leak-coaches-consultants |
+| og:type | article |
+| og:site_name | Aifyze |
+| og:image | {{custom_values.aifyze_blog16_lead_scoring_hero}} |
+| og:image:width | 1200 |
+| og:image:height | 630 |
+| twitter:card | summary_large_image |
+| twitter:title | Agentic Lead Scoring for Coaches: Fix the $50k Revenue Leak |
+| twitter:description | 73% of leads are never contacted. Coaches lose $40k–$60k/yr to silent pipeline gaps. Agentic lead scoring fixes follow-up automatically. |
+| twitter:image | {{custom_values.aifyze_blog16_lead_scoring_hero}} |
+
+**JSON-LD Schema (Article + BreadcrumbList):**
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Ghosting Your Leads? How Agentic Lead Scoring Plugs the $50k 'Silent Leak'",
+      "description": "73% of inbound leads are never contacted. For coaches and consultants, that silent pipeline gap can cost $40,000–$60,000 per year. Learn how agentic lead scoring recovers revenue automatically.",
+      "image": "{{custom_values.aifyze_blog16_lead_scoring_hero}}",
+      "datePublished": "2026-05-30",
+      "dateModified": "2026-05-30",
+      "author": {
+        "@type": "Organization",
+        "name": "Aifyze Team"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aifyze",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{custom_values.AiFyze_Logo_Horizontal_SVG}}"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://aifyze.com/blog/agentic-lead-scoring-silent-revenue-leak-coaches-consultants"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aifyze.com" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aifyze.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Agentic Lead Scoring", "item": "https://aifyze.com/blog/agentic-lead-scoring-silent-revenue-leak-coaches-consultants" }
+      ]
+    }
+  ]
+}
+```
+
+**Notes:**
+- **Date published:** May 30, 2026
+- **Category:** Industry Insights
+- **Read time:** 7 min read
+- **Hero image GHL variable:** `aifyze_blog16_lead_scoring_hero`
+- **Article image GHL variables:** `aifyze_blog16_lead_scoring_1`, `aifyze_blog16_lead_scoring_2`
+- **Placeholder image URLs (upload to GHL then replace):**
+  - Hero: `https://images.unsplash.com/photo-1542744173-05336fcc7ad4?fm=jpg&q=80&w=1600&fit=crop` (consultant with MacBook, Campaign Creators / Unsplash)
+  - Image 1: `https://images.unsplash.com/photo-1542744174-a35e40ade835?fm=jpg&q=80&w=1200&fit=crop` (strategy session notes, Campaign Creators / Unsplash)
+  - Image 2: `https://images.unsplash.com/photo-1460925895917-afdab827c52f?fm=jpg&q=80&w=1200&fit=crop` (sales analytics dashboard, Carlos Muza / Unsplash)
+- **Primary keywords:** agentic lead scoring, lead follow-up automation, coaching business revenue leak, AI lead nurturing, consultant pipeline AI
+- **Internal links in article:** [AI-fy Your Business Processes](/services/ai-fy-your-business-processes), [AI Strategy Consulting](/services/ai-strategy-consulting), [AI Lead Generation for Coaches](/blog/ai-lead-generation-automation-coaching-practice), [Beyond the Lead Factory](/blog/beyond-lead-factory-revenue-intelligence-2026), [Contact](/contact)
+- **TOC anchors:** `#the-silent-leak`, `#coaches-consultants-exposed`, `#what-is-agentic-lead-scoring`, `#how-agentic-scoring-works`, `#getting-started`, `#faq`
+- **Charts:** Horizontal bar (The Follow-Up Gap — Invesp/HubSpot 2024), Funnel (Where 100 Leads Go — Salesforce/Invesp/MarketingSherpa 2024)
+- **Key sources:** Salesforce (2024), Invesp / HubSpot (2024), MIT / Harvard Business Review (2011, dataset of 15,000+ leads), MarketingSherpa (2024), Forrester Research (2024), Gartner Sales Survey (Sep 2024), The Annuitas Group (2024), InsideSales.com / Forrester (2024)

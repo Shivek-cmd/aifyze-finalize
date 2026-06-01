@@ -197,6 +197,7 @@ See `custom-values.md` for the full asset mapping.
 | 13 | The AI Tech Stack Purge: Consolidate Your 20-App Mess into One AI Brain | AI Strategy | May 14, 2026 | `/blog/ai-tech-stack-consolidation-one-ai-brain` |
 | 14 | Beyond the Chatbot: Why Your Business Needs an AI Org Chart in 2026 | AI Strategy | May 18, 2026 | `/blog/ai-org-chart-ai-employees-teams-2026` |
 | 15 | The 90-Day AI ROI Framework: A CEO's Guide to Measurable Automation Results | AI Strategy | May 20, 2026 | `/blog/90-day-ai-roi-framework-measurable-automation-results` |
+| 16 | Ghosting Your Leads? How Agentic Lead Scoring Plugs the $50k 'Silent Leak' | Industry Insights | May 30, 2026 | `/blog/agentic-lead-scoring-silent-revenue-leak-coaches-consultants` |
 
 ### Blog Categories
 `AI Automation` | `AI Strategy` | `Business Growth` | `Industry Insights`

@@ -118,3 +118,6 @@ Each key follows the `AiFyze_` prefix naming convention.
 | aifyze_blog15_ai_roi_hero | |
 | aifyze_blog15_ai_roi_1 | |
 | aifyze_blog15_ai_roi_2 | |
+| aifyze_blog16_lead_scoring_hero | Placeholder: https://images.unsplash.com/photo-1542744173-05336fcc7ad4?fm=jpg&q=80&w=1600&fit=crop |
+| aifyze_blog16_lead_scoring_1 | Placeholder: https://images.unsplash.com/photo-1542744174-a35e40ade835?fm=jpg&q=80&w=1200&fit=crop |
+| aifyze_blog16_lead_scoring_2 | Placeholder: https://images.unsplash.com/photo-1460925895917-afdab827c52f?fm=jpg&q=80&w=1200&fit=crop |

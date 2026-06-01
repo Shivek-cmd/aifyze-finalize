@@ -4,7 +4,21 @@
       "WebSearch",
       "Bash(mkdir \"d:\\\\Watts Company\\\\aifyze\\\\Blog14\")",
       "Bash(mkdir -p \"d:/Watts Company/aifyze/Blog14\")",
-      "Bash(mkdir \"d:\\\\Watts Company\\\\aifyze\\\\Blog15\")"
+      "Bash(mkdir \"d:\\\\Watts Company\\\\aifyze\\\\Blog15\")",
+      "WebFetch(domain:blog.hubspot.com)",
+      "WebFetch(domain:25649.fs1.hubspotusercontent-na2.net)",
+      "WebFetch(domain:pixabay.com)",
+      "WebFetch(domain:www.landbase.com)",
+      "WebFetch(domain:www.invespcro.com)",
+      "WebFetch(domain:verse.ai)",
+      "WebFetch(domain:ainora.lt)",
+      "WebFetch(domain:unsplash.com)",
+      "WebFetch(domain:images.unsplash.com)",
+      "WebFetch(domain:entrepreneurshq.com)",
+      "WebFetch(domain:www.gartner.com)",
+      "WebFetch(domain:greetnow.com)",
+      "WebFetch(domain:www.destinationcrm.com)",
+      "Bash(Test-Path \"d:\\\\Watts Company\\\\aifyze\\\\Blog16\")"
     ],
     "additionalDirectories": [
       "d:\\Watts Company\\aifyze",
