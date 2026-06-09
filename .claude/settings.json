@@ -4,7 +4,15 @@
       "WebFetch(domain:wattsgroup.in)",
       "WebFetch(domain:wattscommunity.in)",
       "WebFetch(domain:riteshwatts.com)",
-      "WebFetch(domain:marketplace.gohighlevel.com)"
+      "WebFetch(domain:marketplace.gohighlevel.com)",
+      "WebFetch(domain:fortune.com)",
+      "WebFetch(domain:zapier.com)",
+      "WebFetch(domain:www.pertamapartners.com)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:shibumi.com)",
+      "WebFetch(domain:www.shrm.org)",
+      "WebFetch(domain:www.deloitte.com)",
+      "Bash(mkdir \"d:\\\\Watts Company\\\\aifyze\\\\Blog18\" 2>/dev/null; echo \"done\")"
     ],
     "additionalDirectories": [
       "d:\\Watts Company\\aifyze"

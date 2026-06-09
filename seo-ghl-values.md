@@ -31,6 +31,7 @@
 33. [Blog — 14. Beyond the Chatbot: Why Your Business Needs an AI Org Chart in 2026](#33-blog--beyond-the-chatbot-ai-org-chart-2026)
 34. [Blog — 15. The 90-Day AI ROI Framework: A CEO's Guide to Measurable Automation Results](#34-blog--90-day-ai-roi-framework-ceo-guide)
 32. [Industries We Serve](#32-industries-we-serve)
+- [Blog — 18. AI Cleanup: What Happens When You Automate Too Fast (And How to Fix It)](#blog--18-ai-cleanup-what-happens-when-you-automate-too-fast)
 
 ---
 
@@ -2790,3 +2791,125 @@ https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi
 - **TOC anchors:** `#growth-ceiling`, `#what-ai-driven-means`, `#four-workflows`, `#ai-strategy-runs-without-you`, `#founder-ai-twin`, `#measuring-success`, `#getting-started`, `#faq`
 - **Charts:** Horizontal bar (Where Founder Time Goes — Time Etc 2023), Side-by-side (Automatable Work Hours 2023 vs 2025 — McKinsey Nov 2025), Horizontal bar (SMB AI Adoption Impact — Salesforce Dec 2024)
 - **Key sources:** Time Etc (2023), HBR/McKinsey (2017), McKinsey Global Institute Agents Robots and Us (Nov 2025), McKinsey State of AI (Mar 2025), Salesforce SMB Trends (Dec 2024), Gartner (Aug 2025), SE Advisory (2024), McKinsey via Fortune (Nov 2025)
+
+---
+
+## Blog — 18. AI Cleanup: What Happens When You Automate Too Fast (And How to Fix It)
+
+**URL:** `https://aifyze.com/blog/ai-automation-too-fast-cleanup-fix-broken-workflows`
+**Folder:** `/Blog18/`
+
+| Field | Value |
+|---|---|
+| title | AI Cleanup: Stop Automating Too Fast — Fix It \| Aifyze Blog |
+| description | 42% of businesses abandoned an AI initiative in 2025. Here's the 4-step audit to kill broken automation, fix what works, and rebuild for real ROI. |
+| keywords | AI automation mistakes, over-automation, broken AI automation, AI project failure, AI debt, AI audit framework, how to fix AI automation, AI implementation failure, AI cleanup, Aifyze |
+| canonical | https://aifyze.com/blog/ai-automation-too-fast-cleanup-fix-broken-workflows |
+| og:title | AI Cleanup: Stop Automating Too Fast — Fix It \| Aifyze Blog |
+| og:description | 42% of businesses abandoned an AI initiative in 2025. Here's the 4-step audit to kill broken automation, fix what works, and rebuild for real ROI. |
+| og:url | https://aifyze.com/blog/ai-automation-too-fast-cleanup-fix-broken-workflows |
+| og:type | article |
+| og:site_name | Aifyze |
+| og:image | {{custom_values.aifyze_blog18_ai_cleanup_hero}} |
+| og:image:width | 1200 |
+| og:image:height | 630 |
+| twitter:card | summary_large_image |
+| twitter:title | AI Cleanup: Stop Automating Too Fast — Fix It |
+| twitter:description | 42% of businesses abandoned an AI initiative in 2025. Here's the 4-step audit to kill broken automation, fix what works, and rebuild for real ROI. |
+| twitter:image | {{custom_values.aifyze_blog18_ai_cleanup_hero}} |
+
+**JSON-LD Schema (Article + FAQPage + BreadcrumbList):**
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "AI Cleanup: What Happens When You Automate Too Fast (And How to Fix It)",
+      "description": "42% of companies abandoned at least one AI initiative in 2025 — up from 17% the prior year. This guide covers the 4-step AI audit framework for killing broken automation, fixing what can be salvaged, and rebuilding from a measured starting point.",
+      "image": "{{custom_values.aifyze_blog18_ai_cleanup_hero}}",
+      "datePublished": "2026-06-09",
+      "dateModified": "2026-06-09",
+      "author": {
+        "@type": "Organization",
+        "name": "Aifyze Team"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aifyze",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{custom_values.AiFyze_Logo_Horizontal_SVG}}"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://aifyze.com/blog/ai-automation-too-fast-cleanup-fix-broken-workflows"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know if my AI automation is actually broken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The clearest signal is when your team manually works around it — double-checking outputs, re-sending messages the workflow should have sent, or correcting data it processed. If more than 20% of an automation's outputs require human review or correction before use, it isn't functioning as designed. Track the ratio of automated outputs to manual corrections for two weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I fix broken automations or scrap them and start fresh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the root cause. If the automation has a wrong trigger or a missing data connection, fixing it is almost always faster than rebuilding. If the underlying workflow it was meant to handle has changed significantly since it was built, starting fresh with the current process mapped first is cleaner and cheaper long-term."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does an AI audit typically uncover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most consistent findings are tools with no active internal owner, automations that duplicate each other's function across departments, workflows tied to outdated data fields, and paid subscriptions whose free tier covers everything the business actually uses. Most audits surface 30–50% of current AI spend that can be redirected or cancelled within 30 days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does AI cleanup typically take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most SMBs, the audit itself takes two to three focused sessions over one to two weeks. Acting on Kill decisions is immediate. Fixing broken automations typically takes two to six weeks depending on complexity. Consolidation usually plays out across 60 to 90 days as contracts expire. Most businesses see measurable improvement within the first 30 days of starting."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aifyze.com" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aifyze.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "AI Cleanup: What Happens When You Automate Too Fast", "item": "https://aifyze.com/blog/ai-automation-too-fast-cleanup-fix-broken-workflows" }
+      ]
+    }
+  ]
+}
+```
+
+**Notes:**
+- **Date published:** June 9, 2026
+- **Category:** AI Strategy
+- **Tags:** Automation, Strategy, ROI
+- **Read time:** 8 min read
+- **Hero image GHL variable:** `aifyze_blog18_ai_cleanup_hero`
+- **Article image GHL variables:** `aifyze_blog18_ai_cleanup_1`, `aifyze_blog18_ai_cleanup_2`, `aifyze_blog18_ai_cleanup_3`
+- **Placeholder image URLs (upload to GHL then replace):**
+  - Hero: `https://plus.unsplash.com/premium_photo-1742649149132-065a0858f761?fm=jpg&q=60&w=3000&auto=format&fit=crop` (overwhelmed person with multiple devices, Unsplash)
+  - Image 1: Cluttered screen / app chaos concept — search Unsplash/Pixabay for "app overwhelm screen"
+  - Image 2: `https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?fm=jpg&q=60&w=3000&auto=format&fit=crop` (person reviewing document at laptop — audit concept, Scott Graham / Unsplash)
+  - Image 3: `https://images.unsplash.com/photo-1560131914-2e469a0e8607?fm=jpg&q=60&w=3000&auto=format&fit=crop` (clean minimal workspace, Amy Hirschi / Unsplash)
+- **Primary keywords:** AI automation mistakes, over-automation, broken AI automation, AI audit framework, AI project failure 2026
+- **Internal links in article:** [AI Tech Stack Purge blog](/blog/ai-tech-stack-consolidation-one-ai-brain), [10 Reasons ROI blog](/blog/why-ai-workflow-automation-isnt-showing-roi), [90-Day AI Roadmap blog](/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul), [90-Day AI ROI Framework blog](/blog/90-day-ai-roi-framework-measurable-automation-results), [AI Strategy Consulting service](/services/ai-strategy-consulting), [Contact](/contact)
+- **TOC anchors:** `#why-ai-projects-fail`, `#warning-signs`, `#ai-debt-cost`, `#ai-audit-framework`, `#what-good-looks-like`, `#faq`
+- **Charts:** Side-by-side bar (AI Project Abandonment Rate 2024 vs 2025 — S&P Global / 451 Research, Oct 2025), Horizontal bar (Employee AI Reality Check — Upwork Research Institute Jul 2024 + Gallup 2026)
+- **Key sources:** MIT Project NANDA via Fortune (Aug 2025), S&P Global / 451 Research Voice of the Enterprise (Oct 2025), Zapier AI Sprawl Survey (Dec 2025, n=550), Upwork Research Institute (Jul 2024, n=2,500), Deloitte via Pertama Partners (2025), Fast Company / Shibumi (2026), Gallup (2026)

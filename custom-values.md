@@ -124,3 +124,7 @@ Each key follows the `AiFyze_` prefix naming convention.
 | aifyze_blog17_founder_ai_driven_hero | Placeholder: extract CDN URL from pixabay.com/illustrations/banner-ai-technology-digital-data-8192025/ |
 | aifyze_blog17_founder_ai_driven_1 | Placeholder: https://cdn.pixabay.com/photo/2015/01/08/18/24/startup-593358_1280.jpg |
 | aifyze_blog17_founder_ai_driven_2 | Placeholder: https://images.unsplash.com/photo-TbaGJYOkWuA?w=1200&h=630&fit=crop&q=80 |
+| aifyze_blog18_ai_cleanup_hero | Placeholder: https://plus.unsplash.com/premium_photo-1742649149132-065a0858f761?fm=jpg&q=60&w=3000&auto=format&fit=crop (overwhelmed person with multiple devices — chaos/overload concept) |
+| aifyze_blog18_ai_cleanup_1 | Placeholder: use a cluttered screen / app sprawl concept image — search Unsplash/Pixabay for "app overwhelm screen chaos" |
+| aifyze_blog18_ai_cleanup_2 | Placeholder: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?fm=jpg&q=60&w=3000&auto=format&fit=crop (person reviewing checklist/document at laptop — audit concept) |
+| aifyze_blog18_ai_cleanup_3 | Placeholder: https://images.unsplash.com/photo-1560131914-2e469a0e8607?fm=jpg&q=60&w=3000&auto=format&fit=crop (clean minimal workspace — organised/after-cleanup concept) |
