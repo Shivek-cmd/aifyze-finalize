@@ -128,3 +128,6 @@ Each key follows the `AiFyze_` prefix naming convention.
 | aifyze_blog18_ai_cleanup_1 | Placeholder: use a cluttered screen / app sprawl concept image — search Unsplash/Pixabay for "app overwhelm screen chaos" |
 | aifyze_blog18_ai_cleanup_2 | Placeholder: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?fm=jpg&q=60&w=3000&auto=format&fit=crop (person reviewing checklist/document at laptop — audit concept) |
 | aifyze_blog18_ai_cleanup_3 | Placeholder: https://images.unsplash.com/photo-1560131914-2e469a0e8607?fm=jpg&q=60&w=3000&auto=format&fit=crop (clean minimal workspace — organised/after-cleanup concept) |
+| aifyze_blog19_ai_hiring_hero | Placeholder: https://images.unsplash.com/photo-1698047682091-782b1e5c6536?fm=jpg&q=60&w=3000&auto=format&fit=crop (hiring manager and candidate handshake in modern office — AI hiring hero) |
+| aifyze_blog19_ai_hiring_1 | Placeholder: https://images.unsplash.com/photo-1698047682091-782b1e5c6536?fm=jpg&q=60&w=3000&auto=format&fit=crop (professional handshake at desk — structured hiring process) |
+| aifyze_blog19_ai_hiring_2 | Placeholder: https://images.unsplash.com/photo-1600880292203-757bb62b4baf?fm=jpg&q=60&w=3000&auto=format&fit=crop (two colleagues high-five at workstation — successful onboarding / team collaboration) |

@@ -12,7 +12,23 @@
       "WebFetch(domain:shibumi.com)",
       "WebFetch(domain:www.shrm.org)",
       "WebFetch(domain:www.deloitte.com)",
-      "Bash(mkdir \"d:\\\\Watts Company\\\\aifyze\\\\Blog18\" 2>/dev/null; echo \"done\")"
+      "Bash(mkdir \"d:\\\\Watts Company\\\\aifyze\\\\Blog18\" 2>/dev/null; echo \"done\")",
+      "WebFetch(domain:onpay.com)",
+      "WebFetch(domain:www.greenhouse.com)",
+      "WebFetch(domain:hirebee.ai)",
+      "WebFetch(domain:www.herohunt.ai)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:www.gallup.com)",
+      "WebFetch(domain:docustream.ai)",
+      "WebFetch(domain:brandonhall.com)",
+      "WebFetch(domain:copilot.recruitaisuite.com)",
+      "WebFetch(domain:business.linkedin.com)",
+      "Read(//c/Users/shive/.claude/skills/blog/templates/**)",
+      "WebFetch(domain:hbr.org)",
+      "WebFetch(domain:www.demandsage.com)",
+      "WebFetch(domain:www.ringly.io)",
+      "WebFetch(domain:www.pwc.com)",
+      "WebFetch(domain:www.mckinsey.com)"
     ],
     "additionalDirectories": [
       "d:\\Watts Company\\aifyze"

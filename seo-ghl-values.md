@@ -32,6 +32,7 @@
 34. [Blog — 15. The 90-Day AI ROI Framework: A CEO's Guide to Measurable Automation Results](#34-blog--90-day-ai-roi-framework-ceo-guide)
 32. [Industries We Serve](#32-industries-we-serve)
 - [Blog — 18. AI Cleanup: What Happens When You Automate Too Fast (And How to Fix It)](#blog--18-ai-cleanup-what-happens-when-you-automate-too-fast)
+- [Blog — 19. AI Hiring for Small Business: Screen Smarter, Make Better Hires, and Onboard Faster in 2026](#blog--19-ai-hiring-small-business-screen-smarter-onboard-faster)
 
 ---
 
@@ -2913,3 +2914,124 @@ https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi
 - **TOC anchors:** `#why-ai-projects-fail`, `#warning-signs`, `#ai-debt-cost`, `#ai-audit-framework`, `#what-good-looks-like`, `#faq`
 - **Charts:** Side-by-side bar (AI Project Abandonment Rate 2024 vs 2025 — S&P Global / 451 Research, Oct 2025), Horizontal bar (Employee AI Reality Check — Upwork Research Institute Jul 2024 + Gallup 2026)
 - **Key sources:** MIT Project NANDA via Fortune (Aug 2025), S&P Global / 451 Research Voice of the Enterprise (Oct 2025), Zapier AI Sprawl Survey (Dec 2025, n=550), Upwork Research Institute (Jul 2024, n=2,500), Deloitte via Pertama Partners (2025), Fast Company / Shibumi (2026), Gallup (2026)
+
+---
+
+## Blog — 19. AI Hiring for Small Business: Screen Smarter, Make Better Hires, and Onboard Faster in 2026
+
+**URL:** `https://aifyze.com/blog/ai-hiring-small-business-screen-smarter-onboard-faster`
+**Folder:** `/Blog19/`
+
+| Field | Value |
+|---|---|
+| title | AI Hiring for Small Business: Screen Smarter, Hire Better, Onboard Faster \| Aifyze Blog |
+| description | 66% of SMB owners handle HR alone. AI cuts time-to-fill, reduces the $180K cost of a bad hire, and improves new hire retention by 82%. Here's how to start. |
+| keywords | AI hiring small business, AI recruitment SMB, AI hiring tools for small business, AI onboarding software, reduce time-to-hire, bad hire cost, AI HR tools, small business HR AI, Aifyze |
+| canonical | https://aifyze.com/blog/ai-hiring-small-business-screen-smarter-onboard-faster |
+| og:title | AI Hiring for Small Business: Screen Smarter, Hire Better, Onboard Faster \| Aifyze Blog |
+| og:description | 66% of SMB owners handle HR alone. AI cuts time-to-fill, reduces the $180K cost of a bad hire, and improves new hire retention by 82%. Here's how to start. |
+| og:url | https://aifyze.com/blog/ai-hiring-small-business-screen-smarter-onboard-faster |
+| og:type | article |
+| og:site_name | Aifyze |
+| og:image | {{custom_values.aifyze_blog19_ai_hiring_hero}} |
+| og:image:width | 1200 |
+| og:image:height | 630 |
+| twitter:card | summary_large_image |
+| twitter:title | AI Hiring for Small Business: Screen Smarter, Hire Better, Onboard Faster |
+| twitter:description | 66% of SMB owners handle HR alone. AI cuts time-to-fill, reduces the $180K cost of a bad hire, and improves new hire retention by 82%. Here's how to start. |
+| twitter:image | {{custom_values.aifyze_blog19_ai_hiring_hero}} |
+
+**JSON-LD Schema (Article + FAQPage + BreadcrumbList):**
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "AI Hiring for Small Business: Screen Smarter, Make Better Hires, and Onboard Faster in 2026",
+      "description": "66% of SMB owners handle HR with no dedicated help. AI hiring tools cut the average 44-day time-to-fill, reduce the $180K cost of a bad hire, and improve new hire retention by 82% through structured onboarding. This guide covers where to start.",
+      "image": "{{custom_values.aifyze_blog19_ai_hiring_hero}}",
+      "datePublished": "2026-06-12",
+      "dateModified": "2026-06-12",
+      "author": {
+        "@type": "Organization",
+        "name": "Aifyze Team"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aifyze",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{custom_values.AiFyze_Logo_Horizontal_SVG}}"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://aifyze.com/blog/ai-hiring-small-business-screen-smarter-onboard-faster"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can AI hiring tools help if we only hire a few people per year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — especially if you hire infrequently. When there's no regular cadence, each open role takes disproportionate time because there's no practiced process behind it. AI screening and scheduling create a repeatable structure that works for one hire per year just as well as for ten. At an average cost-per-hire of $5,475 (SHRM, 2025), recovering even half that cost through faster, more accurate screening pays for most AI hiring tools many times over."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Could AI screening miss good candidates or filter out the wrong people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The main risk is a vague job description that causes AI to rank candidates on the wrong criteria. The fix is specific, skills-based requirements rather than generic keyword lists. LinkedIn found that AI-assisted searches produce 12% more quality hires when built around skills criteria rather than keyword matching (LinkedIn Future of Recruiting, 2025). Using AI to surface a shortlist — while keeping humans in the final decision — gives you the efficiency benefit without removing judgment from the process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "We don't have an ATS. Do we need one before using AI for hiring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Many AI hiring tools are standalone or include a lightweight ATS as part of their offering. Workable, for example, combines job posting, candidate ranking, and interview scheduling in one platform built for teams without a dedicated HR infrastructure. The starting point isn't buying a full suite — it's identifying your most time-consuming step and finding the narrowest tool to address that one problem first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do we know if our problem is hiring or onboarding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Track two numbers: average time-to-hire and first-year tenure. If time-to-hire runs above 40 days for your roles, the problem is in sourcing and screening. If people are leaving within the first 12 months, onboarding and early experience are the likely culprit. Gallup puts turnover replacement cost at one-half to twice annual salary — a single early departure from a $50,000 role costs $25,000 to $100,000 to recover (Gallup, 2025)."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aifyze.com" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aifyze.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "AI Hiring for Small Business: Screen Smarter, Make Better Hires, and Onboard Faster in 2026", "item": "https://aifyze.com/blog/ai-hiring-small-business-screen-smarter-onboard-faster" }
+      ]
+    }
+  ]
+}
+```
+
+**Notes:**
+- **Date published:** June 12, 2026
+- **Category:** AI Automation
+- **Tags:** Automation, Strategy, AI Agents
+- **Read time:** 7 min read
+- **Hero image GHL variable:** `aifyze_blog19_ai_hiring_hero`
+- **Article image GHL variables:** `aifyze_blog19_ai_hiring_1`, `aifyze_blog19_ai_hiring_2`
+- **Placeholder image URLs (upload to GHL then replace):**
+  - Hero: `https://images.unsplash.com/photo-1698047682091-782b1e5c6536?fm=jpg&q=60&w=3000&auto=format&fit=crop` (hiring manager and candidate handshake in modern office — Unsplash)
+  - Image 1: `https://images.unsplash.com/photo-1698047682091-782b1e5c6536?fm=jpg&q=60&w=3000&auto=format&fit=crop` (professional handshake at desk — structured hiring)
+  - Image 2: `https://images.unsplash.com/photo-1600880292203-757bb62b4baf?fm=jpg&q=60&w=3000&auto=format&fit=crop` (two colleagues high-five at workstation — successful onboarding / team collaboration)
+- **Primary keywords:** AI hiring small business, AI recruitment SMB, reduce time-to-hire, AI onboarding software, bad hire cost small business
+- **Internal links in article:** [90-Day AI Roadmap blog](/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul), [90-Day AI ROI Framework blog](/blog/90-day-ai-roi-framework-measurable-automation-results), [AI Strategy Consulting service](/services/ai-strategy-consulting), [Contact](/contact)
+- **TOC anchors:** `#hiring-cost-smb`, `#ai-hiring-stages`, `#ai-onboarding-roi`, `#where-to-start`, `#faq`
+- **Charts:** Horizontal bar (Hidden Cost of One Bad Hire — SHRM 2025 & U.S. Dept. of Labor), Horizontal bar (AI Adoption in Hiring 2024 vs 2025 — SHRM Talent Trends Survey 2025)
+- **Key sources:** OnPay Small Business Outlook 2025, SHRM Recruiting Benchmarking Report 2025, SHRM The Real Costs of Recruitment 2024, U.S. Department of Labor, LinkedIn Future of Recruiting 2025, Brandon Hall Group (onboarding benchmark), Gallup This Fixable Problem Costs U.S. Businesses $1 Trillion (2025)
