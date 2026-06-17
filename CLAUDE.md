@@ -200,6 +200,7 @@ See `custom-values.md` for the full asset mapping.
 | 16 | Ghosting Your Leads? How Agentic Lead Scoring Plugs the $50k 'Silent Leak' | Industry Insights | May 30, 2026 | `/blog/agentic-lead-scoring-silent-revenue-leak-coaches-consultants` |
 | 18 | AI Cleanup: What Happens When You Automate Too Fast (And How to Fix It) | AI Strategy | Jun 9, 2026 | `/blog/ai-automation-too-fast-cleanup-fix-broken-workflows` |
 | 19 | AI Hiring for Small Business: Screen Smarter, Make Better Hires, and Onboard Faster in 2026 | AI Automation | Jun 12, 2026 | `/blog/ai-hiring-small-business-screen-smarter-onboard-faster` |
+| 20 | Stop Losing Clients Silently: The AI Retention System That Cuts Churn for Small Businesses in 2026 | Business Growth | Jun 16, 2026 | `/blog/ai-client-retention-churn-small-business-2026` |
 
 ### Blog Categories
 `AI Automation` | `AI Strategy` | `Business Growth` | `Industry Insights`

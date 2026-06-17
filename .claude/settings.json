@@ -28,7 +28,10 @@
       "WebFetch(domain:www.demandsage.com)",
       "WebFetch(domain:www.ringly.io)",
       "WebFetch(domain:www.pwc.com)",
-      "WebFetch(domain:www.mckinsey.com)"
+      "WebFetch(domain:www.mckinsey.com)",
+      "WebFetch(domain:hashtagpaid.com)",
+      "WebFetch(domain:www.trypropel.ai)",
+      "Bash(mkdir -p \"d:/Watts Company/aifyze/Blog20\")"
     ],
     "additionalDirectories": [
       "d:\\Watts Company\\aifyze"
