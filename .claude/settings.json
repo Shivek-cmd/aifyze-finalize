@@ -31,7 +31,11 @@
       "WebFetch(domain:www.mckinsey.com)",
       "WebFetch(domain:hashtagpaid.com)",
       "WebFetch(domain:www.trypropel.ai)",
-      "Bash(mkdir -p \"d:/Watts Company/aifyze/Blog20\")"
+      "Bash(mkdir -p \"d:/Watts Company/aifyze/Blog20\")",
+      "WebFetch(domain:www.uschamber.com)",
+      "WebFetch(domain:firstpagesage.com)",
+      "WebFetch(domain:www.delenta.com)",
+      "WebFetch(domain:www.business.com)"
     ],
     "additionalDirectories": [
       "d:\\Watts Company\\aifyze"
