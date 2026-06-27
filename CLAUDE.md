@@ -203,6 +203,7 @@ See `custom-values.md` for the full asset mapping.
 | 20 | Stop Losing Clients Silently: The AI Retention System That Cuts Churn for Small Businesses in 2026 | Business Growth | Jun 16, 2026 | `/blog/ai-client-retention-churn-small-business-2026` |
 | 21 | Agentic AI for Small Business: What It Is, What It Isn't, and the 3 Things You Need Before You Deploy | AI Strategy | Jun 19, 2026 | `/blog/agentic-ai-small-business-what-it-is-are-you-ready-2026` |
 | 22 | You Bought the AI. Your Team Won't Use It. Here's Why — and the Fix. | AI Strategy | Jun 23, 2026 | `/blog/team-wont-use-ai-tools-smb-adoption-gap-2026` |
+| 23 | Your Phone Is Ringing and No One's Answering: The Missed-Call Problem AI Voice Agents Solve for Small Businesses | AI Automation | Jun 26, 2026 | `/blog/ai-voice-agents-small-business-missed-calls-2026` |
 
 ### Blog Categories
 `AI Automation` | `AI Strategy` | `Business Growth` | `Industry Insights`

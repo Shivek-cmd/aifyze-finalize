@@ -102,6 +102,7 @@ Each key follows the `AiFyze_` prefix naming convention.
 
 | Key | Value |
 |-----|-------|
+| aifyze_blog7_hero | Hardcoded in Blog7/index.html: https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1200&h=630&fit=crop&q=80 (business owner at laptop — workflow automation) |
 | AiFyze_Blog_AI_Agents_Customer_Support | |
 | AiFyze_Blog_AI_Strategy_Roadmap | |
 | AiFyze_Blog_CRM_Automation | |
@@ -135,6 +136,10 @@ Each key follows the `AiFyze_` prefix naming convention.
 | aifyze_blog20_retention_1 | Placeholder: https://images.unsplash.com/photo-1551288049-bebda4e38f71?fm=jpg&q=60&w=3000&auto=format&fit=crop (analytics dashboard on laptop — reviewing client engagement data) |
 | aifyze_blog20_retention_2 | Placeholder: https://images.unsplash.com/photo-1758691737543-09a1b2b715fa?fm=jpg&q=60&w=3000&auto=format&fit=crop (diverse team collaborating on shared screen — CRM / health scoring review) |
 | aifyze_blog20_retention_3 | Placeholder: https://images.unsplash.com/photo-1758518732175-5d608ba3abdf?fm=jpg&q=60&w=3000&auto=format&fit=crop (consultant and client in a professional meeting — proactive value review) |
+| aifyze_blog23_voice_agent_hero | Placeholder: https://images.unsplash.com/photo-1620809975674-10b8ff5f8e58?w=1200&h=630&fit=crop&q=80 (business owner overwhelmed / head in hands at laptop — missed call pain state hero) |
+| aifyze_blog23_voice_agent_1 | Placeholder: https://images.unsplash.com/photo-1758519288445-5847dd89f313?w=1200&h=630&fit=crop&q=80 (businessman in suit answering mobile phone at desk — calls being answered) |
+| aifyze_blog23_voice_agent_2 | Placeholder: https://images.unsplash.com/photo-1525182008055-f88b95ff7980?w=1200&h=630&fit=crop&q=80 (professional using office IP phone — call infrastructure / AI voice system) |
+| aifyze_blog23_voice_agent_3 | Placeholder: https://images.unsplash.com/photo-1758873271824-a3216c80d1ac?w=1200&h=630&fit=crop&q=80 (businesswoman celebrates thumbs-up on call — successful lead conversion result) |
 | aifyze_blog22_ai_adoption_hero | Placeholder: https://images.unsplash.com/photo-1542744173-8e7e53415bb0?fm=jpg&q=60&w=3000&auto=format&fit=crop (facilitator with small team at laptops — AI training workshop hero) |
 | aifyze_blog22_ai_adoption_1 | Placeholder: https://images.unsplash.com/photo-1698047681465-a75bcf38379e?fm=jpg&q=60&w=3000&auto=format&fit=crop (woman with uncertain expression at laptop — employee confusion with AI tools) |
 | aifyze_blog22_ai_adoption_2 | Placeholder: https://images.unsplash.com/photo-1556761175-5973dc0f32e7?fm=jpg&q=60&w=3000&auto=format&fit=crop (manager presenting to small seated team — coaching employees on new tool) |

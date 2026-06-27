@@ -50,7 +50,11 @@
       "WebFetch(domain:www.famulor.io)",
       "WebFetch(domain:greetnow.com)",
       "WebFetch(domain:unsplash.com)",
-      "WebFetch(domain:pcnanswers.com)"
+      "WebFetch(domain:pcnanswers.com)",
+      "WebFetch(domain:images.unsplash.com)",
+      "WebFetch(domain:aircall.io)",
+      "WebFetch(domain:ainora.lt)",
+      "Bash(powershell -Command \"\\(Get-Content 'd:\\\\Watts Company\\\\aifyze\\\\Blog23\\\\index.css'\\) -replace 'BLOG 22', 'BLOG 23' | Set-Content 'd:\\\\Watts Company\\\\aifyze\\\\Blog23\\\\index.css' -Encoding utf8\")"
     ],
     "additionalDirectories": [
       "d:\\Watts Company\\aifyze"
