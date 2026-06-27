@@ -35,7 +35,22 @@
       "WebFetch(domain:www.uschamber.com)",
       "WebFetch(domain:firstpagesage.com)",
       "WebFetch(domain:www.delenta.com)",
-      "WebFetch(domain:www.business.com)"
+      "WebFetch(domain:www.business.com)",
+      "WebFetch(domain:www.worklytics.co)",
+      "WebFetch(domain:iternal.ai)",
+      "WebFetch(domain:www.folio3.ai)",
+      "WebFetch(domain:medhacloud.com)",
+      "WebFetch(domain:www.hrdive.com)",
+      "WebFetch(domain:www.fastcompany.com)",
+      "WebFetch(domain:www.bcg.com)",
+      "WebFetch(domain:www.unleash.ai)",
+      "Bash(powershell -Command \"\\(Get-Content 'd:\\\\Watts Company\\\\aifyze\\\\Blog22\\\\index.css'\\) -replace 'BLOG 21', 'BLOG 22' | Set-Content 'd:\\\\Watts Company\\\\aifyze\\\\Blog22\\\\index.css' -Encoding utf8\")",
+      "WebSearch",
+      "WebFetch(domain:www.hicira.com)",
+      "WebFetch(domain:www.famulor.io)",
+      "WebFetch(domain:greetnow.com)",
+      "WebFetch(domain:unsplash.com)",
+      "WebFetch(domain:pcnanswers.com)"
     ],
     "additionalDirectories": [
       "d:\\Watts Company\\aifyze"
