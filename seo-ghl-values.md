@@ -34,6 +34,8 @@
 - [Blog — 18. AI Cleanup: What Happens When You Automate Too Fast (And How to Fix It)](#blog--18-ai-cleanup-what-happens-when-you-automate-too-fast)
 - [Blog — 19. AI Hiring for Small Business: Screen Smarter, Make Better Hires, and Onboard Faster in 2026](#blog--19-ai-hiring-small-business-screen-smarter-onboard-faster)
 - [Blog — 20. Stop Losing Clients Silently: The AI Retention System That Cuts Churn for Small Businesses in 2026](#blog--20-stop-losing-clients-silently-ai-retention-system-2026)
+- [Blog — 24. Shadow AI: The Hidden Risk of Employees Using Unauthorized AI Tools (And How to Fix It in 2026)](#blog--24-shadow-ai-unauthorized-tools-risk-2026)
+- [Blog — 25. AI-Powered Cash Flow Forecasting: How Small Businesses Are Predicting Revenue Gaps Before They Happen](#blog--25-ai-cash-flow-forecasting-2026)
 
 ---
 
@@ -3252,6 +3254,86 @@ https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi
 - **H3 anchors:** #step-define, #step-champion, #step-training, #faq-why-resistance, #faq-how-long, #faq-no-budget, #faq-which-tools, #faq-coaching-practices
 - **Charts:** Horizontal bar (Silicon Ceiling: Adoption Rate by Role Level — BCG 2025), Progress bar (Training Hours vs Adoption Rate — BCG 2025)
 - **Key sources (all verified):** Gallup via Fortune Jan 2026, BCG AI at Work Jun 2025, MIT Project NANDA via Fortune Aug 2025, Forrester AIQ via HR Dive 2025, SBA Office of Advocacy Sep 2025, Deloitte via iternal.ai Apr 2026
+
+---
+
+## Blog — 25. AI-Powered Cash Flow Forecasting: How Small Businesses Are Predicting Revenue Gaps Before They Happen {#blog--25-ai-cash-flow-forecasting-2026}
+
+**URL:** `https://aifyze.com/blog/ai-cash-flow-forecasting-small-business-2026`
+
+| Key | Value |
+|-----|-------|
+| title | AI Cash Flow Forecasting for Small Business \| Aifyze Blog |
+| description | 82% of failed small businesses cite cash flow as the cause. See how AI forecasting spots shortfalls 6 weeks out instead of 6 days out. |
+| keywords | AI cash flow forecasting, small business cash flow, cash flow forecasting software, AI financial forecasting SMB, cash flow management AI, revenue forecasting small business, Aifyze |
+| canonical | https://aifyze.com/blog/ai-cash-flow-forecasting-small-business-2026 |
+| og:title | AI Cash Flow Forecasting for Small Business \| Aifyze Blog |
+| og:description | 82% of failed small businesses cite cash flow as the cause. See how AI forecasting spots shortfalls 6 weeks out instead of 6 days out. |
+| og:url | https://aifyze.com/blog/ai-cash-flow-forecasting-small-business-2026 |
+| og:type | article |
+| og:site_name | Aifyze |
+| og:image | {{custom_values.aifyze_blog25_cashflow_hero}} |
+| og:image:width | 1200 |
+| og:image:height | 630 |
+| twitter:card | summary_large_image |
+| twitter:title | AI Cash Flow Forecasting for Small Business |
+| twitter:description | 82% of failed small businesses cite cash flow as the cause. See how AI forecasting spots shortfalls 6 weeks out instead of 6 days out. |
+| twitter:image | {{custom_values.aifyze_blog25_cashflow_hero}} |
+
+**Notes:**
+- **Date published:** July 3, 2026
+- **Category:** Business Growth
+- **Tags:** Analytics, ROI, Automation
+- **Read time:** 8 min read
+- **Hero image GHL variable:** `aifyze_blog25_cashflow_hero`
+- **Article image GHL variables:** `aifyze_blog25_cashflow_1`, `aifyze_blog25_cashflow_2`, `aifyze_blog25_cashflow_3`
+- **Placeholder image URLs (verified HTTP 200):**
+  - Hero: https://images.unsplash.com/photo-1758876019043-cedb0b6f56ea (stressed professional reviewing finances on laptop)
+  - Image 1: https://plus.unsplash.com/premium_photo-1661324465250-a894c96744ad (bookkeeper with calculator, documents, laptop)
+  - Image 2: https://images.unsplash.com/photo-1758691736484-4914d363a3cc (presenter walking team through charts on screen)
+  - Image 3: https://plus.unsplash.com/premium_photo-1661962755161-1f1b07ae573b (business owner working on laptop at home office)
+- **TOC anchors:** #why-cash-flow-still-breaks-businesses, #why-spreadsheets-fail, #how-ai-forecasting-works, #accuracy-and-roi, #getting-started, #faq
+- **FAQ anchors:** #faq-replace-accountant, #faq-how-accurate, #faq-small-business-size, #faq-data-needed, #faq-late-payments
+
+---
+
+## Blog — 24. Shadow AI: The Hidden Risk of Employees Using Unauthorized AI Tools (And How to Fix It in 2026) {#blog--24-shadow-ai-unauthorized-tools-risk-2026}
+
+**URL:** `https://aifyze.com/blog/shadow-ai-unauthorized-tools-risk-small-business-2026`
+
+| Key | Value |
+|-----|-------|
+| title | Shadow AI: The Hidden Risk of Unapproved AI Tools \| Aifyze Blog |
+| description | 68% of employees use unauthorized AI tools at work in 2026 — here's the real risk, and the fix that doesn't mean banning AI. |
+| keywords | shadow AI, unauthorized AI tools, AI governance small business, AI usage policy, AI data security risk, shadow AI statistics 2026, AI compliance SMB, Aifyze |
+| canonical | https://aifyze.com/blog/shadow-ai-unauthorized-tools-risk-small-business-2026 |
+| og:title | Shadow AI: The Hidden Risk of Unapproved AI Tools \| Aifyze Blog |
+| og:description | 68% of employees use unauthorized AI tools at work in 2026 — here's the real risk, and the fix that doesn't mean banning AI. |
+| og:url | https://aifyze.com/blog/shadow-ai-unauthorized-tools-risk-small-business-2026 |
+| og:type | article |
+| og:site_name | Aifyze |
+| og:image | {{custom_values.aifyze_blog24_shadow_ai_hero}} |
+| og:image:width | 1200 |
+| og:image:height | 630 |
+| twitter:card | summary_large_image |
+| twitter:title | Shadow AI: The Hidden Risk of Unapproved AI Tools |
+| twitter:description | 68% of employees use unauthorized AI tools at work in 2026 — here's the real risk, and the fix that doesn't mean banning AI. |
+| twitter:image | {{custom_values.aifyze_blog24_shadow_ai_hero}} |
+
+**Notes:**
+- **Date published:** June 30, 2026
+- **Category:** AI Strategy
+- **Tags:** Strategy, Automation, Analytics
+- **Read time:** 9 min read
+- **Hero image GHL variable:** `aifyze_blog24_shadow_ai_hero`
+- **Article image GHL variables:** `aifyze_blog24_shadow_ai_1`, `aifyze_blog24_shadow_ai_2`, `aifyze_blog24_shadow_ai_3`
+- **Placeholder image URLs (verified HTTP 200):**
+  - Hero: https://images.unsplash.com/photo-1758626044744-463ce33546a2 (person typing on laptop with AI tool interface)
+  - Image 1: https://images.unsplash.com/photo-1758874385600-1e4d5c49a44c (professional checking phone at desk beside laptop)
+  - Image 2: https://images.unsplash.com/photo-1758691737246-95bf8f09a997 (two colleagues discussing at a desk in an office)
+  - Image 3: https://images.unsplash.com/photo-1758518727707-b023e285b709 (small team discussing a document together)
+- **TOC anchors:** #what-is-shadow-ai, #why-employees-do-it, #what-it-actually-costs, #the-visibility-gap, #the-fix, #faq
+- **FAQ anchors:** #faq-illegal, #faq-block-tools, #faq-first-step, #faq-nothing-happened, #faq-vs-adoption
 
 ---
 

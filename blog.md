@@ -53,6 +53,8 @@ This guide covers everything needed to write and publish a new blog post: conten
 | 11 | `/Blog11/` | 10 Reasons Your AI Workflow Automation Isn't Showing ROI (And How to Fix It) | Business Growth | April 28, 2026 | 10 min | `/blog/why-ai-workflow-automation-isnt-showing-roi` |
 | 12 | `/Blog12/` | Beyond the Lead Factory: Why "More" Is Your 2026 Revenue Killer | Business Growth | May 13, 2026 | 8 min | `/blog/beyond-lead-factory-revenue-intelligence-2026` |
 | 18 | `/Blog18/` | AI Cleanup: What Happens When You Automate Too Fast (And How to Fix It) | AI Strategy | June 9, 2026 | 8 min | `/blog/ai-automation-too-fast-cleanup-fix-broken-workflows` |
+| 24 | `/Blog24/` | Shadow AI: The Hidden Risk of Employees Using Unauthorized AI Tools (And How to Fix It in 2026) | AI Strategy | June 30, 2026 | 9 min | `/blog/shadow-ai-unauthorized-tools-risk-small-business-2026` |
+| 25 | `/Blog25/` | AI-Powered Cash Flow Forecasting: How Small Businesses Are Predicting Revenue Gaps Before They Happen | Business Growth | July 3, 2026 | 8 min | `/blog/ai-cash-flow-forecasting-small-business-2026` |
 
 ---
 

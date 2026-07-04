@@ -204,6 +204,8 @@ See `custom-values.md` for the full asset mapping.
 | 21 | Agentic AI for Small Business: What It Is, What It Isn't, and the 3 Things You Need Before You Deploy | AI Strategy | Jun 19, 2026 | `/blog/agentic-ai-small-business-what-it-is-are-you-ready-2026` |
 | 22 | You Bought the AI. Your Team Won't Use It. Here's Why — and the Fix. | AI Strategy | Jun 23, 2026 | `/blog/team-wont-use-ai-tools-smb-adoption-gap-2026` |
 | 23 | Your Phone Is Ringing and No One's Answering: The Missed-Call Problem AI Voice Agents Solve for Small Businesses | AI Automation | Jun 26, 2026 | `/blog/ai-voice-agents-small-business-missed-calls-2026` |
+| 24 | Shadow AI: The Hidden Risk of Employees Using Unauthorized AI Tools (And How to Fix It in 2026) | AI Strategy | Jun 30, 2026 | `/blog/shadow-ai-unauthorized-tools-risk-small-business-2026` |
+| 25 | AI-Powered Cash Flow Forecasting: How Small Businesses Are Predicting Revenue Gaps Before They Happen | Business Growth | Jul 3, 2026 | `/blog/ai-cash-flow-forecasting-small-business-2026` |
 
 ### Blog Categories
 `AI Automation` | `AI Strategy` | `Business Growth` | `Industry Insights`

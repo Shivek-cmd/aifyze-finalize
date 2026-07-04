@@ -54,7 +54,10 @@
       "WebFetch(domain:images.unsplash.com)",
       "WebFetch(domain:aircall.io)",
       "WebFetch(domain:ainora.lt)",
-      "Bash(powershell -Command \"\\(Get-Content 'd:\\\\Watts Company\\\\aifyze\\\\Blog23\\\\index.css'\\) -replace 'BLOG 22', 'BLOG 23' | Set-Content 'd:\\\\Watts Company\\\\aifyze\\\\Blog23\\\\index.css' -Encoding utf8\")"
+      "Bash(powershell -Command \"\\(Get-Content 'd:\\\\Watts Company\\\\aifyze\\\\Blog23\\\\index.css'\\) -replace 'BLOG 22', 'BLOG 23' | Set-Content 'd:\\\\Watts Company\\\\aifyze\\\\Blog23\\\\index.css' -Encoding utf8\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=630&fit=crop&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://images.unsplash.com/photo-1758691736484-4914d363a3cc?w=1200&h=630&fit=crop&q=80\")",
+      "Bash(python3 -c ' *)"
     ],
     "additionalDirectories": [
       "d:\\Watts Company\\aifyze"
