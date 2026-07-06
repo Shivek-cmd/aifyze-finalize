@@ -302,7 +302,7 @@ Build each workflow manually in **Automation → Workflows**:
 | Urgency Level | `aifyze_urgency_level` | Single Line Text |
 | Stage of AI in your Business *(typo is intentional — matches the live field)* | `style_of_business_mangement` | Single Options |
 
-> `{{contact.name}}`, `{{contact.email}}`, `{{contact.phone}}`, `{{contact.organization}}` (Business Name), and `{{contact.country}}` are all GHL standard fields — do not create custom fields for these. See `Forms/aifyze-contact-form.md` for the full field-mapping note, including the two similarly-named decoy fields already in this GHL account (`business_name`/`businss_name` and `style_of_business_management`) that are **not** used by this form.
+> `{{contact.name}}`, `{{contact.email}}`, `{{contact.phone}}`, `{{contact.company_name}}` (Business Name), and `{{contact.country}}` are all GHL standard fields — do not create custom fields for these. See `Forms/aifyze-contact-form.md` for the full field-mapping note, including the two similarly-named decoy fields already in this GHL account (`business_name`/`businss_name` and `style_of_business_management`) that are **not** used by this form.
 
 ---
 

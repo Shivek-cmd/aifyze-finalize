@@ -39,7 +39,7 @@ New Contact Form Lead — {{contact.name}}
     }
   </style>
 </head>
-<body style="margin:0;padding:0;background-color:#F7F6FA;width:100%;"><div style="display:none;font-size:1px;color:#F7F6FA;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">{{contact.name}} from {{contact.organization}} just submitted the Aifyze contact form.&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;</div>
+<body style="margin:0;padding:0;background-color:#F7F6FA;width:100%;"><div style="display:none;font-size:1px;color:#F7F6FA;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">{{contact.name}} from {{contact.company_name}} just submitted the Aifyze contact form.&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;</div>
 
   <!-- Outer wrapper -->
   <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color:#F7F6FA;">
@@ -92,7 +92,7 @@ New Contact Form Lead — {{contact.name}}
                       <p style="margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#1A1625;"><span class="field-label" style="display:inline-block;width:110px;color:#7A748C;font-size:12px;text-transform:uppercase;letter-spacing:1px;">Name</span> {{contact.name}}</p>
                       <p style="margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#1A1625;"><span class="field-label" style="display:inline-block;width:110px;color:#7A748C;font-size:12px;text-transform:uppercase;letter-spacing:1px;">Email</span> {{contact.email}}</p>
                       <p style="margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#1A1625;"><span class="field-label" style="display:inline-block;width:110px;color:#7A748C;font-size:12px;text-transform:uppercase;letter-spacing:1px;">Phone</span> {{contact.phone}}</p>
-                      <p style="margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#1A1625;"><span class="field-label" style="display:inline-block;width:110px;color:#7A748C;font-size:12px;text-transform:uppercase;letter-spacing:1px;">Business</span> {{contact.organization}}</p>
+                      <p style="margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#1A1625;"><span class="field-label" style="display:inline-block;width:110px;color:#7A748C;font-size:12px;text-transform:uppercase;letter-spacing:1px;">Business</span> {{contact.company_name}}</p>
                       <p style="margin:0 0 20px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#1A1625;"><span class="field-label" style="display:inline-block;width:110px;color:#7A748C;font-size:12px;text-transform:uppercase;letter-spacing:1px;">Country</span> {{contact.country}}</p>
                     </td>
                   </tr>
@@ -166,5 +166,5 @@ New Contact Form Lead — {{contact.name}}
 
 - [ ] Fill in Ritesh's exact email address in the GHL "To" field of this action (kept out of the template since it's not a contact merge field)
 - [ ] Wire this HTML into a new **Send Email** action in `Workflows/contact-form-lead-workflow.md` (Action 3, after the Create/Update Opportunity action)
-- [x] Confirmed against a live test contact: `{{contact.organization}}` (standard field, not `business_name`) and `{{contact.style_of_business_mangement}}` (typo'd custom field key, not the correctly-spelled `style_of_business_management` which is a different, unrelated field) — see `Forms/aifyze-contact-form.md`
+- [x] Confirmed against a live test contact: `{{contact.company_name}}` (standard field, not `business_name`) and `{{contact.style_of_business_mangement}}` (typo'd custom field key, not the correctly-spelled `style_of_business_management` which is a different, unrelated field) — see `Forms/aifyze-contact-form.md`
 - [ ] Send a live test to confirm the two-tone accent bars render correctly in Gmail/Outlook

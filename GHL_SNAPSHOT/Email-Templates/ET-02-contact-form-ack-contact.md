@@ -82,7 +82,7 @@ Thanks for reaching out, {{contact.first_name}}
               </tr></tbody></table>
 
               <p style="margin:0 0 20px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.8;color:#4A4458;">Hi {{contact.first_name}},</p>
-              <p style="margin:0 0 20px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.8;color:#4A4458;">Thanks for telling us a bit about {{contact.organization}}. We review every inquiry personally, and someone from our team will reach out within <strong style="color:#1A1625;">1 business day</strong> to schedule your Free AI Audit.</p>
+              <p style="margin:0 0 20px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.8;color:#4A4458;">Thanks for telling us a bit about {{contact.company_name}}. We review every inquiry personally, and someone from our team will reach out within <strong style="color:#1A1625;">1 business day</strong> to schedule your Free AI Audit.</p>
               <p style="margin:0 0 32px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.8;color:#4A4458;">In the meantime, here's what to expect once we connect:</p>
 
               <!-- 3-step process -->
@@ -167,5 +167,5 @@ Thanks for reaching out, {{contact.first_name}}
 
 - [ ] Wire this HTML into a new **Send Email** action in `Workflows/contact-form-lead-workflow.md` (Action 4, after the internal notification to Ritesh)
 - [ ] Confirm `{{contact.first_name}}` populates correctly from the form's single "Name" field (GHL auto-splits Full Name into first_name/last_name standard fields — verify on a live test submission)
-- [x] Confirmed against a live test contact: `{{contact.organization}}` is the correct standard field for Business Name (not the custom `business_name` field, which stays empty) — see `Forms/aifyze-contact-form.md`
+- [x] Confirmed against a live test contact: `{{contact.company_name}}` is the correct standard field for Business Name (not the custom `business_name` field, which stays empty) — see `Forms/aifyze-contact-form.md`
 - [ ] Send a live test to confirm the 3-step row stacks cleanly on mobile (see `.step-table` responsive rule) and the two-tone bars render in Gmail/Outlook
