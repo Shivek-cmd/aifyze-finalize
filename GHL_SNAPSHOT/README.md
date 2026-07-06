@@ -1,12 +1,12 @@
-# Chatbot — GHL Setup Guide
+# GHL Snapshot — Setup Guide
 
-This folder maps 1:1 to how the chatbots are built inside GoHighLevel. Everything you need to configure is documented here — paste each file into its corresponding GHL field.
+This folder maps 1:1 to how the chatbots, forms, pipelines, and workflows are built inside GoHighLevel. Everything you need to configure is documented here — paste each file into its corresponding GHL field.
 
 ---
 
 ## System Overview
 
-Two AI Agents share one KB (KB General). The Aifyze agent has 4 additional dedicated knowledge bases, 15 actions, and 3 automated workflows.
+Two AI Agents share one KB (KB General). The Aifyze agent has 4 additional dedicated knowledge bases, 15 actions, and 4 automated workflows. The website Contact Form and the chatbot both feed the same single CRM pipeline — **Aifyze - Client Acquisition** — distinguished by tag and Opportunity Source rather than separate pipelines.
 
 ```
 ┌──────────────────────────────────┐     ┌──────────────────────────────┐
@@ -127,7 +127,7 @@ This prevents the Watts Group agent from attempting to replicate the 5-question 
 ## Full File Map
 
 ```
-Chatbot/
+GHL_SNAPSHOT/
 ├── README.md                                        ← This file
 ├── document.md                                      ← Original requirements document
 │
@@ -175,10 +175,18 @@ Chatbot/
 ├── Workflows/                                       ← GHL workflows to build manually
 │   ├── chatbot-lead-notify-workflow.md              ← Fires when chat ends (tag + opportunity + admin email)
 │   ├── book-appointment-workflow.md                 ← Fires when audit is booked (tag + opportunity + confirmation emails)
-│   └── post-conversation-workflow.md                ← Fires on AI summary update (routing + tagging + pipeline)
+│   ├── post-conversation-workflow.md                ← Fires on AI summary update (routing + tagging + pipeline)
+│   └── contact-form-lead-workflow.md                ← Fires on Contact Form submit (tag + opportunity in Client Acquisition pipeline)
+│
+├── Forms/
+│   └── aifyze-contact-form.md                       ← Website Contact Form fields + custom field mapping
+│
+├── Email-Templates/                                 ← Premium HTML email templates (paste into GHL Send Email actions)
+│   ├── ET-01-contact-form-internal-notification.md  ← Sent to Ritesh when the contact form is submitted
+│   └── ET-02-contact-form-ack-contact.md             ← Sent to the contact who submitted the form
 │
 └── Opportunities/
-    └── aifyze-chatbot-leads-pipeline.md             ← CRM pipeline: New Lead → Audit Booked
+    └── aifyze-client-acquisition-pipeline.md        ← Single CRM pipeline: Lead Submitted → Lead Contacted → Qualified → Discovery Scheduled → No-Show → Proposal Sent (chatbot + form leads both land here)
 ```
 
 ---
@@ -247,13 +255,17 @@ For each KB: paste the `_instruction.md` into the KB description field.
 
 **CRM → Pipelines → Add Pipeline**
 
-Name: `Aifyze — Chatbot Leads`
+Name: `Aifyze - Client Acquisition` — the single pipeline for every Aifyze lead, chatbot or Contact Form.
 
 Stages (in order):
-1. **New Lead** — created automatically when any chat ends
-2. **Audit Booked** — contact moves here when they book a Free AI Audit
+1. **Lead Submitted** — created automatically when a chat conversation ends OR the website Contact Form is submitted
+2. **Lead Contacted** — moved manually once outreach is made
+3. **Qualified** — moved manually once the lead is confirmed a fit
+4. **Discovery Scheduled** — moved automatically on Appointment Created (Free AI Audit calendar, shared by both sources)
+5. **No-Show** — moved manually if the contact misses their Discovery call
+6. **Proposal Sent** — moved manually once a proposal is sent
 
-Full setup: see `Opportunities/aifyze-chatbot-leads-pipeline.md`
+Full setup: see `Opportunities/aifyze-client-acquisition-pipeline.md`
 
 ---
 
@@ -263,9 +275,12 @@ Build each workflow manually in **Automation → Workflows**:
 
 | Workflow Name | Trigger | What It Does | Source File |
 |---|---|---|---|
-| Aifyze — Chatbot Lead Tag & Notify | Conversation Status → Closed | Tags `aifyze-chatbot-lead` + creates opportunity in New Lead + emails admin with summary | `Workflows/chatbot-lead-notify-workflow.md` |
-| Aifyze — Book an Appointment | Appointment Created | Tags `aifyze-chatbot-audit-booked` + moves opportunity to Audit Booked + sends confirmation to user + admin | `Workflows/book-appointment-workflow.md` |
+| Aifyze — Chatbot Lead Tag & Notify | Conversation Status → Closed | Tags `aifyze-chatbot-lead` + creates opportunity in **Aifyze - Client Acquisition**, stage **Lead Submitted** + emails admin with summary | `Workflows/chatbot-lead-notify-workflow.md` |
+| Aifyze — Book an Appointment | Appointment Created | Tags `aifyze-chatbot-audit-booked` + moves opportunity to **Discovery Scheduled** + sends confirmation to user + admin | `Workflows/book-appointment-workflow.md` |
 | Aifyze — Post-Conversation Intelligence | Conversation AI Summary Updated | Classifies lead priority (AI Decision Maker) + applies service/pain/industry/urgency tags + routes to CRM pipeline stage | `Workflows/post-conversation-workflow.md` |
+| Aifyze — Contact Form Lead & Client Acquisition | Form Submitted | Tags `aifyze-new-lead` + creates opportunity in **Aifyze - Client Acquisition** pipeline, stage **Lead Submitted** | `Workflows/contact-form-lead-workflow.md` |
+
+> Chatbot and Contact Form workflows both write into the same **Aifyze - Client Acquisition** pipeline — there is no separate chatbot pipeline anymore.
 
 ---
 
@@ -285,8 +300,9 @@ Build each workflow manually in **Automation → Workflows**:
 | Score Band | `aifyze_score_band` | Single Line Text |
 | Suggested Service | `aifyze_suggested_service` | Single Line Text |
 | Urgency Level | `aifyze_urgency_level` | Single Line Text |
+| Stage of AI in your Business *(typo is intentional — matches the live field)* | `style_of_business_mangement` | Single Options |
 
-> `{{contact.name}}`, `{{contact.email}}`, `{{contact.phone}}` are GHL standard fields — do not create custom fields for these.
+> `{{contact.name}}`, `{{contact.email}}`, `{{contact.phone}}`, `{{contact.organization}}` (Business Name), and `{{contact.country}}` are all GHL standard fields — do not create custom fields for these. See `Forms/aifyze-contact-form.md` for the full field-mapping note, including the two similarly-named decoy fields already in this GHL account (`business_name`/`businss_name` and `style_of_business_management`) that are **not** used by this form.
 
 ---
 
@@ -296,6 +312,9 @@ Build each workflow manually in **Automation → Workflows**:
 
 **Chatbot lifecycle:**
 `aifyze-chatbot-lead` | `aifyze-chatbot-audit-booked`
+
+**Contact form lifecycle:**
+`aifyze-new-lead`
 
 **Service fit:**
 `process-automation-fit` | `strategy-fit` | `ai-ceo-fit`

@@ -18,19 +18,19 @@
 
 ---
 
-## Action 2 — Move Opportunity to Audit Booked
+## Action 2 — Move Opportunity to Discovery Scheduled
 
 **Action Type:** Create and Update Opportunity
 
 **Opportunity Name:** {{contact.name}} — AI Readiness
 
-**Pipeline:** Aifyze — Chatbot Leads
+**Pipeline:** Aifyze - Client Acquisition
 
 **Find opportunity by:** Contact
 
-**Update Stage to:** Audit Booked
+**Update Stage to:** Discovery Scheduled
 
-> Moves this contact's opportunity from New Lead → Audit Booked as soon as the appointment is confirmed.
+> Moves this contact's opportunity from Lead Submitted → Discovery Scheduled as soon as the appointment is confirmed. Trigger is Appointment Created on the shared "Aifyze — Free AI Audit" calendar, so this also covers Contact Form leads who book the same calendar.
 
 ---
 

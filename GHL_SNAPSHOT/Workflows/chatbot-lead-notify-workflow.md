@@ -29,13 +29,17 @@
 
 **Action Type:** Create and Update Opportunity
 
-**Pipeline:** Aifyze — Chatbot Leads
+**Pipeline:** Aifyze - Client Acquisition
 
-**Stage:** New Lead
+**Stage:** Lead Submitted
 
 **Opportunity Name:** {{contact.name}} — AI Readiness
 
+**Opportunity Source:** Chatbot
+
 **Assigned To:** hello@aifyze.com
+
+> This pipeline is shared with website Contact Form leads (see `contact-form-lead-workflow.md`) — both sources land in Lead Submitted, distinguished by tag (`aifyze-chatbot-lead` vs `aifyze-new-lead`) and Opportunity Source.
 
 ---
 
