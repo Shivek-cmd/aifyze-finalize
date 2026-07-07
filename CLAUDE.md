@@ -206,6 +206,7 @@ See `custom-values.md` for the full asset mapping.
 | 23 | Your Phone Is Ringing and No One's Answering: The Missed-Call Problem AI Voice Agents Solve for Small Businesses | AI Automation | Jun 26, 2026 | `/blog/ai-voice-agents-small-business-missed-calls-2026` |
 | 24 | Shadow AI: The Hidden Risk of Employees Using Unauthorized AI Tools (And How to Fix It in 2026) | AI Strategy | Jun 30, 2026 | `/blog/shadow-ai-unauthorized-tools-risk-small-business-2026` |
 | 25 | AI-Powered Cash Flow Forecasting: How Small Businesses Are Predicting Revenue Gaps Before They Happen | Business Growth | Jul 3, 2026 | `/blog/ai-cash-flow-forecasting-small-business-2026` |
+| 26 | AI for Home Service Businesses: How HVAC, Plumbing, and Electrical Companies Are Using AI to Quote Faster and Win More Jobs | Industry Insights | Jul 7, 2026 | `/blog/ai-for-home-service-businesses-hvac-plumbing-electrical-2026` |
 
 ### Blog Categories
 `AI Automation` | `AI Strategy` | `Business Growth` | `Industry Insights`
