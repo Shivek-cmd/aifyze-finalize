@@ -56,6 +56,7 @@ This guide covers everything needed to write and publish a new blog post: conten
 | 24 | `/Blog24/` | Shadow AI: The Hidden Risk of Employees Using Unauthorized AI Tools (And How to Fix It in 2026) | AI Strategy | June 30, 2026 | 9 min | `/blog/shadow-ai-unauthorized-tools-risk-small-business-2026` |
 | 25 | `/Blog25/` | AI-Powered Cash Flow Forecasting: How Small Businesses Are Predicting Revenue Gaps Before They Happen | Business Growth | July 3, 2026 | 8 min | `/blog/ai-cash-flow-forecasting-small-business-2026` |
 | 26 | `/Blog26/` | AI for Home Service Businesses: How HVAC, Plumbing, and Electrical Companies Are Using AI to Quote Faster and Win More Jobs | Industry Insights | July 7, 2026 | 8 min | `/blog/ai-for-home-service-businesses-hvac-plumbing-electrical-2026` |
+| 27 | `/Blog27/` | Intelligent Document Processing: How AI Is Automating Invoices, Contracts, and Forms for Small Business in 2026 | AI Automation | July 10, 2026 | 8 min | `/blog/ai-document-processing-invoices-contracts-small-business-2026` |
 
 ---
 

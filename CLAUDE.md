@@ -207,6 +207,7 @@ See `custom-values.md` for the full asset mapping.
 | 24 | Shadow AI: The Hidden Risk of Employees Using Unauthorized AI Tools (And How to Fix It in 2026) | AI Strategy | Jun 30, 2026 | `/blog/shadow-ai-unauthorized-tools-risk-small-business-2026` |
 | 25 | AI-Powered Cash Flow Forecasting: How Small Businesses Are Predicting Revenue Gaps Before They Happen | Business Growth | Jul 3, 2026 | `/blog/ai-cash-flow-forecasting-small-business-2026` |
 | 26 | AI for Home Service Businesses: How HVAC, Plumbing, and Electrical Companies Are Using AI to Quote Faster and Win More Jobs | Industry Insights | Jul 7, 2026 | `/blog/ai-for-home-service-businesses-hvac-plumbing-electrical-2026` |
+| 27 | Intelligent Document Processing: How AI Is Automating Invoices, Contracts, and Forms for Small Business in 2026 | AI Automation | Jul 10, 2026 | `/blog/ai-document-processing-invoices-contracts-small-business-2026` |
 
 ### Blog Categories
 `AI Automation` | `AI Strategy` | `Business Growth` | `Industry Insights`

@@ -37,6 +37,7 @@
 - [Blog — 24. Shadow AI: The Hidden Risk of Employees Using Unauthorized AI Tools (And How to Fix It in 2026)](#blog--24-shadow-ai-unauthorized-tools-risk-2026)
 - [Blog — 25. AI-Powered Cash Flow Forecasting: How Small Businesses Are Predicting Revenue Gaps Before They Happen](#blog--25-ai-cash-flow-forecasting-2026)
 - [Blog — 26. AI for Home Service Businesses: How HVAC, Plumbing, and Electrical Companies Are Using AI to Quote Faster and Win More Jobs](#blog--26-ai-home-service-businesses-2026)
+- [Blog — 27. Intelligent Document Processing: How AI Is Automating Invoices, Contracts, and Forms for Small Business in 2026](#blog--27-ai-document-processing-2026)
 
 ---
 
@@ -3255,6 +3256,46 @@ https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi
 - **H3 anchors:** #step-define, #step-champion, #step-training, #faq-why-resistance, #faq-how-long, #faq-no-budget, #faq-which-tools, #faq-coaching-practices
 - **Charts:** Horizontal bar (Silicon Ceiling: Adoption Rate by Role Level — BCG 2025), Progress bar (Training Hours vs Adoption Rate — BCG 2025)
 - **Key sources (all verified):** Gallup via Fortune Jan 2026, BCG AI at Work Jun 2025, MIT Project NANDA via Fortune Aug 2025, Forrester AIQ via HR Dive 2025, SBA Office of Advocacy Sep 2025, Deloitte via iternal.ai Apr 2026
+
+---
+
+## Blog — 27. Intelligent Document Processing: How AI Is Automating Invoices, Contracts, and Forms for Small Business in 2026 {#blog--27-ai-document-processing-2026}
+
+**URL:** `https://aifyze.com/blog/ai-document-processing-invoices-contracts-small-business-2026`
+
+| Key | Value |
+|-----|-------|
+| title | AI Document Processing for Invoices & Contracts \| Aifyze Blog |
+| description | 39% of invoices contain errors. See how AI document processing cuts manual costs from $15 to $3 per invoice. |
+| keywords | intelligent document processing, AI invoice processing, AI contract review, document automation small business, AI OCR, invoice automation software, accounts payable automation, Aifyze |
+| canonical | https://aifyze.com/blog/ai-document-processing-invoices-contracts-small-business-2026 |
+| og:title | AI Document Processing for Invoices & Contracts \| Aifyze Blog |
+| og:description | 39% of invoices contain errors. See how AI document processing cuts manual costs from $15 to $3 per invoice. |
+| og:url | https://aifyze.com/blog/ai-document-processing-invoices-contracts-small-business-2026 |
+| og:type | article |
+| og:site_name | Aifyze |
+| og:image | {{custom_values.aifyze_blog27_document_processing_hero}} |
+| og:image:width | 1200 |
+| og:image:height | 630 |
+| twitter:card | summary_large_image |
+| twitter:title | AI Document Processing for Invoices & Contracts |
+| twitter:description | 39% of invoices contain errors. See how AI document processing cuts manual costs from $15 to $3 per invoice. |
+| twitter:image | {{custom_values.aifyze_blog27_document_processing_hero}} |
+
+**Notes:**
+- **Date published:** July 10, 2026
+- **Category:** AI Automation
+- **Tags:** Automation, Integration, ROI
+- **Read time:** 8 min read
+- **Hero image GHL variable:** `aifyze_blog27_document_processing_hero`
+- **Article image GHL variables:** `aifyze_blog27_document_processing_1`, `aifyze_blog27_document_processing_2`, `aifyze_blog27_document_processing_3`
+- **Placeholder image URLs (verified HTTP 200, all free/non-premium):**
+  - Hero: https://images.unsplash.com/photo-1631557777127-6495c07ba6b9 (stack of papers on a wooden table)
+  - Image 1: https://images.unsplash.com/photo-1735825764485-93a381fd5779 (person balancing paper documents with digital invoice system)
+  - Image 2: https://images.unsplash.com/photo-1775163024488-e88e4a71179f (two colleagues reviewing documents at a table)
+  - Image 3: https://images.unsplash.com/photo-1758873267202-44c33e64f084 (man smiling at laptop in modern office)
+- **TOC anchors:** #what-manual-paperwork-costs, #what-is-idp, #how-it-works-day-to-day, #the-roi-math, #getting-started, #faq
+- **FAQ anchors:** #faq-replace-bookkeeper, #faq-accuracy, #faq-setup-time, #faq-cost, #faq-contracts
 
 ---
 
