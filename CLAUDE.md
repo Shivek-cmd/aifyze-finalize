@@ -208,6 +208,7 @@ See `custom-values.md` for the full asset mapping.
 | 25 | AI-Powered Cash Flow Forecasting: How Small Businesses Are Predicting Revenue Gaps Before They Happen | Business Growth | Jul 3, 2026 | `/blog/ai-cash-flow-forecasting-small-business-2026` |
 | 26 | AI for Home Service Businesses: How HVAC, Plumbing, and Electrical Companies Are Using AI to Quote Faster and Win More Jobs | Industry Insights | Jul 7, 2026 | `/blog/ai-for-home-service-businesses-hvac-plumbing-electrical-2026` |
 | 27 | Intelligent Document Processing: How AI Is Automating Invoices, Contracts, and Forms for Small Business in 2026 | AI Automation | Jul 10, 2026 | `/blog/ai-document-processing-invoices-contracts-small-business-2026` |
+| 28 | The AI Vendor Shakeout: How to Choose AI Tools That Will Still Be Around in 2027 | AI Strategy | Jul 13, 2026 | `/blog/ai-vendor-shakeout-choosing-tools-that-survive-2027` |
 
 ### Blog Categories
 `AI Automation` | `AI Strategy` | `Business Growth` | `Industry Insights`
