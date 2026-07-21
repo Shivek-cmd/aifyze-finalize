@@ -58,6 +58,7 @@ This guide covers everything needed to write and publish a new blog post: conten
 | 26 | `/Blog26/` | AI for Home Service Businesses: How HVAC, Plumbing, and Electrical Companies Are Using AI to Quote Faster and Win More Jobs | Industry Insights | July 7, 2026 | 8 min | `/blog/ai-for-home-service-businesses-hvac-plumbing-electrical-2026` |
 | 27 | `/Blog27/` | Intelligent Document Processing: How AI Is Automating Invoices, Contracts, and Forms for Small Business in 2026 | AI Automation | July 10, 2026 | 8 min | `/blog/ai-document-processing-invoices-contracts-small-business-2026` |
 | 28 | `/Blog28/` | The AI Vendor Shakeout: How to Choose AI Tools That Will Still Be Around in 2027 | AI Strategy | July 13, 2026 | 8 min | `/blog/ai-vendor-shakeout-choosing-tools-that-survive-2027` |
+| 29 | `/Blog29/` | Shrinking Margins? How Small Businesses Are Using AI to Protect Profit Without Cutting Staff | Business Growth | July 21, 2026 | 8 min | `/blog/ai-profit-margin-recovery-small-business-2026` |
 
 ---
 
