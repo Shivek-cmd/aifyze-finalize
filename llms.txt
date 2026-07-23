@@ -1,0 +1,35 @@
+# Aifyze
+
+> Aifyze (a division of Watts Group) is a premium B2B AI consulting firm that helps small and mid-sized businesses, coaches, consultants, and growing enterprises integrate AI into their existing operations without disrupting current workflows. Aifyze offers four core service lines — AI-fy Your Business Processes, Hire Your AI CEO, AI Strategy Consulting, and the Founder AI Twin Engine — serving clients across Canada and the United States. The core promise is measurable ROI layered on top of tools businesses already use, with no tech-stack overhaul required.
+
+## Services
+- [AI-fy Your Business Processes](https://aifyze.com/services/ai-fy-your-business-processes): Workflow automation, voice & chat AI agents, intelligent document processing, predictive operations, and custom automation tools layered onto existing systems. Starts from $500. Typical outcome: 60%+ reduction in manual work, 24/7 customer coverage.
+- [Hire Your AI CEO](https://aifyze.com/services/hire-your-ai-ceo): Fractional AI executive leadership, managed AI teams, project execution, vendor evaluation, and AI governance. Starts from $1,500. Typical outcome: ~70% savings versus an in-house AI leadership hire.
+- [AI Strategy Consulting](https://aifyze.com/services/ai-strategy-consulting): AI readiness assessments, opportunity identification, ROI modeling, and team training for AI-powered growth. Starts from $7,500. Typical outcome: a board-ready AI roadmap before any tooling investment.
+- [Founder AI Twin Engine](https://aifyze.com/services/founder-ai-twin-engine): Done-for-you AI-generated founder video content — 4 long-form and 12 short-form videos monthly — for consistent brand visibility without the recording burden.
+- [All Services Overview](https://aifyze.com/services): Summary of all four service lines and the four-step Aifyze process (Discovery, Strategy, Implementation, Optimization).
+
+## Company
+- [About Aifyze](https://aifyze.com/about): Mission, differentiators (Trusted Partnerships, Focused on Growth, White-Glove Experience, No Disruption), and approach to AI adoption.
+- [Industries We Serve](https://aifyze.com/industries-we-serve): AI use cases and solutions by industry vertical.
+- [Our Associations](https://aifyze.com/businesses-we-work-with): Partner brands and tools Aifyze integrates with or recommends (Zoho, GoHighLevel, Shopify, Microsoft, and others).
+- [Contact / Free AI Audit](https://aifyze.com/contact): Book a free AI audit — the primary entry point for new client engagements.
+
+## Blog — AI Insights & Resources
+- [Blog Home](https://aifyze.com/blog): 29+ articles across AI Automation, AI Strategy, Business Growth, and Industry Insights, written for SMB owners evaluating practical AI adoption.
+- [The 90-Day AI Roadmap](https://aifyze.com/blog/90-day-ai-roadmap-integrate-ai-without-tech-overhaul): Flagship guide to integrating AI without ripping out an existing tech stack.
+- [The 90-Day AI ROI Framework](https://aifyze.com/blog/90-day-ai-roi-framework-measurable-automation-results): A CEO-level guide to measuring AI automation ROI in the first 90 days.
+- [Shrinking Margins? How Small Businesses Are Using AI to Protect Profit](https://aifyze.com/blog/ai-profit-margin-recovery-small-business-2026): How AI cuts cost-per-transaction to protect margin without cutting headcount.
+- [AI-Powered Cash Flow Forecasting](https://aifyze.com/blog/ai-cash-flow-forecasting-small-business-2026): How small businesses use AI to predict revenue gaps before they happen.
+- [10 Reasons Your AI Workflow Automation Isn't Showing ROI](https://aifyze.com/blog/why-ai-workflow-automation-isnt-showing-roi): Common causes of stalled automation projects and how to fix them.
+
+## Key facts
+- Headquartered in Mississauga, Ontario, Canada (Suite 209, 120 Traders Blvd E, L4Z 2H7); serves clients across Canada and the United States.
+- Tagline: "We AI-fy You."
+- Core principle: AI is layered onto existing workflows, never a full tech-stack replacement.
+- Primary call to action across the site: "Book Your Free AI Audit."
+- Contact: hello@aifyze.com | +1 (579) 569 9999
+
+## Optional
+- [Privacy Policy](https://aifyze.com/privacy-policy)
+- [Terms of Service](https://aifyze.com/terms-of-service)
